@@ -1,0 +1,32 @@
+name: Automatic Updates
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 16
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+      - name: Build with Gradle
+        run: ./gradlew checkUpdates
+      - name: Push changes
+        run: |
+          git config --global user.email "cli@github.com"
+          git config --global user.name "Github Actions"
+          git add *
+          git commit -m "[version-update]"
+          git push https://Zelaux:${{ secrets.API_TOKEN_GITHUB }}@github.com/Zelaux/MindustryRepo

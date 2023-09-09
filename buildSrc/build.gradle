@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+repositories{
+    mavenCentral()
+    maven { url 'https://raw.githubusercontent.com/Zelaux/MindustryRepo/master/repository' }
+}
+dependencies {
+    compileOnly gradleApi()
+    compileOnly localGroovy()
+    implementation 'com.github.Anuken.Arc:arc-core:v145'
+    implementation 'commons-io:commons-io:2.6'
+}

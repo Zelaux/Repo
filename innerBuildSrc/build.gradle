@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+repositories{
+    mavenCentral()
+}
+dependencies {
+    compileOnly gradleApi()
+    compileOnly localGroovy()
+    implementation 'commons-io:commons-io:2.6'
+}
