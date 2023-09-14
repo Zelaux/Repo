@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "ui-defaults",
+    "version": "v1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-defaults-v1.0.2.jar",
+          "url": "ui-defaults-v1.0.2.jar",
+          "size": 8029,
+          "sha512": "f8f0c9c35b612ef012f06ee3a2b3969a82745a1d2817cc4ff0642764e9d1c269889456ffbda8005cea819ea07766f03e3f5664fc9479b07e29c67385a57a5a53",
+          "sha256": "7b138634ab601758926d309ac32351b734255414631291bf2b1ab1d312388a77",
+          "sha1": "a64323002af6655880c2801b235156f9c6938421",
+          "md5": "39b7bb90e4df565cfe5ff54272ebb466"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-defaults-v1.0.2.jar",
+          "url": "ui-defaults-v1.0.2.jar",
+          "size": 8029,
+          "sha512": "f8f0c9c35b612ef012f06ee3a2b3969a82745a1d2817cc4ff0642764e9d1c269889456ffbda8005cea819ea07766f03e3f5664fc9479b07e29c67385a57a5a53",
+          "sha256": "7b138634ab601758926d309ac32351b734255414631291bf2b1ab1d312388a77",
+          "sha1": "a64323002af6655880c2801b235156f9c6938421",
+          "md5": "39b7bb90e4df565cfe5ff54272ebb466"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-defaults-v1.0.2-sources.jar",
+          "url": "ui-defaults-v1.0.2-sources.jar",
+          "size": 1549,
+          "sha512": "20d0bf20d040ee71b278598ea3e351e7b8e4a70cedc7ee605ebe20bfcc130ad98bf27171e39e0ca459369ee1f7b7555dc55959ad30d404a97bcc6a3eb0f0d4dd",
+          "sha256": "3d37edf0ba712b4ae84b64e4b678ebfca00b8c384f66dbd711f6f33c90c9db5e",
+          "sha1": "8e842cb3211800ee324366cf807c786e3f585378",
+          "md5": "40c38d600c37a6fca5f34a59efd75c64"
+        }
+      ]
+    }
+  ]
+}

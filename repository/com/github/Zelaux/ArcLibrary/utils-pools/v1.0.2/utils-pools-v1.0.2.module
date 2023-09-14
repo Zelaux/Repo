@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "utils-pools",
+    "version": "v1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-pools-v1.0.2.jar",
+          "url": "utils-pools-v1.0.2.jar",
+          "size": 4659,
+          "sha512": "024ba9671d632a0d12dc23701afa64e9087a8e5b2c9f0db1f766da1b2d63a2482922e419197b57c9d1b2d1d9bf6c174ef0eedaab4a2c24c38d669aae95299317",
+          "sha256": "ba9f363400a4ed484f3066c3fbbc7ed26cc59dbe09e4f36b8f69a1414cd6cfbc",
+          "sha1": "67b79d557f0b082b31ed427d90869f8136e9cd08",
+          "md5": "fa678fb40f8ea4e23730b7ced8296d28"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-pools-v1.0.2.jar",
+          "url": "utils-pools-v1.0.2.jar",
+          "size": 4659,
+          "sha512": "024ba9671d632a0d12dc23701afa64e9087a8e5b2c9f0db1f766da1b2d63a2482922e419197b57c9d1b2d1d9bf6c174ef0eedaab4a2c24c38d669aae95299317",
+          "sha256": "ba9f363400a4ed484f3066c3fbbc7ed26cc59dbe09e4f36b8f69a1414cd6cfbc",
+          "sha1": "67b79d557f0b082b31ed427d90869f8136e9cd08",
+          "md5": "fa678fb40f8ea4e23730b7ced8296d28"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-pools-v1.0.2-sources.jar",
+          "url": "utils-pools-v1.0.2-sources.jar",
+          "size": 2921,
+          "sha512": "91a6be0ff5b9d6d22a13b3ef1c6725bed2995a8d97d3048d5bd04be8be6cadb0bcecf49340667d866055b9c09cbf2916fb776afbfbb5c7bb1eb994bf4e6bfa41",
+          "sha256": "6b69762f82a06fd5fe4b9bc14b5ed28a9d2158eedb601a1414a671aa26927c0d",
+          "sha1": "28329cf96e356788fd5bcde3ff63226d5a5193f3",
+          "md5": "8bedb2456eb05fcdd6f25c05a7858f85"
+        }
+      ]
+    }
+  ]
+}

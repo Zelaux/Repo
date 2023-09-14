@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "betterCommandHandler",
+    "version": "v1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "utils-pools",
+          "version": {
+            "requires": "v1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterCommandHandler-v1.0.2.jar",
+          "url": "betterCommandHandler-v1.0.2.jar",
+          "size": 35850,
+          "sha512": "c63b8f636ff6d1bf65fdb0c0430f3e48000d29fb30f9ca027e0a170e07a1e45b8c353d491011bab9fc3f05dbd8ddb1c9084370918481e6153a78381762f58dd8",
+          "sha256": "e18fbdf72421603b89428126a0c6faeb60d719636beb84ce6c2abf0d4a8cebb1",
+          "sha1": "3ea694aabdd565a53f41098ee3174259bef6a462",
+          "md5": "573e6951cd90320da1bfa9770c019e21"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "utils-pools",
+          "version": {
+            "requires": "v1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterCommandHandler-v1.0.2.jar",
+          "url": "betterCommandHandler-v1.0.2.jar",
+          "size": 35850,
+          "sha512": "c63b8f636ff6d1bf65fdb0c0430f3e48000d29fb30f9ca027e0a170e07a1e45b8c353d491011bab9fc3f05dbd8ddb1c9084370918481e6153a78381762f58dd8",
+          "sha256": "e18fbdf72421603b89428126a0c6faeb60d719636beb84ce6c2abf0d4a8cebb1",
+          "sha1": "3ea694aabdd565a53f41098ee3174259bef6a462",
+          "md5": "573e6951cd90320da1bfa9770c019e21"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "betterCommandHandler-v1.0.2-sources.jar",
+          "url": "betterCommandHandler-v1.0.2-sources.jar",
+          "size": 13109,
+          "sha512": "572509c7c514b7bb8e89e29bf470e03feb0b9760eaa07566b7cc79a45c21880ad1915ba067784d9e7322d828fbbd55259a1560d026537e10d20aee4ee6b1fc03",
+          "sha256": "e0d3bc7ca724dd455d7e1037355589355c8767bce394e01187e7fd1d0b273732",
+          "sha1": "53ad1925d8be4812958dc2047e04d824f0d15353",
+          "md5": "49e78aeac0f4681f7d97abcca6810e3a"
+        }
+      ]
+    }
+  ]
+}
