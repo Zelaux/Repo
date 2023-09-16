@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "ui-components",
+    "version": "v1.0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-components-v1.0.3.1.jar",
+          "url": "ui-components-v1.0.3.1.jar",
+          "size": 14427,
+          "sha512": "83f40c24cc0e6ccba57fa11013614f54925ca1e3199289f20c41aba13e47148d19ac717465b890ac00e39d47c3b957d412b3b992971f37966de802f94050caf6",
+          "sha256": "efc69373d9c1d3abd335f04ed238cc1e7e97f0a32112687e8dcb37857c0b1c27",
+          "sha1": "e9fcf7e18f05258f858d90faa43479f38db573bd",
+          "md5": "3a433fb6906dffffbb0159d42bf4c6f9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-components-v1.0.3.1.jar",
+          "url": "ui-components-v1.0.3.1.jar",
+          "size": 14427,
+          "sha512": "83f40c24cc0e6ccba57fa11013614f54925ca1e3199289f20c41aba13e47148d19ac717465b890ac00e39d47c3b957d412b3b992971f37966de802f94050caf6",
+          "sha256": "efc69373d9c1d3abd335f04ed238cc1e7e97f0a32112687e8dcb37857c0b1c27",
+          "sha1": "e9fcf7e18f05258f858d90faa43479f38db573bd",
+          "md5": "3a433fb6906dffffbb0159d42bf4c6f9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-components-v1.0.3.1-sources.jar",
+          "url": "ui-components-v1.0.3.1-sources.jar",
+          "size": 4052,
+          "sha512": "c56226048c0e6e973cc1277593296cf77ed555c6ca6cd81ed226888ec5d34d39b5f2dd7ba38b97764a08ceb7d7574f2cfdbb6ede63f6377fe32c990c0506f9e4",
+          "sha256": "58c48f55f91a5dc8de1d4c364083853b636077730447c8a2a91e6cdf4b674cf6",
+          "sha1": "3c4abcd2a74170ffc69275ad4110ff91e0305ece",
+          "md5": "2ccba0b1fb29169ae77f29c379f64641"
+        }
+      ]
+    }
+  ]
+}
