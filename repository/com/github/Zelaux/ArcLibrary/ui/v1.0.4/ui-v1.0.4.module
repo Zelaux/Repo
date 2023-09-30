@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "ui",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-v1.0.4.jar",
+          "url": "ui-v1.0.4.jar",
+          "size": 261,
+          "sha512": "ce6473ff86543461a4fb6696dbdd3a8defff09db874e61c503125b2e7022940f15c8c11fa743ca18ccd5cb97e1187bcd28d0a9f38a57351a727d35ff92d47964",
+          "sha256": "cfa4ab0d0b22c1b79eae7e73ff54099666614e7d9d06557342d61f036a9745c7",
+          "sha1": "174ff04d9c08fda4e6c63f4a658697141c11285c",
+          "md5": "9c4b5017787e6ce639a8ff91b0946fb9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-v1.0.4.jar",
+          "url": "ui-v1.0.4.jar",
+          "size": 261,
+          "sha512": "ce6473ff86543461a4fb6696dbdd3a8defff09db874e61c503125b2e7022940f15c8c11fa743ca18ccd5cb97e1187bcd28d0a9f38a57351a727d35ff92d47964",
+          "sha256": "cfa4ab0d0b22c1b79eae7e73ff54099666614e7d9d06557342d61f036a9745c7",
+          "sha1": "174ff04d9c08fda4e6c63f4a658697141c11285c",
+          "md5": "9c4b5017787e6ce639a8ff91b0946fb9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-v1.0.4-sources.jar",
+          "url": "ui-v1.0.4-sources.jar",
+          "size": 261,
+          "sha512": "ce6473ff86543461a4fb6696dbdd3a8defff09db874e61c503125b2e7022940f15c8c11fa743ca18ccd5cb97e1187bcd28d0a9f38a57351a727d35ff92d47964",
+          "sha256": "cfa4ab0d0b22c1b79eae7e73ff54099666614e7d9d06557342d61f036a9745c7",
+          "sha1": "174ff04d9c08fda4e6c63f4a658697141c11285c",
+          "md5": "9c4b5017787e6ce639a8ff91b0946fb9"
+        }
+      ]
+    }
+  ]
+}
