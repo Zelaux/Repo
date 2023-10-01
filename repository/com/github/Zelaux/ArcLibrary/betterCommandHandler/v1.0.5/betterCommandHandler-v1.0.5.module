@@ -37,10 +37,10 @@
           "name": "betterCommandHandler-v1.0.5.jar",
           "url": "betterCommandHandler-v1.0.5.jar",
           "size": 37811,
-          "sha512": "f428f6e7c226febd9662b772ccfd22480277fe5ce9aaca1c2cd72745304386dea51f7a3c5c0ddb5f107ec9e18a9146e94570b365e05e18131fb4a72f1fa776aa",
-          "sha256": "f510fe82c9a2ad81b936a90abd05b64dc9fcfe545fde7ddbc6ebd2f61c6f827e",
-          "sha1": "d4ad5f785ca153eda6664a5d65c5f6817b0b0144",
-          "md5": "0fd723401d0b6c52fcb720383e1d20db"
+          "sha512": "d9788a0f3a7e067fc3165c510a038772a86fdb706dab43da0d4ca958351c93365b93b05a8ae4e8115bc76695e567287fa4411d7b13ed296c4b2e495770f4aa05",
+          "sha256": "c66a32396c24045889b7f6ce8daf81e01297d6efd1772aa14d323dbca60af3a8",
+          "sha1": "b43bbc84eec8bccf2f0c1491f86c36b4c76b8428",
+          "md5": "a456703f61f5baf34095ae3b48baa73d"
         }
       ]
     },
@@ -67,10 +67,10 @@
           "name": "betterCommandHandler-v1.0.5.jar",
           "url": "betterCommandHandler-v1.0.5.jar",
           "size": 37811,
-          "sha512": "f428f6e7c226febd9662b772ccfd22480277fe5ce9aaca1c2cd72745304386dea51f7a3c5c0ddb5f107ec9e18a9146e94570b365e05e18131fb4a72f1fa776aa",
-          "sha256": "f510fe82c9a2ad81b936a90abd05b64dc9fcfe545fde7ddbc6ebd2f61c6f827e",
-          "sha1": "d4ad5f785ca153eda6664a5d65c5f6817b0b0144",
-          "md5": "0fd723401d0b6c52fcb720383e1d20db"
+          "sha512": "d9788a0f3a7e067fc3165c510a038772a86fdb706dab43da0d4ca958351c93365b93b05a8ae4e8115bc76695e567287fa4411d7b13ed296c4b2e495770f4aa05",
+          "sha256": "c66a32396c24045889b7f6ce8daf81e01297d6efd1772aa14d323dbca60af3a8",
+          "sha1": "b43bbc84eec8bccf2f0c1491f86c36b4c76b8428",
+          "md5": "a456703f61f5baf34095ae3b48baa73d"
         }
       ]
     },
@@ -87,10 +87,10 @@
           "name": "betterCommandHandler-v1.0.5-sources.jar",
           "url": "betterCommandHandler-v1.0.5-sources.jar",
           "size": 14045,
-          "sha512": "0abd11f1facfa279cd426631ee92ffb2938bd896b898b1d70a1ad4d429ae7ff726e1cecb05ef98a38860d0c95e7096522fab5dae482816d555c2dab3e53817ad",
-          "sha256": "d1151f87046c6f39aefefe9f62215a023eed4c980891f5f3a36b6ef9be159f7e",
-          "sha1": "f4b6efe62d1d5c3ffae532034f8a5ca020f04430",
-          "md5": "2f34e8733bae98506682367aaef33ac3"
+          "sha512": "259ffb65923e94cc64997fc628d9baaccb199c546ced33f4835fd25faa4dc422ee753e0061289210cdc062c4485fecd78f1c609fd2f450d9eb4f7e3ff4f722c5",
+          "sha256": "d20702e44caeeae5d638670fc000125be25b3632079752ce5c391d8b4d31eacb",
+          "sha1": "942ebc0ff6c50fa923f1ca8bcda1b2c70b2f3383",
+          "md5": "3d340f8334f1e617bf8aab3df0a7691f"
         }
       ]
     }

@@ -28,10 +28,10 @@
           "name": "ui-components-v1.0.5.jar",
           "url": "ui-components-v1.0.5.jar",
           "size": 14477,
-          "sha512": "3f376815995881fe395876ee9a749a92664e3546037feee56177843964777ee80b7433c92e3676ce904e4b17e56f7605ba8878504df89e9392ea9f4d88715115",
-          "sha256": "689b001870cd71e65785886a5d605ff0bbf7916af551884808ffbae5bf2cac23",
-          "sha1": "6c4ef21176f239d18f5bd8a2227421184f6af173",
-          "md5": "8af9219198a7434adcfee1df6ba98752"
+          "sha512": "f736654c4bcd14af8381c7cfc1a776850a6fb665eb061b13b1f5c5bb379bc49dcac5f45715e75a5c5480bc8c3aba9483bac74d7b26935dacea3e01a921cd92ad",
+          "sha256": "0bd137ade19f9ce1b6cfc834069c062e139270a0ef81c2822ffdacc1b3df3322",
+          "sha1": "903b35fff5971a0b15b2a0a010f37ef48a189f25",
+          "md5": "f12e12965b2b1302fa399967a391cd1e"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "ui-components-v1.0.5.jar",
           "url": "ui-components-v1.0.5.jar",
           "size": 14477,
-          "sha512": "3f376815995881fe395876ee9a749a92664e3546037feee56177843964777ee80b7433c92e3676ce904e4b17e56f7605ba8878504df89e9392ea9f4d88715115",
-          "sha256": "689b001870cd71e65785886a5d605ff0bbf7916af551884808ffbae5bf2cac23",
-          "sha1": "6c4ef21176f239d18f5bd8a2227421184f6af173",
-          "md5": "8af9219198a7434adcfee1df6ba98752"
+          "sha512": "f736654c4bcd14af8381c7cfc1a776850a6fb665eb061b13b1f5c5bb379bc49dcac5f45715e75a5c5480bc8c3aba9483bac74d7b26935dacea3e01a921cd92ad",
+          "sha256": "0bd137ade19f9ce1b6cfc834069c062e139270a0ef81c2822ffdacc1b3df3322",
+          "sha1": "903b35fff5971a0b15b2a0a010f37ef48a189f25",
+          "md5": "f12e12965b2b1302fa399967a391cd1e"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "ui-components-v1.0.5-sources.jar",
           "url": "ui-components-v1.0.5-sources.jar",
           "size": 4045,
-          "sha512": "af264103cc9a26241170d1bedefdbc183ea33488bcf31e3d53bb45de695b000736f6c63b02496ffa5dd690654d425e288fc43616c4f31320d4daf5dc38f94d33",
-          "sha256": "0fd94c1802fe94d3c43a20a3c02f07d307dc56dfdaa554e3745049d3243a5612",
-          "sha1": "6c936e90a1d5d65ba8c1a160cfee033093452d48",
-          "md5": "ce7a8e6470c78ead6ad3855450a78dc9"
+          "sha512": "2fb20657503144fd64c6847a2e956de8753038989bb5ccc446192c0b8bd6c747193ed75b5542f44f0c832356b7fcd5f74b228c0216a1c3f514073d00bd82110f",
+          "sha256": "7c051b556e976f1a148fbde91224cd813de1e1beab15d48bb87694f80a167c27",
+          "sha1": "1f18f6c5488070b9b38dbaa27bc5c18d25944ed6",
+          "md5": "4fb5c3a9376f268a0f1d0b2e3f5688a1"
         }
       ]
     }

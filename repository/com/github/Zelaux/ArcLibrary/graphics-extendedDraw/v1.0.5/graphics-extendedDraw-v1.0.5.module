@@ -28,10 +28,10 @@
           "name": "graphics-extendedDraw-v1.0.5.jar",
           "url": "graphics-extendedDraw-v1.0.5.jar",
           "size": 7080,
-          "sha512": "42adadf805b3aed73a26aae354dca7837c1e43809e4f4d3f49986409e50a4d7acf1f3844b7b552da27a11bed64c13aad9b25719dc6c0d7f6c3a093db99e45de7",
-          "sha256": "1ec3762fd59f20fa34707d5d314ab1e799625bbe62634c909d6790c7af95c967",
-          "sha1": "5e69b50ce706ffe169676173ba0f38255854e4b1",
-          "md5": "449c6cc99d1bb55d0a43f099bfad0e2a"
+          "sha512": "d088391f21a96c65a6a28acfb9173d0f9d03ff89f00e725dc254a3968fcfa2dc01eee7a0f08443b2fb38d8b4a0f2c9dcd6ccb805fa3a6f5ba95816e0740c1227",
+          "sha256": "5732e90d7460b0fd0f5977d45a7686ef21281ac10be47a918b7be555ceebcc49",
+          "sha1": "971fd92abbba286acd61ce9fac43448b4b431c3d",
+          "md5": "96910f5b5c805d36258e68f8a6e2dc1d"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "graphics-extendedDraw-v1.0.5.jar",
           "url": "graphics-extendedDraw-v1.0.5.jar",
           "size": 7080,
-          "sha512": "42adadf805b3aed73a26aae354dca7837c1e43809e4f4d3f49986409e50a4d7acf1f3844b7b552da27a11bed64c13aad9b25719dc6c0d7f6c3a093db99e45de7",
-          "sha256": "1ec3762fd59f20fa34707d5d314ab1e799625bbe62634c909d6790c7af95c967",
-          "sha1": "5e69b50ce706ffe169676173ba0f38255854e4b1",
-          "md5": "449c6cc99d1bb55d0a43f099bfad0e2a"
+          "sha512": "d088391f21a96c65a6a28acfb9173d0f9d03ff89f00e725dc254a3968fcfa2dc01eee7a0f08443b2fb38d8b4a0f2c9dcd6ccb805fa3a6f5ba95816e0740c1227",
+          "sha256": "5732e90d7460b0fd0f5977d45a7686ef21281ac10be47a918b7be555ceebcc49",
+          "sha1": "971fd92abbba286acd61ce9fac43448b4b431c3d",
+          "md5": "96910f5b5c805d36258e68f8a6e2dc1d"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "graphics-extendedDraw-v1.0.5-sources.jar",
           "url": "graphics-extendedDraw-v1.0.5-sources.jar",
           "size": 3322,
-          "sha512": "f1e059021dd93712a044252cdc2826ced12b08b60e054d6f1eab9ff4c21919999c9824a1485d0ea5cc99650e092fc22258cb4fe017ff329ff1c691101b489e36",
-          "sha256": "46e594ea4215afb55e4c911925ac847020feafb9e5c5fc5677d3d9d633b2c2d8",
-          "sha1": "099b578046dfb54882b70b08fb48b11226e63cde",
-          "md5": "ce9acd08b465a823bdd896fdd19063d9"
+          "sha512": "72149ead093c0bd4aeecea6d926d46df223bf5dd98ae922faf98b7f189b80813cf00e99f27b63427c2c95cc8dc8411b74a2de5f8aad31b1113081716a2b348c1",
+          "sha256": "28076a789f194cbe6caeae72f00f9e17ad73564f52c6f0906a9140e5a41a2e37",
+          "sha1": "4cab59531b42cb350a65e3d7a687c3cd2f28a10e",
+          "md5": "66f66a7bbd9426a6309e92555fcaa721"
         }
       ]
     }

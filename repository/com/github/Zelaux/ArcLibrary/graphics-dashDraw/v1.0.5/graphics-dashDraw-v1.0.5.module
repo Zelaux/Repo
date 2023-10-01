@@ -28,10 +28,10 @@
           "name": "graphics-dashDraw-v1.0.5.jar",
           "url": "graphics-dashDraw-v1.0.5.jar",
           "size": 5361,
-          "sha512": "3b9eea239a319806872c9c6e7b65d60a58cb9c2f6563570360d38274474ccbeb130427ac171c343e0fccdec4442b1931509a82db827b48aed416b529c0b62f1f",
-          "sha256": "3c12b7e0342a3d2dd6066bc5f9ab4a8c44faf19ea9ab4051142b60cfae90873a",
-          "sha1": "5336c09ce17a1ac0b77913f7bcf28653db6f1523",
-          "md5": "1efc33139c9d813b1b652ad485509238"
+          "sha512": "89eb36c3fa6349f055fa1a78441353272d985bb5ee70efe8085912313c45a8012ad9a7cba6b8b2069214edecb0ada9eb6315fe21409fbc809af5092443ee64a1",
+          "sha256": "a55d863f38ecf825a81946c6ed116bf1fd51fdfe08c97196d9ef52bdd56691a2",
+          "sha1": "c3ad1b38a6977bb8ac0af5966f783ff0ba17b3eb",
+          "md5": "a874fb29b40bf22fb88af62681fb9383"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "graphics-dashDraw-v1.0.5.jar",
           "url": "graphics-dashDraw-v1.0.5.jar",
           "size": 5361,
-          "sha512": "3b9eea239a319806872c9c6e7b65d60a58cb9c2f6563570360d38274474ccbeb130427ac171c343e0fccdec4442b1931509a82db827b48aed416b529c0b62f1f",
-          "sha256": "3c12b7e0342a3d2dd6066bc5f9ab4a8c44faf19ea9ab4051142b60cfae90873a",
-          "sha1": "5336c09ce17a1ac0b77913f7bcf28653db6f1523",
-          "md5": "1efc33139c9d813b1b652ad485509238"
+          "sha512": "89eb36c3fa6349f055fa1a78441353272d985bb5ee70efe8085912313c45a8012ad9a7cba6b8b2069214edecb0ada9eb6315fe21409fbc809af5092443ee64a1",
+          "sha256": "a55d863f38ecf825a81946c6ed116bf1fd51fdfe08c97196d9ef52bdd56691a2",
+          "sha1": "c3ad1b38a6977bb8ac0af5966f783ff0ba17b3eb",
+          "md5": "a874fb29b40bf22fb88af62681fb9383"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "graphics-dashDraw-v1.0.5-sources.jar",
           "url": "graphics-dashDraw-v1.0.5-sources.jar",
           "size": 2735,
-          "sha512": "b32d020cc63409736bc95ceac41d81c39662f308b460f17b0b4028135b206a953e82cb7213a3325dc16663ca3ab6c0b09a4336ce971490dcf2263aa858f2802f",
-          "sha256": "9e15b15a395feb6cc508bcf50ffcb111770aab9d04e2c05b3179fdd523d4b8c3",
-          "sha1": "2b737823c3fd8e5925d7f8f0c9ba04a644c3fd5f",
-          "md5": "dbfc5e70779cefeafb83a3fc28d8c09a"
+          "sha512": "80144806d7f13623b05e021754449226aeb627f92d9bc9079017aeeb5f28ac65bb58ea864d2d27a3f8f022433fd7e1e0a5b4d81c0f18ad14ca8be909c8025ba2",
+          "sha256": "2d134dd0263e813c20f975c4292f3427c1c607ce10bf734441a4d3a719b35b23",
+          "sha1": "3efd3e296a9fca5f919bede4e6ce508e72d52001",
+          "md5": "0c137244e56e07a97e13eef33d7da537"
         }
       ]
     }

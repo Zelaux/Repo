@@ -28,10 +28,10 @@
           "name": "graphics-drawText-v1.0.5.jar",
           "url": "graphics-drawText-v1.0.5.jar",
           "size": 2753,
-          "sha512": "f66a75f7bf668940872eaf628c995557c61a4e778ef6d11423bfaacc96e9197053c836cc9d7687aac37b0154b60b70e1e6936e4dedcffb7d2ef5c9ab086239aa",
-          "sha256": "ef06f02f7f965f11083f1df42760b67acdd73d54447bbecb6cb6d8ebc07780b7",
-          "sha1": "37ead37ba57b0aea42c7f514fab22d1fec39a059",
-          "md5": "bc2c34ddbf7fec43fe617dd977605b5b"
+          "sha512": "c0b50177db842fe7704c2012ff942a893b2390000b023146f4588198088f4b46e508e6f8d93de81d4d322e1ede867a36d0be70887bfe45971d739890b7cf1bd5",
+          "sha256": "b1a84c6fcec5d096ec8c65b6e6ddba0d54ac1d274d3d3004116bf720e2b0ef2b",
+          "sha1": "eaa1379565cbc361caac1bbd3e24bbb1f0ae1a40",
+          "md5": "6d95ae6e85e3175f63aadf13f3a26847"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "graphics-drawText-v1.0.5.jar",
           "url": "graphics-drawText-v1.0.5.jar",
           "size": 2753,
-          "sha512": "f66a75f7bf668940872eaf628c995557c61a4e778ef6d11423bfaacc96e9197053c836cc9d7687aac37b0154b60b70e1e6936e4dedcffb7d2ef5c9ab086239aa",
-          "sha256": "ef06f02f7f965f11083f1df42760b67acdd73d54447bbecb6cb6d8ebc07780b7",
-          "sha1": "37ead37ba57b0aea42c7f514fab22d1fec39a059",
-          "md5": "bc2c34ddbf7fec43fe617dd977605b5b"
+          "sha512": "c0b50177db842fe7704c2012ff942a893b2390000b023146f4588198088f4b46e508e6f8d93de81d4d322e1ede867a36d0be70887bfe45971d739890b7cf1bd5",
+          "sha256": "b1a84c6fcec5d096ec8c65b6e6ddba0d54ac1d274d3d3004116bf720e2b0ef2b",
+          "sha1": "eaa1379565cbc361caac1bbd3e24bbb1f0ae1a40",
+          "md5": "6d95ae6e85e3175f63aadf13f3a26847"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "graphics-drawText-v1.0.5-sources.jar",
           "url": "graphics-drawText-v1.0.5-sources.jar",
           "size": 1443,
-          "sha512": "a6fba1220fd66b929f3c68980565dc7d63d3eb825079ab592bb023d187bd470776b659081d9229957e0aea56a109a7fa6845d2567161fc3825317af02fb7e69a",
-          "sha256": "f8cd14652238b4ca5616db5fd90e5f1effa4400d22871c4c571e027dc98ee710",
-          "sha1": "5a23a0dadfb414e2c6a404afebfb79ce9811928c",
-          "md5": "d01d5871c046a3559606a061fafeeb85"
+          "sha512": "c4309ab904ae4a69a41402d8bed2f9470d3bedd8c46888ca4cb9ee94b4b888d3da0c83faae895059eafb1eee98411bfbb3f2c785cef89422462183c7d68bf0e5",
+          "sha256": "9756f3c3b0e823a34c10e82fb5b511605be74f7783de5d1022eb591c752fccdc",
+          "sha1": "592cea74f4554a1f537cbbc3c1e217bcc42bd684",
+          "md5": "44b4e4e7d9451ae630c0ae70645e8162"
         }
       ]
     }
