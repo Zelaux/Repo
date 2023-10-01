@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "ui-tooltips-kt",
+    "version": "v1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooltips-kt-v1.0.5.jar",
+          "url": "ui-tooltips-kt-v1.0.5.jar",
+          "size": 2254,
+          "sha512": "471ae4b0748a884fb2b6e82cb5f99d922317a21b29358fa89eba54e775d197cd0c9ac0e0f5e9b5ad9f2e2cc2844ed045cbe3441687a88a8c83fcfed0c723dd01",
+          "sha256": "430380da08a4b3e72d5b63b9920fab989bcd53e7e26ff3c991b24098a05c7644",
+          "sha1": "d6ce981f3c68aa83c4f84f716951966c93531eab",
+          "md5": "7ff0b244ac06b25ecbe82189bd8ecb06"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "ui-tooltips",
+          "version": {
+            "requires": "v1.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooltips-kt-v1.0.5.jar",
+          "url": "ui-tooltips-kt-v1.0.5.jar",
+          "size": 2254,
+          "sha512": "471ae4b0748a884fb2b6e82cb5f99d922317a21b29358fa89eba54e775d197cd0c9ac0e0f5e9b5ad9f2e2cc2844ed045cbe3441687a88a8c83fcfed0c723dd01",
+          "sha256": "430380da08a4b3e72d5b63b9920fab989bcd53e7e26ff3c991b24098a05c7644",
+          "sha1": "d6ce981f3c68aa83c4f84f716951966c93531eab",
+          "md5": "7ff0b244ac06b25ecbe82189bd8ecb06"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-tooltips-kt-v1.0.5-sources.jar",
+          "url": "ui-tooltips-kt-v1.0.5-sources.jar",
+          "size": 963,
+          "sha512": "ca534f23ba8243b2dea1fccc52c4f1f17a911e5cb1f7451fc685ca11287ad2712ff8fc1cc56a765fabe787db44e0c372a4f86a8c355548d9c2e700ce90d6a9a7",
+          "sha256": "5c53149f789fc6fee4d00082f88a28c3315b61136f12e1425def88d28c9c8033",
+          "sha1": "2beaf9ef393610d3e53363ec44d417bce8a71e44",
+          "md5": "81ac5d1711df43d75d2790ea86213ff4"
+        }
+      ]
+    }
+  ]
+}

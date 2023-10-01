@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "graphics",
+    "version": "v1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphics-v1.0.5.jar",
+          "url": "graphics-v1.0.5.jar",
+          "size": 261,
+          "sha512": "f2f1e6a194063ca1c9e3ef6fc9dae66c72dcd2dd51d2d0388a7a2c461e807304e387843a0e11ddeb4e82893d1002b41b13190ab077583f5462c8ff5e6d8ea2e8",
+          "sha256": "74d4b98432532fd1a1cb0b274a9e2b301542cc1b698909e542133a04b742dd38",
+          "sha1": "ed602ad92e558960f683a02a91793a02ff452fc8",
+          "md5": "a8b9c6d6b52392b7848fca1e65dbbdcf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-v1.0.5.jar",
+          "url": "graphics-v1.0.5.jar",
+          "size": 261,
+          "sha512": "f2f1e6a194063ca1c9e3ef6fc9dae66c72dcd2dd51d2d0388a7a2c461e807304e387843a0e11ddeb4e82893d1002b41b13190ab077583f5462c8ff5e6d8ea2e8",
+          "sha256": "74d4b98432532fd1a1cb0b274a9e2b301542cc1b698909e542133a04b742dd38",
+          "sha1": "ed602ad92e558960f683a02a91793a02ff452fc8",
+          "md5": "a8b9c6d6b52392b7848fca1e65dbbdcf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-v1.0.5-sources.jar",
+          "url": "graphics-v1.0.5-sources.jar",
+          "size": 261,
+          "sha512": "f2f1e6a194063ca1c9e3ef6fc9dae66c72dcd2dd51d2d0388a7a2c461e807304e387843a0e11ddeb4e82893d1002b41b13190ab077583f5462c8ff5e6d8ea2e8",
+          "sha256": "74d4b98432532fd1a1cb0b274a9e2b301542cc1b698909e542133a04b742dd38",
+          "sha1": "ed602ad92e558960f683a02a91793a02ff452fc8",
+          "md5": "a8b9c6d6b52392b7848fca1e65dbbdcf"
+        }
+      ]
+    }
+  ]
+}
