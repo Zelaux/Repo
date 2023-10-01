@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "betterCommandHandler",
+    "version": "v1.0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "utils-pools",
+          "version": {
+            "requires": "v1.0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterCommandHandler-v1.0.5.1.jar",
+          "url": "betterCommandHandler-v1.0.5.1.jar",
+          "size": 37811,
+          "sha512": "a118f0e3e081f0806c45ac7df20ec38026856ba5bff2874df7eb4ddf68e9637935f62bf707943c613b811a8e92c2e0fffcbe614125678d2a1f3599001ba2a1e7",
+          "sha256": "4b59e8cc24ad88a7830595cc3ec8ea88bdba0de57306f94678234316cd001b55",
+          "sha1": "5a8b26fd5282b00101c4413a83da228a28385727",
+          "md5": "c9dc58be679fe7469a25eb7915843526"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "utils-pools",
+          "version": {
+            "requires": "v1.0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "betterCommandHandler-v1.0.5.1.jar",
+          "url": "betterCommandHandler-v1.0.5.1.jar",
+          "size": 37811,
+          "sha512": "a118f0e3e081f0806c45ac7df20ec38026856ba5bff2874df7eb4ddf68e9637935f62bf707943c613b811a8e92c2e0fffcbe614125678d2a1f3599001ba2a1e7",
+          "sha256": "4b59e8cc24ad88a7830595cc3ec8ea88bdba0de57306f94678234316cd001b55",
+          "sha1": "5a8b26fd5282b00101c4413a83da228a28385727",
+          "md5": "c9dc58be679fe7469a25eb7915843526"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "betterCommandHandler-v1.0.5.1-sources.jar",
+          "url": "betterCommandHandler-v1.0.5.1-sources.jar",
+          "size": 14045,
+          "sha512": "3f14639c309c85de55a3ba98f5ce458aa868156f013648a0207b529682407e18625e6e54115a09b1e55efe5417b5ebdc067e1083a5e1dfe511b78cb15f306020",
+          "sha256": "09e0ce92d4c18a7802fd2bfe80b3a5204d05cdeedc465c05d1d5d103bb795070",
+          "sha1": "b896dbae07376ac9127f4c6f0314c8a0e132ec27",
+          "md5": "1423f91a30f50e6b6569594437423259"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "settings",
+    "version": "v1.0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "settings-v1.0.5.1.jar",
+          "url": "settings-v1.0.5.1.jar",
+          "size": 18395,
+          "sha512": "a6e40bcfc150be43ab55c1f3a550a07ef9bcf09bf306c1b582dc338b3654f0ba9da730801dd048843bc7787892543fc0ff7e076b549f7f64ab6b17181fa268cd",
+          "sha256": "d967cb1e96ab3d30eff3f8a024600e2e0c69fb8b40a73bbfbdf02b1f91935558",
+          "sha1": "9a77db905139550eecae1dfef83f133bd2cce5c1",
+          "md5": "ea40491335c471f4d56bc8e6ec27201f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "settings-v1.0.5.1.jar",
+          "url": "settings-v1.0.5.1.jar",
+          "size": 18395,
+          "sha512": "a6e40bcfc150be43ab55c1f3a550a07ef9bcf09bf306c1b582dc338b3654f0ba9da730801dd048843bc7787892543fc0ff7e076b549f7f64ab6b17181fa268cd",
+          "sha256": "d967cb1e96ab3d30eff3f8a024600e2e0c69fb8b40a73bbfbdf02b1f91935558",
+          "sha1": "9a77db905139550eecae1dfef83f133bd2cce5c1",
+          "md5": "ea40491335c471f4d56bc8e6ec27201f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "settings-v1.0.5.1-sources.jar",
+          "url": "settings-v1.0.5.1-sources.jar",
+          "size": 8656,
+          "sha512": "3c3175129e70994a0b6e9caf24fa59c7f9c362a2988e3560d2acd891158eb0e1f933dee307352597c4ee457fffd73efc4ddf6d182549571b524f327d93693d44",
+          "sha256": "6d2964cc343ff310800dd5b3516ad86f6dbedbc6ea868ddc4bdb69644887a3d2",
+          "sha1": "5247e061603e218e952ad484446c6d619aaf9dc3",
+          "md5": "f7a66f27b7a422a2285803add426dabb"
+        }
+      ]
+    }
+  ]
+}
