@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "graphics-extendedDraw",
+    "version": "v1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphics-extendedDraw-v1.0.6.jar",
+          "url": "graphics-extendedDraw-v1.0.6.jar",
+          "size": 7080,
+          "sha512": "d6a589a223e9de1c8dfba20d304b78abdc3c50bc56d69264e805e32571ec076ef7f1355cc3df08e573522d0e6c54622599d92f45bb35438811d54ad929b3b360",
+          "sha256": "9b3535dd6e3780e1a0ffb75acfbd6a6ad3aff5ea3dbb2009f7911495ae4b9ac1",
+          "sha1": "8608db5860d0addfee67171aaae063ae180e1478",
+          "md5": "fdcfc27fdd6e0f663dca9c04fe788704"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-extendedDraw-v1.0.6.jar",
+          "url": "graphics-extendedDraw-v1.0.6.jar",
+          "size": 7080,
+          "sha512": "d6a589a223e9de1c8dfba20d304b78abdc3c50bc56d69264e805e32571ec076ef7f1355cc3df08e573522d0e6c54622599d92f45bb35438811d54ad929b3b360",
+          "sha256": "9b3535dd6e3780e1a0ffb75acfbd6a6ad3aff5ea3dbb2009f7911495ae4b9ac1",
+          "sha1": "8608db5860d0addfee67171aaae063ae180e1478",
+          "md5": "fdcfc27fdd6e0f663dca9c04fe788704"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-extendedDraw-v1.0.6-sources.jar",
+          "url": "graphics-extendedDraw-v1.0.6-sources.jar",
+          "size": 3321,
+          "sha512": "44837e3ee494246b21cd8b219119408a564a7ecaa28635f928f70ad5524e530bca4e86235074d0a5576fc2148dbaa40981e2c2a152e9bc3c3336a759ca90bfa9",
+          "sha256": "f1705fa13351d018b6a8e1deac8d01d2d9f3ca9a68563df20e7780f97551cbae",
+          "sha1": "919955621ba70275ca4c3a0985397ac3ab1eacad",
+          "md5": "a0fe048e4fbf8459c8e6d44db74877b0"
+        }
+      ]
+    }
+  ]
+}

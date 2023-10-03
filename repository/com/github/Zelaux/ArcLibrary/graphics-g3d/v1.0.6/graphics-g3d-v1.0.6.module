@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "graphics-g3d",
+    "version": "v1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphics-g3d-v1.0.6.jar",
+          "url": "graphics-g3d-v1.0.6.jar",
+          "size": 15924,
+          "sha512": "1ebdd4dc1e56ecabd2ae30a41f8d1b3f193df65a63414e620bc0f94155002de5f6d0e709e33e05a4046974f4e88d9720d6211f27716ca96c50844b8b0cfbd14b",
+          "sha256": "c4b451fb2d04bf5407330926280e095e9d7454007b7ade6007ba175c1d420588",
+          "sha1": "5836dd3175f9c4c81eb41532bc286ea9296f33cd",
+          "md5": "90685edc39a003c6a0aa234e9db183bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-g3d-v1.0.6.jar",
+          "url": "graphics-g3d-v1.0.6.jar",
+          "size": 15924,
+          "sha512": "1ebdd4dc1e56ecabd2ae30a41f8d1b3f193df65a63414e620bc0f94155002de5f6d0e709e33e05a4046974f4e88d9720d6211f27716ca96c50844b8b0cfbd14b",
+          "sha256": "c4b451fb2d04bf5407330926280e095e9d7454007b7ade6007ba175c1d420588",
+          "sha1": "5836dd3175f9c4c81eb41532bc286ea9296f33cd",
+          "md5": "90685edc39a003c6a0aa234e9db183bb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-g3d-v1.0.6-sources.jar",
+          "url": "graphics-g3d-v1.0.6-sources.jar",
+          "size": 8486,
+          "sha512": "4e9081837ba3ef9985e7cf2b37adbe329927832391069fd7bd80ede1b65368ede73a64968bc6ed2f80d5374ce0fdc80272fa211fd2bf943681eac31f9a896dfb",
+          "sha256": "bb8a4372eb547a5bbe92308560bd9283c520fa089b7089052e10b9ed9a459b38",
+          "sha1": "afd0e73774c05ec4947518d5e48b08888c7eff65",
+          "md5": "ddc41a78414e63455b817101cfb85479"
+        }
+      ]
+    }
+  ]
+}
