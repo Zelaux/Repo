@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "utils-files",
+    "version": "v1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-files-v1.0.7.jar",
+          "url": "utils-files-v1.0.7.jar",
+          "size": 2047,
+          "sha512": "ee2c39499b5220b9e9634f845b231264efa3086a4aa325bfc2c027c806891c429e24775b842d99e35287ed26ba417d42519316e3bbbf3a8b2a2627ed03b84144",
+          "sha256": "29912bad030289e6986ba3a392668d19def2ecf3f5c7a8ac970e383baf5bfe78",
+          "sha1": "da68fa28598407b8cbd785b5372f41869f2f2dd7",
+          "md5": "6f99c3bc3a1e6c9368d0bc78dc06db2b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-files-v1.0.7.jar",
+          "url": "utils-files-v1.0.7.jar",
+          "size": 2047,
+          "sha512": "ee2c39499b5220b9e9634f845b231264efa3086a4aa325bfc2c027c806891c429e24775b842d99e35287ed26ba417d42519316e3bbbf3a8b2a2627ed03b84144",
+          "sha256": "29912bad030289e6986ba3a392668d19def2ecf3f5c7a8ac970e383baf5bfe78",
+          "sha1": "da68fa28598407b8cbd785b5372f41869f2f2dd7",
+          "md5": "6f99c3bc3a1e6c9368d0bc78dc06db2b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-files-v1.0.7-sources.jar",
+          "url": "utils-files-v1.0.7-sources.jar",
+          "size": 1456,
+          "sha512": "6f51048a861e2dceeb4bb847ac77b31b3627b1ffc4928aa79c2bf2c246e1a1f6a9b1d73ab6721f0c579be60541be7469944e69b8abc17b406d71278ef80f61d3",
+          "sha256": "00569bbd3986a613b214c96e6e74028bc7653efa77cffa1c51e7481a163f419a",
+          "sha1": "e259a39d44cc5ff4998d832b2779e1c45491d66b",
+          "md5": "35c4d391a0957d81000b75ad639b078b"
+        }
+      ]
+    }
+  ]
+}

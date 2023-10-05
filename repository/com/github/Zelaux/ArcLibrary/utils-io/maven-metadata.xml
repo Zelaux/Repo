@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <metadata>
-  <groupId>com.github.Zelaux.ArcLibrary</groupId>
-  <artifactId>utils-io</artifactId>
-  <versioning>
-    <latest>v1.0.6</latest>
-    <release>v1.0.6</release>
-    <versions>
-      <version>v1.0.6</version>
-    </versions>
-    <lastUpdated>20231003201216</lastUpdated>
-  </versioning>
+    <groupId>com.github.Zelaux.ArcLibrary</groupId>
+    <artifactId>utils-io</artifactId>
+    <versioning>
+        <latest>v1.0.7</latest>
+        <release>v1.0.7</release>
+        <versions>
+            <version>v1.0.6</version>
+            <version>v1.0.7</version>
+        </versions>
+        <lastUpdated>20231003201216</lastUpdated>
+    </versioning>
 </metadata>

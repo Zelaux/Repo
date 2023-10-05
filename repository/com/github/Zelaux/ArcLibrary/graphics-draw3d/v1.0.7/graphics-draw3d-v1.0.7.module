@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "graphics-draw3d",
+    "version": "v1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphics-draw3d-v1.0.7.jar",
+          "url": "graphics-draw3d-v1.0.7.jar",
+          "size": 2718,
+          "sha512": "c0b2c66a7a9a2288488045678fcf55c80155478894399aef4ce931271989b30636a1df1e3af28703b006891e9e7dd4b68109f759fa6a09473d54d7e5dcea3900",
+          "sha256": "5dfbfceec78fd22be533f08454602abf66526d66761171e76140d6f7916bb472",
+          "sha1": "8465d5b9285f22681ac19aef79703d7c45ed1155",
+          "md5": "84bbb5092a9fd993781a13acf40b8c38"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-draw3d-v1.0.7.jar",
+          "url": "graphics-draw3d-v1.0.7.jar",
+          "size": 2718,
+          "sha512": "c0b2c66a7a9a2288488045678fcf55c80155478894399aef4ce931271989b30636a1df1e3af28703b006891e9e7dd4b68109f759fa6a09473d54d7e5dcea3900",
+          "sha256": "5dfbfceec78fd22be533f08454602abf66526d66761171e76140d6f7916bb472",
+          "sha1": "8465d5b9285f22681ac19aef79703d7c45ed1155",
+          "md5": "84bbb5092a9fd993781a13acf40b8c38"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-draw3d-v1.0.7-sources.jar",
+          "url": "graphics-draw3d-v1.0.7-sources.jar",
+          "size": 1638,
+          "sha512": "70adf3a75cc85269c8fd1cb33bb24235c02a9101a26893bcfeb0a5b22f2de6b11ff479e7e92122b78f84cd26c6e35347b37dd56fa184a61ebfe6a1c8a93dedcd",
+          "sha256": "c6e6c6784128eb0b92a5e5acf34b1e8d634274c783eacef967493915cd628bee",
+          "sha1": "0c704c9bb38fda4d74eab04291cc16a50de8e1ab",
+          "md5": "6cf5b16e6eecfc215b576188f320b05d"
+        }
+      ]
+    }
+  ]
+}

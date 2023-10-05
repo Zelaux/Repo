@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "utils-events",
+    "version": "v1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-events-v1.0.7.jar",
+          "url": "utils-events-v1.0.7.jar",
+          "size": 11810,
+          "sha512": "11ad03c845aea8a509bf6db871c1b315162355029708dfc4585af8dd6b478d77e232af2b0c5bfd337a67d30d27bf3e3664e1a88cdfdb6cb6dd63ec1c95305f52",
+          "sha256": "bc664dfd416f43158170ecacf43623d5b711f8cb6a4d4a02b0ca2ac3566c90d8",
+          "sha1": "09e64f13ede1e7a3f2714065a6b2eaf8b21637e1",
+          "md5": "2b0adf9ea5690e52d74fef828ce916e3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-events-v1.0.7.jar",
+          "url": "utils-events-v1.0.7.jar",
+          "size": 11810,
+          "sha512": "11ad03c845aea8a509bf6db871c1b315162355029708dfc4585af8dd6b478d77e232af2b0c5bfd337a67d30d27bf3e3664e1a88cdfdb6cb6dd63ec1c95305f52",
+          "sha256": "bc664dfd416f43158170ecacf43623d5b711f8cb6a4d4a02b0ca2ac3566c90d8",
+          "sha1": "09e64f13ede1e7a3f2714065a6b2eaf8b21637e1",
+          "md5": "2b0adf9ea5690e52d74fef828ce916e3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-events-v1.0.7-sources.jar",
+          "url": "utils-events-v1.0.7-sources.jar",
+          "size": 4872,
+          "sha512": "7c48855b7e1239aba2f3d580f59449c8c93efba50be2c8d20b082d45d6c657155ad8c7c14e2eb19f77a4ff79516dc9c7531dc3c50c64e42fd1679375245ac163",
+          "sha256": "9c887fcbf183448e5d65132778a1ce3ddda42a6e7617f927d6a588ce1103e8f1",
+          "sha1": "ca508ad5989e6e80cbeca67b5dd1aeea38370199",
+          "md5": "56994a5ec32285077509b364a0b3d596"
+        }
+      ]
+    }
+  ]
+}
