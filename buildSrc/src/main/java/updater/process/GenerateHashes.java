@@ -12,13 +12,18 @@ public class GenerateHashes {
         MessageDigest md5 = MessageDigest.getInstance("MD5");
         MessageDigest sha1 = MessageDigest.getInstance("SHA1");
         folder.walk(it -> {
-            String extension = it.extension();
-            if(extension.matches("md5|sha1"))return;
-            byte[] data = it.readBytes();
-            it.sibling(it.name()+".md5").writeString(hashString(data,md5));
-            it.sibling(it.name()+".sha1").writeString(hashString(data,sha1));
+            generateHash(md5, sha1, it);
         });
     }
+
+    private static void generateHash(MessageDigest md5, MessageDigest sha1, Fi it){
+        String extension = it.extension();
+        if(extension.matches("md5|sha1")) return;
+        byte[] data = it.readBytes();
+        it.sibling(it.name() + ".md5").writeString(hashString(data, md5));
+        it.sibling(it.name() + ".sha1").writeString(hashString(data, sha1));
+    }
+
     private static String hashString(byte[] message, MessageDigest algorithm) {
 
             byte[] hashedBytes = algorithm.digest(message);

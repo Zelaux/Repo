@@ -5,7 +5,8 @@ repositories{
 }
 supportedRepos{
     repos = [
-            repo("Zelaux", "ArcLibrary")
+            repo("Zelaux", "ArcLibrary"),
+            repo("Zelaux", "MindustryModCore"),
     ]
 }
 dependencies{

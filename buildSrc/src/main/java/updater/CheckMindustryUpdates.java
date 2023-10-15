@@ -51,6 +51,8 @@ public class CheckMindustryUpdates extends DefaultTask{
         Vars.innerBuildSrc = Vars.root.child("innerBuildSrc");
         Vars.repository = Vars.root.child("repository");
         Vars.sources = Vars.root.child("sources");
+
+        Seq<Fi> filesToHash=new Seq<>();
         for(SupportedRepo repo : supportedRepos){
             String repoAuthor = repo.author();
             String repoName = repo.name();
@@ -77,14 +79,14 @@ public class CheckMindustryUpdates extends DefaultTask{
             String lastTag = lastJson.getString("tag_name",null);
             if(lastTag==null){
                 Log.warn("Has no version for @/@",repoAuthor,repoName);
-                return;
+                continue;
             }
             if(!supportedVersions.add(lastTag)){
                 System.out.println("No updates found");
-                return;
+                continue;
             }
             System.out.println("Found new tag " + lastTag + "!!!");
-            processRepo(repoAuthor, repoName, lastTag);
+            processRepo(repoAuthor, repoName, lastTag,filesToHash);
 
             System.out.println("Saving tag");
             supportedVersionsFile.writeString("\n" + lastTag, true);
@@ -92,7 +94,12 @@ public class CheckMindustryUpdates extends DefaultTask{
 
 
         System.out.println("Creating .md5 and .sha1");
-        GenerateHashes.process(Vars.repository);
+        if(filesToHash.isEmpty()){
+            System.out.println("Files to make .md5 and .sha1 not found");
+        }
+        for(Fi toHash : filesToHash){
+            GenerateHashes.process(toHash);
+        }
 
 
 
@@ -102,14 +109,14 @@ public class CheckMindustryUpdates extends DefaultTask{
 
     }
 
-    private void processRepo(String author, String repoName, String version){
+    private void processRepo(String author, String repoName, String version, Seq<Fi> filesToHash){
         try{
             Fi sourcesFi = Vars.sources.child(author).child(repoName).child("sources.zip");
             Log.info("Downloading " + author + "/" + repoName);
             Time.mark();
             FileUtils.copyURLToFile(new URL("https://codeload.github.com/" + author + "/" + repoName + "/zip/refs/tags/" + version), sourcesFi.file(), 10_000, 10_000);
             Log.info("Time to download: @ms", Time.elapsed());
-            ProjectProcessor.process(author, repoName, new ZipFi(sourcesFi), version);
+            ProjectProcessor.process(author, repoName, new ZipFi(sourcesFi), version,filesToHash);
         }catch(IOException | NoSuchAlgorithmException | InterruptedException | SAXException e){
             throw new RuntimeException(e);
         }
