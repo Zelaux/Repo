@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils",
+    "version": "repo-test1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-repo-test1.jar",
+          "url": "utils-repo-test1.jar",
+          "size": 9640,
+          "sha512": "221c32c5f062bb9df74651aff04e6aca913b2f8739fb23698a9da722daafcd049c49effb5d079c49c81777818d7eb97e6f33f8256ded33d79138eff65bfa449c",
+          "sha256": "5540375b109a3889acaea2d8a65ab036ffde2176b2eba52082aa7c926d66261b",
+          "sha1": "da539d99bd62913a2a3df26f39932ca1e3321cfa",
+          "md5": "fa69ae1d38706eec2bfb1ba7a9a946f2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-repo-test1.jar",
+          "url": "utils-repo-test1.jar",
+          "size": 9640,
+          "sha512": "221c32c5f062bb9df74651aff04e6aca913b2f8739fb23698a9da722daafcd049c49effb5d079c49c81777818d7eb97e6f33f8256ded33d79138eff65bfa449c",
+          "sha256": "5540375b109a3889acaea2d8a65ab036ffde2176b2eba52082aa7c926d66261b",
+          "sha1": "da539d99bd62913a2a3df26f39932ca1e3321cfa",
+          "md5": "fa69ae1d38706eec2bfb1ba7a9a946f2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-repo-test1-sources.jar",
+          "url": "utils-repo-test1-sources.jar",
+          "size": 4798,
+          "sha512": "7ed90b15ca432ec5a7d870935b610e804a2a35c509738b95510489ef089df05339f4c9f80ed182b076698855a0ed7505d0b681e8eb33f2fbf77a2334e27c9d77",
+          "sha256": "2c1e0d83acd6dd84033da9a3b46831b4ab7605ed6aed7442e9885aaaf6e05acd",
+          "sha1": "e0bd8be2468fe84f855f7d56c4e6e3621e54b721",
+          "md5": "2a9079564ec6881ad0156325096f4193"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "tools",
+    "version": "repo-test1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tools-repo-test1.jar",
+          "url": "tools-repo-test1.jar",
+          "size": 28475009,
+          "sha512": "e80d3dd1885de48a4367febbd19482a12e2ad148e05a58edf42b116c039aabb26bd39a572e27fe6fe0e55a9ef555284117e26c513bb4897ad40b74a611310627",
+          "sha256": "8b938f352551c5a0ba5c49dd6f720173ef0e3e2b0c6c7fe73b21cc27e4001135",
+          "sha1": "af3385c5db5ca7b2e493fe6d4642e959390e0936",
+          "md5": "9239fd8c7eb18c678e3475e29a0a447e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svgrasterizer",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "core",
+          "version": {
+            "requires": "repo-test1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations",
+          "version": {
+            "requires": "repo-test1"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "3.5.0.201409260305-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-repo-test1.jar",
+          "url": "tools-repo-test1.jar",
+          "size": 28475009,
+          "sha512": "e80d3dd1885de48a4367febbd19482a12e2ad148e05a58edf42b116c039aabb26bd39a572e27fe6fe0e55a9ef555284117e26c513bb4897ad40b74a611310627",
+          "sha256": "8b938f352551c5a0ba5c49dd6f720173ef0e3e2b0c6c7fe73b21cc27e4001135",
+          "sha1": "af3385c5db5ca7b2e493fe6d4642e959390e0936",
+          "md5": "9239fd8c7eb18c678e3475e29a0a447e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tools-repo-test1-sources.jar",
+          "url": "tools-repo-test1-sources.jar",
+          "size": 40230,
+          "sha512": "a464e5ba1063a88ca3719ea1a9be8719d33b7a4e5cf7d3da5a47dd486af4afceceafe5263e58b843f95e35ef3a8ce65a3b1830610ebfcc8f171000b5d21314b0",
+          "sha256": "a94243ef1995918e574827eb7bfe8154350efaced036fba2a75ad4cfea97411b",
+          "sha1": "ac69114e49715f798372b2d5e64789bab0eeb325",
+          "md5": "25df5f537613698e689055eea2879fc0"
+        }
+      ]
+    }
+  ]
+}

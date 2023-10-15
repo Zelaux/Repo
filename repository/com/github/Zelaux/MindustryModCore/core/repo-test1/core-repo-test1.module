@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "core",
+    "version": "repo-test1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-repo-test1.jar",
+          "url": "core-repo-test1.jar",
+          "size": 81901,
+          "sha512": "200a22ae5cdb7d93f511f68957f65bb599e4fad82935c4ef94d424f8a0a0c45b2a1ecbee5dd28dd1cb7e591a9c336ff4cd75d289d6f01ad1fe5eaa7bcd5a3ce1",
+          "sha256": "bc1944c2106286288735602ded63510c837b621000e1910c2c2505b19f45c4eb",
+          "sha1": "1f1332b21f84ca4c02c72914ce451f406406468f",
+          "md5": "dc9b2477e3bc1ed86b1feb82d98a264d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "graphics",
+          "version": {
+            "requires": "repo-test1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-repo-test1.jar",
+          "url": "core-repo-test1.jar",
+          "size": 81901,
+          "sha512": "200a22ae5cdb7d93f511f68957f65bb599e4fad82935c4ef94d424f8a0a0c45b2a1ecbee5dd28dd1cb7e591a9c336ff4cd75d289d6f01ad1fe5eaa7bcd5a3ce1",
+          "sha256": "bc1944c2106286288735602ded63510c837b621000e1910c2c2505b19f45c4eb",
+          "sha1": "1f1332b21f84ca4c02c72914ce451f406406468f",
+          "md5": "dc9b2477e3bc1ed86b1feb82d98a264d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-repo-test1-sources.jar",
+          "url": "core-repo-test1-sources.jar",
+          "size": 98342,
+          "sha512": "894795bdd5e5ae65773332835100aaacf044e032f3fb9fc14b481cb635dc849d5440135ee62a65ae3407bbc97ced47d0ed84993b28debdbf86c83ab43d2e2fff",
+          "sha256": "bf4ba0ee7fcdebc8a7c77240bd2fe59571442d345f69a97c96ad52f11c9db783",
+          "sha1": "6924bd628d52d0f52a014a2c6be44abf25ded632",
+          "md5": "23e0612a8c8161d3d6cc6fc548ac3097"
+        }
+      ]
+    }
+  ]
+}
