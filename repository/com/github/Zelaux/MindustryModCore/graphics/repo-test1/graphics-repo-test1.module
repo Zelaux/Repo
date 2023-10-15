@@ -28,10 +28,10 @@
           "name": "graphics-repo-test1.jar",
           "url": "graphics-repo-test1.jar",
           "size": 7303,
-          "sha512": "98a812fe6ef2159eb6d0d479aac9c35e23af737aac9195210dcb159827e5c955db4e3c47bc1857d07dacb6716583c9fdf1b149ebf0511f2e29325fb384335b01",
-          "sha256": "63bc9ab470538bbf3eefd4e27cbcee384395f13bc67dd4d9d2cb2bc5889577e8",
-          "sha1": "542a298269df1a08ae97270c2e65854703a8ca8a",
-          "md5": "9c7d51a4c8a237d8c75876fcc0c14e5d"
+          "sha512": "5d8ffaae1af26e741014768a5d8fc3657d67512921e67e4bd02e42d8eefd3a186a5ba293f6757752c58e25e79356ff9e61665967130bf6039bf326975e8f04ee",
+          "sha256": "84fec5b75f5dd99f8e6fa32ef0fec0428f69f87273c0481d23ecfe6e3f6eb516",
+          "sha1": "a404bf7412a7507683ae83d1e7c6003bde47459c",
+          "md5": "0db795071ef1cae32bf38df960c23dd0"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "graphics-repo-test1.jar",
           "url": "graphics-repo-test1.jar",
           "size": 7303,
-          "sha512": "98a812fe6ef2159eb6d0d479aac9c35e23af737aac9195210dcb159827e5c955db4e3c47bc1857d07dacb6716583c9fdf1b149ebf0511f2e29325fb384335b01",
-          "sha256": "63bc9ab470538bbf3eefd4e27cbcee384395f13bc67dd4d9d2cb2bc5889577e8",
-          "sha1": "542a298269df1a08ae97270c2e65854703a8ca8a",
-          "md5": "9c7d51a4c8a237d8c75876fcc0c14e5d"
+          "sha512": "5d8ffaae1af26e741014768a5d8fc3657d67512921e67e4bd02e42d8eefd3a186a5ba293f6757752c58e25e79356ff9e61665967130bf6039bf326975e8f04ee",
+          "sha256": "84fec5b75f5dd99f8e6fa32ef0fec0428f69f87273c0481d23ecfe6e3f6eb516",
+          "sha1": "a404bf7412a7507683ae83d1e7c6003bde47459c",
+          "md5": "0db795071ef1cae32bf38df960c23dd0"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "graphics-repo-test1-sources.jar",
           "url": "graphics-repo-test1-sources.jar",
           "size": 3457,
-          "sha512": "51d4d0402b8cf63041f619a4b198794b7fbf2fd4d990983c5d4782bdd2fff9d3b14d85123c9d503c7eab289736bb8119ff921444efadf43fcea6cd2a8fb5a9a4",
-          "sha256": "04e34474e1bc9211aa253abe18f10febb981442d3efe6a98b0cab16f246b9291",
-          "sha1": "b85b9dc78084008d19316d69459e99e48e8a69c0",
-          "md5": "d544a26c059cf8a5b38a773048ccf0b7"
+          "sha512": "5b896866d0906da3512cd91ab3742617b5875d831a32e3fb434952fd45588b84e07622e5cd35ee5a6e46085526c3ae24e664f845e4bad432199b445b225795a2",
+          "sha256": "e904f7b08b2a893b6501c4413cb5e4320bbb4276158d5b1f6985043c18814249",
+          "sha1": "b476fe95ff58fcb0bef717d8b1ea98cb0379c0a8",
+          "md5": "8c466c39b70bd36b1f627fcd412b3764"
         }
       ]
     }

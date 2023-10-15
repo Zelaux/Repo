@@ -28,10 +28,10 @@
           "name": "plugins-repo-test1.jar",
           "url": "plugins-repo-test1.jar",
           "size": 3214,
-          "sha512": "4a1f923eab630e9dfc9919cdb37a036ab6c5baac37ab27752c26e7ac746900f2d430e5021fa67621d1826861f583a76838dc46e9afa1b0d21773e3027f9e9f56",
-          "sha256": "26a607bc972bf0ff0086674defcb70d1278de1d35f7722560791f16af523f749",
-          "sha1": "e18a2a5a7e4918995661bae10aaf597051e7ddc5",
-          "md5": "bbfa583a03910bb331cb465156e4a06e"
+          "sha512": "4e835ac8a26f594ac7edad853d1384fbbc512fc81b86a7a2b1a8647be95cb484b7137825f994aebf09c638862a166148f679df7a8e0b9f1de0b837ec6b8ddd84",
+          "sha256": "09658dd5361568b8f3e61657d75ffbbf08022a094504aa0336619ca4ed65f4a8",
+          "sha1": "eb8e3c34552b8eed6e22119a6ed941dd0dcf2c3b",
+          "md5": "f46eb4a6f67fb4e91225311398b56249"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "plugins-repo-test1.jar",
           "url": "plugins-repo-test1.jar",
           "size": 3214,
-          "sha512": "4a1f923eab630e9dfc9919cdb37a036ab6c5baac37ab27752c26e7ac746900f2d430e5021fa67621d1826861f583a76838dc46e9afa1b0d21773e3027f9e9f56",
-          "sha256": "26a607bc972bf0ff0086674defcb70d1278de1d35f7722560791f16af523f749",
-          "sha1": "e18a2a5a7e4918995661bae10aaf597051e7ddc5",
-          "md5": "bbfa583a03910bb331cb465156e4a06e"
+          "sha512": "4e835ac8a26f594ac7edad853d1384fbbc512fc81b86a7a2b1a8647be95cb484b7137825f994aebf09c638862a166148f679df7a8e0b9f1de0b837ec6b8ddd84",
+          "sha256": "09658dd5361568b8f3e61657d75ffbbf08022a094504aa0336619ca4ed65f4a8",
+          "sha1": "eb8e3c34552b8eed6e22119a6ed941dd0dcf2c3b",
+          "md5": "f46eb4a6f67fb4e91225311398b56249"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "plugins-repo-test1-sources.jar",
           "url": "plugins-repo-test1-sources.jar",
           "size": 1529,
-          "sha512": "cbafdace9ed97da4c362f546143361ec986ba34e1b43e06d10a32b0347b3e5307b241abe360e58fec1de2d5772013eff239689172773a5fe863971fe24919949",
-          "sha256": "6765f6980d601912d8e7d4532f9cada55a4c98eb93374f2ea5f548284ce72a65",
-          "sha1": "afd348f11e2d236035550867d74599a218878157",
-          "md5": "0ca4c19feb2614db1f997d3dcc519787"
+          "sha512": "973f0db610ebff64797c855e9211c508cf6de0262dc5a57b90166885916d64399bd0feb13c23bb2ed84fc926693960fdc10a5150c6a34b178c06a3e7a9ad4cc2",
+          "sha256": "8784f22d80badca360185e8d893bb93fca6c981d8fd0873ec18e2b3d0744204e",
+          "sha1": "30ed7164f72aa887c288bc1edbd19d03be0e391d",
+          "md5": "f1023f475875a7a32204583ffdbde3ba"
         }
       ]
     }

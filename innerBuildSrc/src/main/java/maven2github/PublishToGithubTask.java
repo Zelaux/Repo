@@ -53,7 +53,7 @@ public class PublishToGithubTask extends DefaultTask {
     private MavenNormalizedPublication computeNormalizedPublication() {
         MavenPublicationInternal publicationInternal = getPublicationInternal();
         if (publicationInternal == null) {
-//            throw new InvalidUserDataException("The 'publication' property is required");
+            throw new InvalidUserDataException("The 'publication' property is required");
         }
 
 //        getDuplicatePublicationTracker().checkCanPublishToMavenLocal(publicationInternal);

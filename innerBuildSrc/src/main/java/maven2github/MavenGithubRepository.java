@@ -1,5 +1,6 @@
 package maven2github;
 
+import org.gradle.api.*;
 import org.gradle.api.artifacts.repositories.MavenArtifactRepository;
 import org.gradle.api.internal.artifacts.mvnsettings.LocalMavenRepositoryLocator;
 import org.gradle.api.internal.artifacts.repositories.transport.RepositoryTransport;
@@ -8,6 +9,7 @@ import org.gradle.api.publish.maven.internal.publisher.MavenLocalPublisher;
 import org.gradle.api.publish.maven.internal.publisher.MavenNormalizedPublication;
 import org.gradle.internal.Factory;
 import org.gradle.internal.resource.ExternalResourceRepository;
+import org.gradle.internal.resource.local.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

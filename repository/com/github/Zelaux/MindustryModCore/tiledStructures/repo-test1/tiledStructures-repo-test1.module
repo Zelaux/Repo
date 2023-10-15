@@ -29,11 +29,11 @@
         {
           "name": "tiledStructures-repo-test1.jar",
           "url": "tiledStructures-repo-test1.jar",
-          "size": 158180,
-          "sha512": "11f2891a8c49cdcfdf2bf23169a5759293f48582fc1f612652a537ba9a9c00747b01614ffd12c17630d1423a486c03f226ffe1f8c82ddba8e1dd0b54c60952dc",
-          "sha256": "f4d88ba3ca6d0cc44e7fec8bad9092b365491ddfa66c9114b9262cde059db75b",
-          "sha1": "8627f57c7994b1d8b05c1bf8ee1fff9f4793c56b",
-          "md5": "26df381327c586bc62ca6ae95c83e825"
+          "size": 158182,
+          "sha512": "e1e1a181939c373af43a92d3a1cd8eef33b5589b725b077c9176f86fdbc3fff688e9804df4a4dd1021b7df890cc1a71481f459e4a2c464ffe517a3316fa6c526",
+          "sha256": "67b531aaee7966de13f44e05135eec60223729ef8bbd27cdc1f570f35602852c",
+          "sha1": "386b04c7580a6a45bd8c3683079b3c214bb06325",
+          "md5": "453bc4779d0bbccda669c391d6bac2c5"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "tiledStructures-repo-test1.jar",
           "url": "tiledStructures-repo-test1.jar",
-          "size": 158180,
-          "sha512": "11f2891a8c49cdcfdf2bf23169a5759293f48582fc1f612652a537ba9a9c00747b01614ffd12c17630d1423a486c03f226ffe1f8c82ddba8e1dd0b54c60952dc",
-          "sha256": "f4d88ba3ca6d0cc44e7fec8bad9092b365491ddfa66c9114b9262cde059db75b",
-          "sha1": "8627f57c7994b1d8b05c1bf8ee1fff9f4793c56b",
-          "md5": "26df381327c586bc62ca6ae95c83e825"
+          "size": 158182,
+          "sha512": "e1e1a181939c373af43a92d3a1cd8eef33b5589b725b077c9176f86fdbc3fff688e9804df4a4dd1021b7df890cc1a71481f459e4a2c464ffe517a3316fa6c526",
+          "sha256": "67b531aaee7966de13f44e05135eec60223729ef8bbd27cdc1f570f35602852c",
+          "sha1": "386b04c7580a6a45bd8c3683079b3c214bb06325",
+          "md5": "453bc4779d0bbccda669c391d6bac2c5"
         }
       ]
     },
@@ -89,19 +89,19 @@
           "name": "tiledStructures-repo-test1-sources.jar",
           "url": "tiledStructures-repo-test1-sources.jar",
           "size": 20793,
-          "sha512": "d9cbb9e544aa159aa5e1ceeafa06663169d3fab96153d2afa707ad0e3acd9306657ee8629a4855c1e9b439dadf2567ed9f693672284aaeb944b3965075626256",
-          "sha256": "5d38295f425adfbc1e4c6ee3be45ceaa75da36defef5bbb680251d7329c3800d",
-          "sha1": "d3920d9f27aa26b66c8ad50fb61e51df956c286b",
-          "md5": "049c0adcdba93edb52988500c7a941ae"
+          "sha512": "8cb513d40934d6dc85df2f640aa2e7e4ad447a98efd053d7f89765044c73af7355e800b8fe98dac45dae2df4f60c153be8f1195d256f534d03b3609180f38b1b",
+          "sha256": "489e6df38714a97559d79282f6eaff6eba7bb9075fb5a774053486c873c7344d",
+          "sha1": "509e592902a1e494347e6ffb0c673389ccb01ec9",
+          "md5": "0b7cd626f9dbbbec5e0b318d6fba77b2"
         },
         {
           "name": "tiledStructures-repo-test1-sources.jar",
           "url": "tiledStructures-repo-test1-sources.jar",
           "size": 20793,
-          "sha512": "d9cbb9e544aa159aa5e1ceeafa06663169d3fab96153d2afa707ad0e3acd9306657ee8629a4855c1e9b439dadf2567ed9f693672284aaeb944b3965075626256",
-          "sha256": "5d38295f425adfbc1e4c6ee3be45ceaa75da36defef5bbb680251d7329c3800d",
-          "sha1": "d3920d9f27aa26b66c8ad50fb61e51df956c286b",
-          "md5": "049c0adcdba93edb52988500c7a941ae"
+          "sha512": "8cb513d40934d6dc85df2f640aa2e7e4ad447a98efd053d7f89765044c73af7355e800b8fe98dac45dae2df4f60c153be8f1195d256f534d03b3609180f38b1b",
+          "sha256": "489e6df38714a97559d79282f6eaff6eba7bb9075fb5a774053486c873c7344d",
+          "sha1": "509e592902a1e494347e6ffb0c673389ccb01ec9",
+          "md5": "0b7cd626f9dbbbec5e0b318d6fba77b2"
         }
       ]
     }

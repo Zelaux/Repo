@@ -48,11 +48,20 @@ public class ProjectProcessor{
                 buildSrc.child("build.gradle").writeString(parts[0] + rawBuildGradle + parts[1]);
             }
             Vars.innerBuildSrc.child("gradlew.sh").copyTo(sourceFolder.child("gradlew.sh"));
-            Fi taskFile = buildSrc.child("src/main/java/maven2github/PublishToGithubTask.java");
-            taskFile.writeString(taskFile.readString().replace("File targetFolder = new File(getProject().getRootProject().getBuildDir(), \"mavenLocal\");",
-                "File targetFolder = new File(\"" + tmpRepository.absolutePath() + "\");"
+            {
+                Fi taskFile = buildSrc.child("src/main/java/maven2github/PublishToGithubTask.java");
+                taskFile.writeString(taskFile.readString().replace("File targetFolder = new File(getProject().getRootProject().getBuildDir(), \"mavenLocal\");",
+                    "File targetFolder = new File(\"" + tmpRepository.absolutePath() + "\");"
 
-            ));
+                ));
+            }
+            {
+                Fi pluginFile = buildSrc.child("src/main/java/maven2github/PublishGithubPlugin.java");
+                pluginFile.writeString(pluginFile.readString().replace("String strictMavenLocal = null;",
+                    "String strictMavenLocal = \"" + tmpRepository.absolutePath() + "\";"
+
+                ));
+            }
         }
 
         setupPlugin:
@@ -87,12 +96,13 @@ public class ProjectProcessor{
         }
         System.out.println("gradlew publishFolder");
         ProcessBuilder pb;
+        String taskName = "publishToMavenLocal";// "publishFolder";
         if(OS.isLinux){
             Runtime.getRuntime()
                 .exec("chmod +x gradlew", null, sourceFolder.file());
-            pb = new ProcessBuilder(sourceFolder.absolutePath() + "/gradlew", "publishFolder", "--stacktrace");
+            pb = new ProcessBuilder(sourceFolder.absolutePath() + "/gradlew", taskName, "--stacktrace");
         }else{
-            pb = new ProcessBuilder(sourceFolder.absolutePath() + "/gradlew.bat", "publishFolder", "--stacktrace");
+            pb = new ProcessBuilder(sourceFolder.absolutePath() + "/gradlew.bat", taskName, "--stacktrace");
         }
         pb.directory(sourceFolder.file());
         Fi buildLogFile = Vars.sources.child("build.log");
@@ -114,12 +124,12 @@ public class ProjectProcessor{
                 System.out.println(path);
                 Fi child = Vars.repository.child(path.substring(prefix.length()));
                 try{
-                    boolean shouldGenerateHash=!child.exists();
+                    boolean shouldGenerateHash = !child.exists();
                     if(!it.name().equals("maven-metadata.xml") || !child.exists()){
                         it.copyTo(child);
                     }else{
                         child.writeString(mergeMavenMetadata(child.readString(), repoVersion));
-                        shouldGenerateHash=true;
+                        shouldGenerateHash = true;
                     }
                     if(shouldGenerateHash){
                         filesToHash.add(child);

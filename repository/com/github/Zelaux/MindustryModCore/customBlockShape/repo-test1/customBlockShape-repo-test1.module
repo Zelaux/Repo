@@ -30,10 +30,10 @@
           "name": "customBlockShape-repo-test1.jar",
           "url": "customBlockShape-repo-test1.jar",
           "size": 109215,
-          "sha512": "6d169aa1d1d09767df352c4afb4b4cb0a65b072240cb6c330923e1911652921bb9583a79ce5dcc2680081b1f4ee00928f8d4454d351d75ee451f350d07565c36",
-          "sha256": "9fdd0064aa9f30b33178256061cfeb0838c2f454e9b726e0e3345e56e20c7ec5",
-          "sha1": "39ae6909f93d5c9055f53e7fcc17166f37a2bbc9",
-          "md5": "d248d8424e5219003d25b709c351dc0f"
+          "sha512": "bf5fd587f833a04db5eb65c84fd15198da01cb22016a71e051cb11f7d11d974f6821fe7963e0470f45955520a24991cf67ba75958822eb2e9b3a96663094b2a6",
+          "sha256": "8cd9081475a1a8158718ca17c621ad7354b69a7280ad92a857a74a6cfde36810",
+          "sha1": "5c6631cdad577337d4e5e4b3d5e296253f7fc4f0",
+          "md5": "31601c3f3fb4a546c6fb4bb7eb988fd0"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "customBlockShape-repo-test1.jar",
           "url": "customBlockShape-repo-test1.jar",
           "size": 109215,
-          "sha512": "6d169aa1d1d09767df352c4afb4b4cb0a65b072240cb6c330923e1911652921bb9583a79ce5dcc2680081b1f4ee00928f8d4454d351d75ee451f350d07565c36",
-          "sha256": "9fdd0064aa9f30b33178256061cfeb0838c2f454e9b726e0e3345e56e20c7ec5",
-          "sha1": "39ae6909f93d5c9055f53e7fcc17166f37a2bbc9",
-          "md5": "d248d8424e5219003d25b709c351dc0f"
+          "sha512": "bf5fd587f833a04db5eb65c84fd15198da01cb22016a71e051cb11f7d11d974f6821fe7963e0470f45955520a24991cf67ba75958822eb2e9b3a96663094b2a6",
+          "sha256": "8cd9081475a1a8158718ca17c621ad7354b69a7280ad92a857a74a6cfde36810",
+          "sha1": "5c6631cdad577337d4e5e4b3d5e296253f7fc4f0",
+          "md5": "31601c3f3fb4a546c6fb4bb7eb988fd0"
         }
       ]
     },
@@ -89,19 +89,19 @@
           "name": "customBlockShape-repo-test1-sources.jar",
           "url": "customBlockShape-repo-test1-sources.jar",
           "size": 7117,
-          "sha512": "379833fec1ce0862c2938e4ab2b0585eb1661a7e6e33ad6c25f804956cb4f2e94d0f5ca9e90d95583dae3ed742cf3926e1f1d3d1e94aeac4347d15866367ab59",
-          "sha256": "0dea905e65226d8ea205226a255eb4beb54019230a186c02d1d407ee65f83738",
-          "sha1": "64c84ca8a008454d2aa6f9585c639d7f9dec70bb",
-          "md5": "a190a099147d346ce3d62353eff15e46"
+          "sha512": "115775b1ad36074ecff81cd3b5416ca93294447790191c327856724edfef858d219b3d183bc56f3c854dc86d444b8b9405fabf318957b65c526d0db83b5a24ba",
+          "sha256": "583863fd76a04b554b7d54f197e6af3ed4afbd9c3978a3f4919708f2124038ec",
+          "sha1": "4b909d442184859597711c98915221f8d36d4a03",
+          "md5": "3524cdc299e779ebda3e481e15f8da82"
         },
         {
           "name": "customBlockShape-repo-test1-sources.jar",
           "url": "customBlockShape-repo-test1-sources.jar",
           "size": 7117,
-          "sha512": "379833fec1ce0862c2938e4ab2b0585eb1661a7e6e33ad6c25f804956cb4f2e94d0f5ca9e90d95583dae3ed742cf3926e1f1d3d1e94aeac4347d15866367ab59",
-          "sha256": "0dea905e65226d8ea205226a255eb4beb54019230a186c02d1d407ee65f83738",
-          "sha1": "64c84ca8a008454d2aa6f9585c639d7f9dec70bb",
-          "md5": "a190a099147d346ce3d62353eff15e46"
+          "sha512": "115775b1ad36074ecff81cd3b5416ca93294447790191c327856724edfef858d219b3d183bc56f3c854dc86d444b8b9405fabf318957b65c526d0db83b5a24ba",
+          "sha256": "583863fd76a04b554b7d54f197e6af3ed4afbd9c3978a3f4919708f2124038ec",
+          "sha1": "4b909d442184859597711c98915221f8d36d4a03",
+          "md5": "3524cdc299e779ebda3e481e15f8da82"
         }
       ]
     }

@@ -28,10 +28,10 @@
           "name": "tools-repo-test1.jar",
           "url": "tools-repo-test1.jar",
           "size": 28475009,
-          "sha512": "e80d3dd1885de48a4367febbd19482a12e2ad148e05a58edf42b116c039aabb26bd39a572e27fe6fe0e55a9ef555284117e26c513bb4897ad40b74a611310627",
-          "sha256": "8b938f352551c5a0ba5c49dd6f720173ef0e3e2b0c6c7fe73b21cc27e4001135",
-          "sha1": "af3385c5db5ca7b2e493fe6d4642e959390e0936",
-          "md5": "9239fd8c7eb18c678e3475e29a0a447e"
+          "sha512": "b46517ea41576ddf9df114794b7e844784768e8ab987a0699217be0422d2a53bd5460cc51175fa15702bce610d09a2a84e88d8733798df7668c0643ae70fc0d6",
+          "sha256": "60f81bda97be4c0b35fbc5f41f0d08e0cfe003fad7b8061dde227671a6e86a6f",
+          "sha1": "8a46fc44bb5d5a377882ea32c1750586c9371523",
+          "md5": "568ad7412a2389f0200ada384c75050d"
         }
       ]
     },
@@ -100,10 +100,10 @@
           "name": "tools-repo-test1.jar",
           "url": "tools-repo-test1.jar",
           "size": 28475009,
-          "sha512": "e80d3dd1885de48a4367febbd19482a12e2ad148e05a58edf42b116c039aabb26bd39a572e27fe6fe0e55a9ef555284117e26c513bb4897ad40b74a611310627",
-          "sha256": "8b938f352551c5a0ba5c49dd6f720173ef0e3e2b0c6c7fe73b21cc27e4001135",
-          "sha1": "af3385c5db5ca7b2e493fe6d4642e959390e0936",
-          "md5": "9239fd8c7eb18c678e3475e29a0a447e"
+          "sha512": "b46517ea41576ddf9df114794b7e844784768e8ab987a0699217be0422d2a53bd5460cc51175fa15702bce610d09a2a84e88d8733798df7668c0643ae70fc0d6",
+          "sha256": "60f81bda97be4c0b35fbc5f41f0d08e0cfe003fad7b8061dde227671a6e86a6f",
+          "sha1": "8a46fc44bb5d5a377882ea32c1750586c9371523",
+          "md5": "568ad7412a2389f0200ada384c75050d"
         }
       ]
     },
@@ -120,10 +120,10 @@
           "name": "tools-repo-test1-sources.jar",
           "url": "tools-repo-test1-sources.jar",
           "size": 40230,
-          "sha512": "a464e5ba1063a88ca3719ea1a9be8719d33b7a4e5cf7d3da5a47dd486af4afceceafe5263e58b843f95e35ef3a8ce65a3b1830610ebfcc8f171000b5d21314b0",
-          "sha256": "a94243ef1995918e574827eb7bfe8154350efaced036fba2a75ad4cfea97411b",
-          "sha1": "ac69114e49715f798372b2d5e64789bab0eeb325",
-          "md5": "25df5f537613698e689055eea2879fc0"
+          "sha512": "701ed775830db4de5b18fac83f3f50093a324be5b217e24ab7ede4e65f77464f86566a76bd3cf14b69312c8c43b6f39cd53598e3fb82d8efe6490e294d35ec37",
+          "sha256": "133a4a98458e420f9531ca7be5414a4aa6ac6b2b55365f648333cbbfd354dbd3",
+          "sha1": "26158997f9ed9fdf2fdc672ad5e480ae12c86136",
+          "md5": "d6ed4e66a385072e0a192c865cb7aa5b"
         }
       ]
     }

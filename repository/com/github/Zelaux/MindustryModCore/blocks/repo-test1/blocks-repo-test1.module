@@ -38,11 +38,11 @@
         {
           "name": "blocks-repo-test1.jar",
           "url": "blocks-repo-test1.jar",
-          "size": 173027,
-          "sha512": "143d9e69f58bcd4bcfc322f1647fa37bae3fbdaf0b4d55e9a3f0c1173909c037dc5260a930f025f1bd0f0477baf5286179b31266e95c8f30d38e9636bbb7165f",
-          "sha256": "9a7faa870a8bb5107ff9dc5f7c92d5f2b0a5504bba31de205788a6d4afcc3219",
-          "sha1": "fbfa6a2f6811ffd8a35f8533c82fd11842de42ef",
-          "md5": "660afc49ce26ff157e66adadb58f067b"
+          "size": 173026,
+          "sha512": "fc15ec66b6923e15348a70bdb9a17380c2f8440348669e8373adb982e23fca580b76a395c640ba8b07706bc188494cdf8ca1503dd3ccee91454e63570de4e470",
+          "sha256": "10bd844070b96e753a98192219af2574724ce2ebafa92d9248673fe1c87d0627",
+          "sha1": "d7f3f4e2865673f8a00fd615047c11cb4cf1a54d",
+          "md5": "bce69ec1fe3efcff469e6fb31319706b"
         }
       ]
     },
@@ -84,11 +84,11 @@
         {
           "name": "blocks-repo-test1.jar",
           "url": "blocks-repo-test1.jar",
-          "size": 173027,
-          "sha512": "143d9e69f58bcd4bcfc322f1647fa37bae3fbdaf0b4d55e9a3f0c1173909c037dc5260a930f025f1bd0f0477baf5286179b31266e95c8f30d38e9636bbb7165f",
-          "sha256": "9a7faa870a8bb5107ff9dc5f7c92d5f2b0a5504bba31de205788a6d4afcc3219",
-          "sha1": "fbfa6a2f6811ffd8a35f8533c82fd11842de42ef",
-          "md5": "660afc49ce26ff157e66adadb58f067b"
+          "size": 173026,
+          "sha512": "fc15ec66b6923e15348a70bdb9a17380c2f8440348669e8373adb982e23fca580b76a395c640ba8b07706bc188494cdf8ca1503dd3ccee91454e63570de4e470",
+          "sha256": "10bd844070b96e753a98192219af2574724ce2ebafa92d9248673fe1c87d0627",
+          "sha1": "d7f3f4e2865673f8a00fd615047c11cb4cf1a54d",
+          "md5": "bce69ec1fe3efcff469e6fb31319706b"
         }
       ]
     },
@@ -105,19 +105,19 @@
           "name": "blocks-repo-test1-sources.jar",
           "url": "blocks-repo-test1-sources.jar",
           "size": 32651,
-          "sha512": "9cc6f2ddd677909c62f7e66637a1f61a44ebb3d0ca2abec6327bdd5a6d516cdd46bca24bf8799eb40d256b265dbbba069ba44fc7b14fdef49997165b6e13b0f7",
-          "sha256": "f631b0148510dd65dace4d542307a5eafb819a2bbd9c970660da93cd79410b10",
-          "sha1": "71f403b17ca80acbb6f226ff7a4689305909abb2",
-          "md5": "d0c65b5934fe9d1be6b8b6d10de24623"
+          "sha512": "5cde1027b307ab522da1d51f262261da495ee923d3422952904a5a61505201a12a97067f34c0e75413285ba1e21b10c0d8f76e75a67a73d21ec5a0b3b7a0bbca",
+          "sha256": "bf006a59ef8a0f3245ea48ffe5ea4745d100f7b0ef44f95a78c73d584a5d139a",
+          "sha1": "e5a7efaf4fae2fb68c3d1a079df0375a6a6a9d1e",
+          "md5": "67086886d9107e6eebf27b181e777177"
         },
         {
           "name": "blocks-repo-test1-sources.jar",
           "url": "blocks-repo-test1-sources.jar",
           "size": 32651,
-          "sha512": "9cc6f2ddd677909c62f7e66637a1f61a44ebb3d0ca2abec6327bdd5a6d516cdd46bca24bf8799eb40d256b265dbbba069ba44fc7b14fdef49997165b6e13b0f7",
-          "sha256": "f631b0148510dd65dace4d542307a5eafb819a2bbd9c970660da93cd79410b10",
-          "sha1": "71f403b17ca80acbb6f226ff7a4689305909abb2",
-          "md5": "d0c65b5934fe9d1be6b8b6d10de24623"
+          "sha512": "5cde1027b307ab522da1d51f262261da495ee923d3422952904a5a61505201a12a97067f34c0e75413285ba1e21b10c0d8f76e75a67a73d21ec5a0b3b7a0bbca",
+          "sha256": "bf006a59ef8a0f3245ea48ffe5ea4745d100f7b0ef44f95a78c73d584a5d139a",
+          "sha1": "e5a7efaf4fae2fb68c3d1a079df0375a6a6a9d1e",
+          "md5": "67086886d9107e6eebf27b181e777177"
         }
       ]
     }
