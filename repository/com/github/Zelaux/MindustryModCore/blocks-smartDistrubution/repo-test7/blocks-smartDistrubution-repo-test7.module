@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-smartDistrubution",
+    "version": "repo-test7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test7.jar",
+          "url": "blocks-smartDistrubution-repo-test7.jar",
+          "size": 25469,
+          "sha512": "05986727da9335c5b8ffd49d625c934603b0a827f42e42174292594df5a49c340803b5d21abba219e3c2725527208ae6409bcb980648b7b85deff4ab0cf546b1",
+          "sha256": "92b6d3e9d6a7ae933f9b4ece4cde1b959123621c168b6d3cd03348c498a14114",
+          "sha1": "49f9d2181e0cff592d40435e52ed1701486b11ec",
+          "md5": "c7568cc2b415805419362eb4a7f8c7bf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test7.jar",
+          "url": "blocks-smartDistrubution-repo-test7.jar",
+          "size": 25469,
+          "sha512": "05986727da9335c5b8ffd49d625c934603b0a827f42e42174292594df5a49c340803b5d21abba219e3c2725527208ae6409bcb980648b7b85deff4ab0cf546b1",
+          "sha256": "92b6d3e9d6a7ae933f9b4ece4cde1b959123621c168b6d3cd03348c498a14114",
+          "sha1": "49f9d2181e0cff592d40435e52ed1701486b11ec",
+          "md5": "c7568cc2b415805419362eb4a7f8c7bf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test7-sources.jar",
+          "url": "blocks-smartDistrubution-repo-test7-sources.jar",
+          "size": 7465,
+          "sha512": "bee1b7d6806fd3f6fdae4f1362d6967cd25b8a850768b6e9ff1df5569724f45b7c061c6710c5dcbe5ca394fa5a285619918d944a15df62e8065ae75300486332",
+          "sha256": "fb927ed5a5a8b71b0b817d04f63818b1ab821d377c6b2c11c3b60d92e54bf147",
+          "sha1": "69b0ecf0947fdb226697fbe208b436c3a48523d0",
+          "md5": "e7b91b55f967be30ccd81aca4e2014ea"
+        },
+        {
+          "name": "blocks-smartDistrubution-repo-test7-sources.jar",
+          "url": "blocks-smartDistrubution-repo-test7-sources.jar",
+          "size": 7465,
+          "sha512": "bee1b7d6806fd3f6fdae4f1362d6967cd25b8a850768b6e9ff1df5569724f45b7c061c6710c5dcbe5ca394fa5a285619918d944a15df62e8065ae75300486332",
+          "sha256": "fb927ed5a5a8b71b0b817d04f63818b1ab821d377c6b2c11c3b60d92e54bf147",
+          "sha1": "69b0ecf0947fdb226697fbe208b436c3a48523d0",
+          "md5": "e7b91b55f967be30ccd81aca4e2014ea"
+        }
+      ]
+    }
+  ]
+}

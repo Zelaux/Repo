@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-customShapes",
+    "version": "repo-test7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-customShapes-repo-test7.jar",
+          "url": "blocks-customShapes-repo-test7.jar",
+          "size": 25298,
+          "sha512": "f8580865370643c46091ec005207f202393640e7fe7519841a9754b8d4661163648513df502cb752773da8bc8952afb73aab6d114a6cffe17f89a46df64ea1f7",
+          "sha256": "efbc47075c3800c71e9368c8e3118c9bcbb47e550ea217f883441e1868ff7487",
+          "sha1": "cffc189f9431fd2c450a661e825f73785d4636eb",
+          "md5": "e71bd75394e7108483510e3396e23376"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-customShapes-repo-test7.jar",
+          "url": "blocks-customShapes-repo-test7.jar",
+          "size": 25298,
+          "sha512": "f8580865370643c46091ec005207f202393640e7fe7519841a9754b8d4661163648513df502cb752773da8bc8952afb73aab6d114a6cffe17f89a46df64ea1f7",
+          "sha256": "efbc47075c3800c71e9368c8e3118c9bcbb47e550ea217f883441e1868ff7487",
+          "sha1": "cffc189f9431fd2c450a661e825f73785d4636eb",
+          "md5": "e71bd75394e7108483510e3396e23376"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-customShapes-repo-test7-sources.jar",
+          "url": "blocks-customShapes-repo-test7-sources.jar",
+          "size": 7131,
+          "sha512": "cafc7a4f1a80f1bbb8962def81762742a6c626b9359870f085eae0d4de0fef97b4bad9d67683136a91d2f2f6449de4a49171bfc9b2b607b97dbe2baad2248336",
+          "sha256": "1c44cf11fb8bbf11504080d0fc3f2d3b9e4059e180b5aef25b2c7c47a1e685f0",
+          "sha1": "1e8fac8e6cff9c617c66a4c795b50f989ff7f6d3",
+          "md5": "e819216003a7aa760a4a69de46ce5850"
+        },
+        {
+          "name": "blocks-customShapes-repo-test7-sources.jar",
+          "url": "blocks-customShapes-repo-test7-sources.jar",
+          "size": 7131,
+          "sha512": "cafc7a4f1a80f1bbb8962def81762742a6c626b9359870f085eae0d4de0fef97b4bad9d67683136a91d2f2f6449de4a49171bfc9b2b607b97dbe2baad2248336",
+          "sha256": "1c44cf11fb8bbf11504080d0fc3f2d3b9e4059e180b5aef25b2c7c47a1e685f0",
+          "sha1": "1e8fac8e6cff9c617c66a4c795b50f989ff7f6d3",
+          "md5": "e819216003a7aa760a4a69de46ce5850"
+        }
+      ]
+    }
+  ]
+}

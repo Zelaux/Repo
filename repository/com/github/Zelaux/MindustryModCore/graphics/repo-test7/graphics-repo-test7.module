@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "graphics",
+    "version": "repo-test7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphics-repo-test7.jar",
+          "url": "graphics-repo-test7.jar",
+          "size": 261,
+          "sha512": "cd93c3fc5bf478afb4023550d65c11cdb2242b176c2be915a948757bac373a3b175b50ee0f25a6b922a0955c476bc83f6fe70b7b19a5a38824281bd0ea19c2af",
+          "sha256": "c49a2a97455253ac4a4effcf50e688f6699f65358b3fc4b89ba0e23a777b3be1",
+          "sha1": "d3d06afa1a758c2f4ee9c7f8cbfb7dcfe11de0f9",
+          "md5": "ac8ac98ebae2dd8e256d4ce609822564"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-repo-test7.jar",
+          "url": "graphics-repo-test7.jar",
+          "size": 261,
+          "sha512": "cd93c3fc5bf478afb4023550d65c11cdb2242b176c2be915a948757bac373a3b175b50ee0f25a6b922a0955c476bc83f6fe70b7b19a5a38824281bd0ea19c2af",
+          "sha256": "c49a2a97455253ac4a4effcf50e688f6699f65358b3fc4b89ba0e23a777b3be1",
+          "sha1": "d3d06afa1a758c2f4ee9c7f8cbfb7dcfe11de0f9",
+          "md5": "ac8ac98ebae2dd8e256d4ce609822564"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-repo-test7-sources.jar",
+          "url": "graphics-repo-test7-sources.jar",
+          "size": 261,
+          "sha512": "cd93c3fc5bf478afb4023550d65c11cdb2242b176c2be915a948757bac373a3b175b50ee0f25a6b922a0955c476bc83f6fe70b7b19a5a38824281bd0ea19c2af",
+          "sha256": "c49a2a97455253ac4a4effcf50e688f6699f65358b3fc4b89ba0e23a777b3be1",
+          "sha1": "d3d06afa1a758c2f4ee9c7f8cbfb7dcfe11de0f9",
+          "md5": "ac8ac98ebae2dd8e256d4ce609822564"
+        }
+      ]
+    }
+  ]
+}

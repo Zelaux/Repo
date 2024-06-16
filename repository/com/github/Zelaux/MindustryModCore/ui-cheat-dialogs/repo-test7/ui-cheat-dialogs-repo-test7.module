@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "ui-cheat-dialogs",
+    "version": "repo-test7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-cheat-dialogs-repo-test7.jar",
+          "url": "ui-cheat-dialogs-repo-test7.jar",
+          "size": 17147,
+          "sha512": "73d42c1da30365c50c3d9832081a2b592e63b35707377e2b6a8e36ad25f61bdb8fcc3a0d90f140003b0f16eae67349cb46b51c6c5b76ab1f9358d230e169f1c9",
+          "sha256": "32ca78cf3c0c68975624b6f4cb848c92f85dab5ea8622f029b645059b052ac2c",
+          "sha1": "590d0cb7fc5a0f2cf4d90763a9f1e7c69a7b30e9",
+          "md5": "a89b55eefc4a746b53881d9dbbd5017c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-cheat-dialogs-repo-test7.jar",
+          "url": "ui-cheat-dialogs-repo-test7.jar",
+          "size": 17147,
+          "sha512": "73d42c1da30365c50c3d9832081a2b592e63b35707377e2b6a8e36ad25f61bdb8fcc3a0d90f140003b0f16eae67349cb46b51c6c5b76ab1f9358d230e169f1c9",
+          "sha256": "32ca78cf3c0c68975624b6f4cb848c92f85dab5ea8622f029b645059b052ac2c",
+          "sha1": "590d0cb7fc5a0f2cf4d90763a9f1e7c69a7b30e9",
+          "md5": "a89b55eefc4a746b53881d9dbbd5017c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-cheat-dialogs-repo-test7-sources.jar",
+          "url": "ui-cheat-dialogs-repo-test7-sources.jar",
+          "size": 6519,
+          "sha512": "5f077fe878a9dd985fbf60cf69978df3606daba7e9c0651767c5e2f6dcdb4c244b9ce3e46a986ffc14fda540a1ffe6e2bd2a9071d44b575a769a1f9282823ccd",
+          "sha256": "b3a22ebed47a6e4c6abbe34a559d5d1eec171686d5aafcd089b225f46b0526b9",
+          "sha1": "35d32efe167f372475387aa04b0c2580eda2341f",
+          "md5": "8841dba78ee5e722c0629fcd21a45465"
+        }
+      ]
+    }
+  ]
+}

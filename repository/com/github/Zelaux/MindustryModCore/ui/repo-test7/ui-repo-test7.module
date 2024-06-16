@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "ui",
+    "version": "repo-test7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-repo-test7.jar",
+          "url": "ui-repo-test7.jar",
+          "size": 261,
+          "sha512": "b78c69d7e9536ab9e3dbb0ad1e12bcad511cd67e1a89110e6d3a38a2e84fd843cc16133ffea912eaf76ef065763af3cb36996b2e8753d074e944d56a29557bef",
+          "sha256": "8d2fad0d7394531b329eefd7840c17dda432881bb20f8f272842ad4ad17744b9",
+          "sha1": "4a262ef35a148f06f3d55aeee24b641cc8a3552a",
+          "md5": "f0ca6b5250b2c59bace583f83dd07cfd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-repo-test7.jar",
+          "url": "ui-repo-test7.jar",
+          "size": 261,
+          "sha512": "b78c69d7e9536ab9e3dbb0ad1e12bcad511cd67e1a89110e6d3a38a2e84fd843cc16133ffea912eaf76ef065763af3cb36996b2e8753d074e944d56a29557bef",
+          "sha256": "8d2fad0d7394531b329eefd7840c17dda432881bb20f8f272842ad4ad17744b9",
+          "sha1": "4a262ef35a148f06f3d55aeee24b641cc8a3552a",
+          "md5": "f0ca6b5250b2c59bace583f83dd07cfd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-repo-test7-sources.jar",
+          "url": "ui-repo-test7-sources.jar",
+          "size": 261,
+          "sha512": "b78c69d7e9536ab9e3dbb0ad1e12bcad511cd67e1a89110e6d3a38a2e84fd843cc16133ffea912eaf76ef065763af3cb36996b2e8753d074e944d56a29557bef",
+          "sha256": "8d2fad0d7394531b329eefd7840c17dda432881bb20f8f272842ad4ad17744b9",
+          "sha1": "4a262ef35a148f06f3d55aeee24b641cc8a3552a",
+          "md5": "f0ca6b5250b2c59bace583f83dd07cfd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-draw",
+    "version": "repo-test7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-draw-repo-test7.jar",
+          "url": "blocks-draw-repo-test7.jar",
+          "size": 10952,
+          "sha512": "b66b3e08154e686a75414ad9bb1de141851e7dc65523de40bdd62c8336ed360d22b880bfeac94ee52d90b965b60e19126fe716d3d799fa23bdef97144ca4b1b0",
+          "sha256": "961c3913d0da23b37c790781204db152b144cf10f5e7f4ba903cb2dda980fa93",
+          "sha1": "1bc893bad863935d950c9f77f36355e7353cc226",
+          "md5": "bfd17529fc9234207887261c7637351b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-draw-repo-test7.jar",
+          "url": "blocks-draw-repo-test7.jar",
+          "size": 10952,
+          "sha512": "b66b3e08154e686a75414ad9bb1de141851e7dc65523de40bdd62c8336ed360d22b880bfeac94ee52d90b965b60e19126fe716d3d799fa23bdef97144ca4b1b0",
+          "sha256": "961c3913d0da23b37c790781204db152b144cf10f5e7f4ba903cb2dda980fa93",
+          "sha1": "1bc893bad863935d950c9f77f36355e7353cc226",
+          "md5": "bfd17529fc9234207887261c7637351b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-draw-repo-test7-sources.jar",
+          "url": "blocks-draw-repo-test7-sources.jar",
+          "size": 2059,
+          "sha512": "69d57b9be3937201c178feaeb2ddaa9ab3b04f494dc911c4234fbd7c0f7317d9488e657cc47eb6356cdb49ce5c9caf016041d0ffaecade2ccc2ff8e3d34e44f2",
+          "sha256": "02195e26d1beaa2dd85f25f20b8ad895fa4b1def73bad423b0e4c1be50f2ece9",
+          "sha1": "65dd460042ab1f433445a65a2ec29dd65ae4b6a1",
+          "md5": "c4459b12a708e0f78886666fe585ae51"
+        },
+        {
+          "name": "blocks-draw-repo-test7-sources.jar",
+          "url": "blocks-draw-repo-test7-sources.jar",
+          "size": 2059,
+          "sha512": "69d57b9be3937201c178feaeb2ddaa9ab3b04f494dc911c4234fbd7c0f7317d9488e657cc47eb6356cdb49ce5c9caf016041d0ffaecade2ccc2ff8e3d34e44f2",
+          "sha256": "02195e26d1beaa2dd85f25f20b8ad895fa4b1def73bad423b0e4c1be50f2ece9",
+          "sha1": "65dd460042ab1f433445a65a2ec29dd65ae4b6a1",
+          "md5": "c4459b12a708e0f78886666fe585ae51"
+        }
+      ]
+    }
+  ]
+}

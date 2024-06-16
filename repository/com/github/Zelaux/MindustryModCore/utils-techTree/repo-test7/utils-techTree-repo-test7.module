@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-techTree",
+    "version": "repo-test7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-techTree-repo-test7.jar",
+          "url": "utils-techTree-repo-test7.jar",
+          "size": 1995,
+          "sha512": "0177cbee3b0bd04ced9f9c9c4efe0568259650021fc7f810953facceeb1adb1c0dcf1340f5f283ea0e2645cc6880ceeddf6949bcbf85bebae153d4df879fb60e",
+          "sha256": "96101801c4b4fb657fcf72590f5171d2fbb30abbe122467d593161a3b1c92d7c",
+          "sha1": "c82579f0a9e8bf78c735c0220c4966b6420fd8ca",
+          "md5": "361f3e96a4ba849ea597e60299c8a92b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-techTree-repo-test7.jar",
+          "url": "utils-techTree-repo-test7.jar",
+          "size": 1995,
+          "sha512": "0177cbee3b0bd04ced9f9c9c4efe0568259650021fc7f810953facceeb1adb1c0dcf1340f5f283ea0e2645cc6880ceeddf6949bcbf85bebae153d4df879fb60e",
+          "sha256": "96101801c4b4fb657fcf72590f5171d2fbb30abbe122467d593161a3b1c92d7c",
+          "sha1": "c82579f0a9e8bf78c735c0220c4966b6420fd8ca",
+          "md5": "361f3e96a4ba849ea597e60299c8a92b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-techTree-repo-test7-sources.jar",
+          "url": "utils-techTree-repo-test7-sources.jar",
+          "size": 1279,
+          "sha512": "42bbc18b9b0087913b5fa764a206a7bad937279737076f4ff8162eda491d2abdc1f0f0b8b6d0d19263b2f7b0828553e4dc3d09a132b5672e8f3745e7963c4349",
+          "sha256": "e174165dbc4932daf85a1f3f4bb99717e9d6abe4c090b04c0f889f7332c05fc4",
+          "sha1": "a5a541fc1f5125b8b3532d519a197db490d5c058",
+          "md5": "6aa1364dec498e34df608ebc466866ab"
+        }
+      ]
+    }
+  ]
+}

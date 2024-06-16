@@ -3,12 +3,13 @@
     <groupId>com.github.Zelaux.MindustryModCore</groupId>
     <artifactId>tools</artifactId>
     <versioning>
-        <latest>repo-test6</latest>
-        <release>repo-test6</release>
+        <latest>repo-test7</latest>
+        <release>repo-test7</release>
         <versions>
             <version>repo-test1</version>
             <version>repo-test4</version>
             <version>repo-test6</version>
+            <version>repo-test7</version>
         </versions>
         <lastUpdated>20231015165903</lastUpdated>
     </versioning>

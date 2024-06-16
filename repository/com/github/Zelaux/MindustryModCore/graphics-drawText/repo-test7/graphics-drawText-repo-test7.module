@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "graphics-drawText",
+    "version": "repo-test7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphics-drawText-repo-test7.jar",
+          "url": "graphics-drawText-repo-test7.jar",
+          "size": 1329,
+          "sha512": "8cbd28cf3e07fa8a2ca61f139a2811d2a3a7e89f3f62c2a76c59b0d2c0a46603a8a71e245df2e51195ce88fc92b1e993fa64313046a16e90b3940c8ea9f40974",
+          "sha256": "1e4b2021d1b12970accf9fada5f8e8fb7277fb89235211d38df190fd5fa92c56",
+          "sha1": "9db3855d15e23ada7ccf090c2dac9fe31c5d51a3",
+          "md5": "3760994a2a5bd76ec162720d0d59f203"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-drawText-repo-test7.jar",
+          "url": "graphics-drawText-repo-test7.jar",
+          "size": 1329,
+          "sha512": "8cbd28cf3e07fa8a2ca61f139a2811d2a3a7e89f3f62c2a76c59b0d2c0a46603a8a71e245df2e51195ce88fc92b1e993fa64313046a16e90b3940c8ea9f40974",
+          "sha256": "1e4b2021d1b12970accf9fada5f8e8fb7277fb89235211d38df190fd5fa92c56",
+          "sha1": "9db3855d15e23ada7ccf090c2dac9fe31c5d51a3",
+          "md5": "3760994a2a5bd76ec162720d0d59f203"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-drawText-repo-test7-sources.jar",
+          "url": "graphics-drawText-repo-test7-sources.jar",
+          "size": 942,
+          "sha512": "5429b5b3ee5fae09a6c8055aac3d73def409b5b190b0b365675ab7356722fb85e7eefe47eb03973f2bc805ad16e508c1f94e3e608d6574c5658cef39f07cb3b8",
+          "sha256": "9a2186fa7ecd43eeabc205656758100baa7c39add7439f5ecf712c03806c48ef",
+          "sha1": "40a65397ac8c9a4fe04af95dc4c02d2cac8454f2",
+          "md5": "b3238c191003b6c2dbe318e9adf9786c"
+        }
+      ]
+    }
+  ]
+}
