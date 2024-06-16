@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "ui-dialogs",
+    "version": "repo-test4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-dialogs-repo-test4.jar",
+          "url": "ui-dialogs-repo-test4.jar",
+          "size": 8963,
+          "sha512": "3e544089850f0a5af67f572ec17785105178e53b19e41be1bfc0923a0feff299a5b992b149888ea709a2be050fcae5ac3bb17ecc25991a5f8b4e14126fe97dd8",
+          "sha256": "70b035c6d4396f243b571788f1d127227c030fc9ae2b8742dbd79d39c08d8eef",
+          "sha1": "2d231ce37510d2b608c383cd5c533363f4de90ff",
+          "md5": "686493bd4f0cf31a445a1f9194dd235a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-dialogs-repo-test4.jar",
+          "url": "ui-dialogs-repo-test4.jar",
+          "size": 8963,
+          "sha512": "3e544089850f0a5af67f572ec17785105178e53b19e41be1bfc0923a0feff299a5b992b149888ea709a2be050fcae5ac3bb17ecc25991a5f8b4e14126fe97dd8",
+          "sha256": "70b035c6d4396f243b571788f1d127227c030fc9ae2b8742dbd79d39c08d8eef",
+          "sha1": "2d231ce37510d2b608c383cd5c533363f4de90ff",
+          "md5": "686493bd4f0cf31a445a1f9194dd235a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-dialogs-repo-test4-sources.jar",
+          "url": "ui-dialogs-repo-test4-sources.jar",
+          "size": 2521,
+          "sha512": "319fe3307dd1a548f5f69d2a47ff9ad3307d0c491e65e8877c0ed5448967e8a760351eb9f0fa3f595991fd087d51e60360bbebf1a5344f9e69623edf426013e7",
+          "sha256": "597a374a1f7d755f7d783de8e8978b9b82b13d8aff1898ff78d17cdd932fa02d",
+          "sha1": "d0b9fa64e7e799ea3aefb8995e5b374c583ef0b7",
+          "md5": "6b56dc4d61f1b60c59da65864c24e984"
+        }
+      ]
+    }
+  ]
+}

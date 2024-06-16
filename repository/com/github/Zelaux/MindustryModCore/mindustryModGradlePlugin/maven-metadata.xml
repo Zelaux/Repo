@@ -3,10 +3,11 @@
     <groupId>com.github.Zelaux.MindustryModCore</groupId>
     <artifactId>mindustryModGradlePlugin</artifactId>
     <versioning>
-        <latest>repo-test1</latest>
-        <release>repo-test1</release>
+        <latest>repo-test4</latest>
+        <release>repo-test4</release>
         <versions>
             <version>repo-test1</version>
+            <version>repo-test4</version>
         </versions>
         <lastUpdated>20231015165848</lastUpdated>
     </versioning>

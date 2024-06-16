@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-consumers",
+    "version": "repo-test4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-consumers-repo-test4.jar",
+          "url": "blocks-consumers-repo-test4.jar",
+          "size": 9768,
+          "sha512": "b2f07fe56a5b628622c97de50ef3a8ddee1ced9b6623dcd5cf97fe133a477ae15f913598d00c9c34e49ad11f3da7a0a0538ba210ae58b49dd08788f08b276047",
+          "sha256": "874b13169df01df137692842b8d8b2cd5d6f7748e3ad18b44615a059eaf34571",
+          "sha1": "fa6d558392aee6663c46040523135c798d017086",
+          "md5": "278de6fac90c2ddede4253d816b1b5d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-consumers-repo-test4.jar",
+          "url": "blocks-consumers-repo-test4.jar",
+          "size": 9768,
+          "sha512": "b2f07fe56a5b628622c97de50ef3a8ddee1ced9b6623dcd5cf97fe133a477ae15f913598d00c9c34e49ad11f3da7a0a0538ba210ae58b49dd08788f08b276047",
+          "sha256": "874b13169df01df137692842b8d8b2cd5d6f7748e3ad18b44615a059eaf34571",
+          "sha1": "fa6d558392aee6663c46040523135c798d017086",
+          "md5": "278de6fac90c2ddede4253d816b1b5d7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-consumers-repo-test4-sources.jar",
+          "url": "blocks-consumers-repo-test4-sources.jar",
+          "size": 1457,
+          "sha512": "3ecacfa14b8231d64248eeccb7e39fbc4f1fc1113d5800090934b81d8d13b4ebea5f02fe2afe8f0afcbf31deb42d3031346ecc59dbfd3477c4aca6fbf608a496",
+          "sha256": "68cc4719ff4ce24ff132ee7af3a033ab8f00597cf531271f8d738141076202d0",
+          "sha1": "c29e203b550ad22e89a440266139c1c2cc481d66",
+          "md5": "e0117a56669fc94cbfd4808fb06e616e"
+        },
+        {
+          "name": "blocks-consumers-repo-test4-sources.jar",
+          "url": "blocks-consumers-repo-test4-sources.jar",
+          "size": 1457,
+          "sha512": "3ecacfa14b8231d64248eeccb7e39fbc4f1fc1113d5800090934b81d8d13b4ebea5f02fe2afe8f0afcbf31deb42d3031346ecc59dbfd3477c4aca6fbf608a496",
+          "sha256": "68cc4719ff4ce24ff132ee7af3a033ab8f00597cf531271f8d738141076202d0",
+          "sha1": "c29e203b550ad22e89a440266139c1c2cc481d66",
+          "md5": "e0117a56669fc94cbfd4808fb06e616e"
+        }
+      ]
+    }
+  ]
+}

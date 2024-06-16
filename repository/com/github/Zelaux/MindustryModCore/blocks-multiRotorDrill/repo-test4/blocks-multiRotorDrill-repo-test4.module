@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-multiRotorDrill",
+    "version": "repo-test4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-multiRotorDrill-repo-test4.jar",
+          "url": "blocks-multiRotorDrill-repo-test4.jar",
+          "size": 16225,
+          "sha512": "9b88e4d519e71b4a58e07e4d6f7dfce3b32a620d94a95541585bde69090db9400d84abd24552fbff050b44ee86af384850370fe8f42bdf6c2a94ae4de2aa95a3",
+          "sha256": "ed58b77e48b3d9611746997890d13466670510a17b4412e0b997716e9ffc7fcd",
+          "sha1": "0e4df1af00aa7b8472013eb8be8ff7b4269f2ee1",
+          "md5": "501c354145d7daa66b74cf21c8410ff0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-multiRotorDrill-repo-test4.jar",
+          "url": "blocks-multiRotorDrill-repo-test4.jar",
+          "size": 16225,
+          "sha512": "9b88e4d519e71b4a58e07e4d6f7dfce3b32a620d94a95541585bde69090db9400d84abd24552fbff050b44ee86af384850370fe8f42bdf6c2a94ae4de2aa95a3",
+          "sha256": "ed58b77e48b3d9611746997890d13466670510a17b4412e0b997716e9ffc7fcd",
+          "sha1": "0e4df1af00aa7b8472013eb8be8ff7b4269f2ee1",
+          "md5": "501c354145d7daa66b74cf21c8410ff0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-multiRotorDrill-repo-test4-sources.jar",
+          "url": "blocks-multiRotorDrill-repo-test4-sources.jar",
+          "size": 3869,
+          "sha512": "4ded8f181342199dc7ef3dcf707dffe702fd67ca064bf5cda753def019dc14e40d333dba6cd81dde7320514e253ca64d677d8b70162ec359879d50b579b4b7b4",
+          "sha256": "77779413675bb9ea161d2692cd76907e5473a06f63f5485e38c4040d1a14a120",
+          "sha1": "05ecb50366a846dc09d347bf64f1c6ec2a9b30ad",
+          "md5": "28120d78c1fa92278d6507d0a2b53ad8"
+        },
+        {
+          "name": "blocks-multiRotorDrill-repo-test4-sources.jar",
+          "url": "blocks-multiRotorDrill-repo-test4-sources.jar",
+          "size": 3869,
+          "sha512": "4ded8f181342199dc7ef3dcf707dffe702fd67ca064bf5cda753def019dc14e40d333dba6cd81dde7320514e253ca64d677d8b70162ec359879d50b579b4b7b4",
+          "sha256": "77779413675bb9ea161d2692cd76907e5473a06f63f5485e38c4040d1a14a120",
+          "sha1": "05ecb50366a846dc09d347bf64f1c6ec2a9b30ad",
+          "md5": "28120d78c1fa92278d6507d0a2b53ad8"
+        }
+      ]
+    }
+  ]
+}

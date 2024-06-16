@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "tiledStructures",
+    "version": "repo-test4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "tiledStructures-repo-test4.jar",
+          "url": "tiledStructures-repo-test4.jar",
+          "size": 115875,
+          "sha512": "ebece566028d88cb0c40b555c3fa80f2dc8dad038a9eac70e912e4a0443db72d0489fef553390b6820d9a407af596ac125460705406fa35248f7a65d5bcb074d",
+          "sha256": "43b8837f6548c2ee845acf26e1aa69fca899346cd902243abdd4f477df4f7e54",
+          "sha1": "611d48d40d0767846b3b8a2f6f99f095c1ba743e",
+          "md5": "566ab6b8423c33b0b630b30a530037e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "core",
+          "version": {
+            "requires": "repo-test4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "graphics",
+          "version": {
+            "requires": "repo-test4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tiledStructures-repo-test4.jar",
+          "url": "tiledStructures-repo-test4.jar",
+          "size": 115875,
+          "sha512": "ebece566028d88cb0c40b555c3fa80f2dc8dad038a9eac70e912e4a0443db72d0489fef553390b6820d9a407af596ac125460705406fa35248f7a65d5bcb074d",
+          "sha256": "43b8837f6548c2ee845acf26e1aa69fca899346cd902243abdd4f477df4f7e54",
+          "sha1": "611d48d40d0767846b3b8a2f6f99f095c1ba743e",
+          "md5": "566ab6b8423c33b0b630b30a530037e4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tiledStructures-repo-test4-sources.jar",
+          "url": "tiledStructures-repo-test4-sources.jar",
+          "size": 21182,
+          "sha512": "91aad62be046fdf4cfca7267ea79d872cd92cb7d1e7961a72931f655c3b8cc4c8baf31f43ff823597174fbe82925d50adec96db3baec2f24fb117b252a2a1a35",
+          "sha256": "e8bb674a90860ae2a0dfc6d8394ad3aab3ce80fb5804bd5c42a271ded1177927",
+          "sha1": "a896226094a0a3c211de29344a6663553be6c6e2",
+          "md5": "c1f714b686fcffc19662eb1547888802"
+        },
+        {
+          "name": "tiledStructures-repo-test4-sources.jar",
+          "url": "tiledStructures-repo-test4-sources.jar",
+          "size": 21182,
+          "sha512": "91aad62be046fdf4cfca7267ea79d872cd92cb7d1e7961a72931f655c3b8cc4c8baf31f43ff823597174fbe82925d50adec96db3baec2f24fb117b252a2a1a35",
+          "sha256": "e8bb674a90860ae2a0dfc6d8394ad3aab3ce80fb5804bd5c42a271ded1177927",
+          "sha1": "a896226094a0a3c211de29344a6663553be6c6e2",
+          "md5": "c1f714b686fcffc19662eb1547888802"
+        }
+      ]
+    }
+  ]
+}

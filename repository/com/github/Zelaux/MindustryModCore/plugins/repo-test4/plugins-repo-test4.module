@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "plugins",
+    "version": "repo-test4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugins-repo-test4.jar",
+          "url": "plugins-repo-test4.jar",
+          "size": 3214,
+          "sha512": "912e0f00447f0989fef0c269dbd4cb2499e3f2d0c23816ca91e5d030af79e05961083b8542e7d9f01beada52fa5fe58d69a4ac80b88e3eae6601970153c49a5d",
+          "sha256": "bfe5de86df1db58e5b1ee2fdf29e1c9d40947e18505497f957e71caedfe22c01",
+          "sha1": "6f1a4f184a9a05aeb0d28fbf3048d5f11633c3d9",
+          "md5": "5092babd4e68bfbb204935d5104c6359"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "plugins-repo-test4.jar",
+          "url": "plugins-repo-test4.jar",
+          "size": 3214,
+          "sha512": "912e0f00447f0989fef0c269dbd4cb2499e3f2d0c23816ca91e5d030af79e05961083b8542e7d9f01beada52fa5fe58d69a4ac80b88e3eae6601970153c49a5d",
+          "sha256": "bfe5de86df1db58e5b1ee2fdf29e1c9d40947e18505497f957e71caedfe22c01",
+          "sha1": "6f1a4f184a9a05aeb0d28fbf3048d5f11633c3d9",
+          "md5": "5092babd4e68bfbb204935d5104c6359"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "plugins-repo-test4-sources.jar",
+          "url": "plugins-repo-test4-sources.jar",
+          "size": 1546,
+          "sha512": "1d8e679d901e73e5a9ba3bcb1e75409ce9dc24885706538e00eb8837cbcb09cc93e9d33d2237c5d27e40f859e3a20c6a4c23772fc4432ac7bc60ffbd5c469b9d",
+          "sha256": "346fbac7ebf22c48a1c8bce0314b91e48f939ee4dc9f47062aad28a5e5a7e840",
+          "sha1": "45851cfd20c1c5fdffdddc8df4d3e29cc1cd0278",
+          "md5": "5631aca7ad751cdd9c897c1b206faf65"
+        }
+      ]
+    }
+  ]
+}

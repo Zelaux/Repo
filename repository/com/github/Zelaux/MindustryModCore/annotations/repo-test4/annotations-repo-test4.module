@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations",
+    "version": "repo-test4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-repo-test4.jar",
+          "url": "annotations-repo-test4.jar",
+          "size": 14381271,
+          "sha512": "f164511aab20ac1f3244f2421eda0f0e13d79af1fe326b274a89eaecb1e64d0093ae49c7b7ed82413754173d931b8c8ed3fb10414fe301eaaefe4f2f5ce89b5f",
+          "sha256": "6be9c03a8164f5dcc217b11e130dbb907c0a86bb80ecac4ab21904219bf7acce",
+          "sha1": "313c582531cb6cb3e9085790d0da62bf1d52caee",
+          "md5": "c2831dc6bbd091198aa16d925be624c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-repo-test4.jar",
+          "url": "annotations-repo-test4.jar",
+          "size": 14381271,
+          "sha512": "f164511aab20ac1f3244f2421eda0f0e13d79af1fe326b274a89eaecb1e64d0093ae49c7b7ed82413754173d931b8c8ed3fb10414fe301eaaefe4f2f5ce89b5f",
+          "sha256": "6be9c03a8164f5dcc217b11e130dbb907c0a86bb80ecac4ab21904219bf7acce",
+          "sha1": "313c582531cb6cb3e9085790d0da62bf1d52caee",
+          "md5": "c2831dc6bbd091198aa16d925be624c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-repo-test4-sources.jar",
+          "url": "annotations-repo-test4-sources.jar",
+          "size": 137515,
+          "sha512": "90d7198cd0d39c611fe745734439a19892e6c0f3c8223a0cdeb7c93932876844fbe2139054f3b556b4a648cde91f62476cab76d9cc3cdc5ab11a0c48604f27c9",
+          "sha256": "0dc2d43c831dce5f7c78212ed703d1b825d68cf1fbe7611c8a6a81defd59867c",
+          "sha1": "c7fc1618dd60453aa9fea7794e599bd2a6d467c4",
+          "md5": "fdd0706c2de4c327443282b5dfeaedc1"
+        }
+      ]
+    }
+  ]
+}

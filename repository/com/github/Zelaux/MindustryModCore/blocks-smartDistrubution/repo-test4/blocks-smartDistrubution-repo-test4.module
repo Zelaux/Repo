@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-smartDistrubution",
+    "version": "repo-test4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test4.jar",
+          "url": "blocks-smartDistrubution-repo-test4.jar",
+          "size": 25469,
+          "sha512": "ccf7d5ace0d6bcb8155cfa0b2837c6f30250bd3e272bac0b7b7a54ed5f67f50b9fd609ff4e37f9bc42b3d699585bae44bded71e5b34d7ef80d22470d7ffb4b62",
+          "sha256": "e6fc41354286cb19a85ac576452c17de143551962a94a93d365dc00af61d1333",
+          "sha1": "cdbbfb43c1f44abdb7813b1b4f1e1ac868b5fc23",
+          "md5": "1cacc4ae42f67774a2b64794bc564029"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test4.jar",
+          "url": "blocks-smartDistrubution-repo-test4.jar",
+          "size": 25469,
+          "sha512": "ccf7d5ace0d6bcb8155cfa0b2837c6f30250bd3e272bac0b7b7a54ed5f67f50b9fd609ff4e37f9bc42b3d699585bae44bded71e5b34d7ef80d22470d7ffb4b62",
+          "sha256": "e6fc41354286cb19a85ac576452c17de143551962a94a93d365dc00af61d1333",
+          "sha1": "cdbbfb43c1f44abdb7813b1b4f1e1ac868b5fc23",
+          "md5": "1cacc4ae42f67774a2b64794bc564029"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test4-sources.jar",
+          "url": "blocks-smartDistrubution-repo-test4-sources.jar",
+          "size": 7465,
+          "sha512": "5b47b35e9da8857112a0fcb0ee5ef0ccb01186990adccd331848f666724cffdd08a2b560a7dc5449e0c95fae6c2db0fd5a7c07f0b8b46da4124b3f87e8c744b5",
+          "sha256": "e6a6b588d56bff097bd84993def49fd906c3caceceae5c9c279452f8b412209b",
+          "sha1": "4e99b06aa7966fdcedaf055a1f3d23adad6cd19d",
+          "md5": "ffefd065d92215a58fbbd6cfd4a48663"
+        },
+        {
+          "name": "blocks-smartDistrubution-repo-test4-sources.jar",
+          "url": "blocks-smartDistrubution-repo-test4-sources.jar",
+          "size": 7465,
+          "sha512": "5b47b35e9da8857112a0fcb0ee5ef0ccb01186990adccd331848f666724cffdd08a2b560a7dc5449e0c95fae6c2db0fd5a7c07f0b8b46da4124b3f87e8c744b5",
+          "sha256": "e6a6b588d56bff097bd84993def49fd906c3caceceae5c9c279452f8b412209b",
+          "sha1": "4e99b06aa7966fdcedaf055a1f3d23adad6cd19d",
+          "md5": "ffefd065d92215a58fbbd6cfd4a48663"
+        }
+      ]
+    }
+  ]
+}

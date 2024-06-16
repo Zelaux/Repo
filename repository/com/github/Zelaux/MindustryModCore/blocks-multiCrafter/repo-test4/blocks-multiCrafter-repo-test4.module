@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-multiCrafter",
+    "version": "repo-test4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-multiCrafter-repo-test4.jar",
+          "url": "blocks-multiCrafter-repo-test4.jar",
+          "size": 36988,
+          "sha512": "1cf18ab97b5a6789b25ef236954c7930238a64739072d753a8d8603a2446d4d5a37f85b621ce96289c2fabf43006f76224b6cafe3b8aa4984b849a6953a6a14e",
+          "sha256": "5603395004e7cd63562ae85d4a7ac404da73a3701f359ccc311932c6d7f771a1",
+          "sha1": "f8397d944c026dd5e18af7bc8142037f3ce199af",
+          "md5": "b68ff9d836e2af109648ea72ad43855b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "blocks-consumers",
+          "version": {
+            "requires": "repo-test4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-multiCrafter-repo-test4.jar",
+          "url": "blocks-multiCrafter-repo-test4.jar",
+          "size": 36988,
+          "sha512": "1cf18ab97b5a6789b25ef236954c7930238a64739072d753a8d8603a2446d4d5a37f85b621ce96289c2fabf43006f76224b6cafe3b8aa4984b849a6953a6a14e",
+          "sha256": "5603395004e7cd63562ae85d4a7ac404da73a3701f359ccc311932c6d7f771a1",
+          "sha1": "f8397d944c026dd5e18af7bc8142037f3ce199af",
+          "md5": "b68ff9d836e2af109648ea72ad43855b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-multiCrafter-repo-test4-sources.jar",
+          "url": "blocks-multiCrafter-repo-test4-sources.jar",
+          "size": 11455,
+          "sha512": "5a22542dea8ba34ed19adc6f923e95becdde93b8fa2ab2a709fa605784fbc7b0afdc4d36a509714e8d3afb45d0cc4582ec6c08723c60b834afd0efb2030f32d9",
+          "sha256": "568e53be3ecae34bb93f202746a2e9effbbbd2ac068c2488ee990c1da38809ac",
+          "sha1": "792cea980af871643119a95ec72530ad0020abd1",
+          "md5": "ce913c9bdd0c9385ed82e65fb1282d44"
+        },
+        {
+          "name": "blocks-multiCrafter-repo-test4-sources.jar",
+          "url": "blocks-multiCrafter-repo-test4-sources.jar",
+          "size": 11455,
+          "sha512": "5a22542dea8ba34ed19adc6f923e95becdde93b8fa2ab2a709fa605784fbc7b0afdc4d36a509714e8d3afb45d0cc4582ec6c08723c60b834afd0efb2030f32d9",
+          "sha256": "568e53be3ecae34bb93f202746a2e9effbbbd2ac068c2488ee990c1da38809ac",
+          "sha1": "792cea980af871643119a95ec72530ad0020abd1",
+          "md5": "ce913c9bdd0c9385ed82e65fb1282d44"
+        }
+      ]
+    }
+  ]
+}
