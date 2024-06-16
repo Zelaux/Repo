@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-struct",
+    "version": "repo-test6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-struct-repo-test6.jar",
+          "url": "utils-struct-repo-test6.jar",
+          "size": 3276,
+          "sha512": "882efd8a41af185e06d3541fff068a72b2cbe05eaa86e113b9248ffdfa72e50e7456362ea1852c8e4f76bd3d68d016f7d2c382ccfc3f34b59bb6a1b984f5a718",
+          "sha256": "2ec544120a01d1b7c2598f2f6ba0a9c8d0f1eaafb567324f498f05a7acfbbb74",
+          "sha1": "ee78af17576ee658f1cc17cec033e3cf991cc416",
+          "md5": "1c0cec6d2e01fc0361ad88aee3a19125"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-struct-repo-test6.jar",
+          "url": "utils-struct-repo-test6.jar",
+          "size": 3276,
+          "sha512": "882efd8a41af185e06d3541fff068a72b2cbe05eaa86e113b9248ffdfa72e50e7456362ea1852c8e4f76bd3d68d016f7d2c382ccfc3f34b59bb6a1b984f5a718",
+          "sha256": "2ec544120a01d1b7c2598f2f6ba0a9c8d0f1eaafb567324f498f05a7acfbbb74",
+          "sha1": "ee78af17576ee658f1cc17cec033e3cf991cc416",
+          "md5": "1c0cec6d2e01fc0361ad88aee3a19125"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-struct-repo-test6-sources.jar",
+          "url": "utils-struct-repo-test6-sources.jar",
+          "size": 2172,
+          "sha512": "877efe7559d78ef8704373c0f278ab77aedfe8baa07365f4ed363a76221dc20314233e0a474e56e955a3ff295d9a8b960ae499eeaf319fffe97c61e692e8a418",
+          "sha256": "52eec02043c73e7878a12e80e6591eec0cc2ce5bf9ecd2cdf3c669e3c3cb3d1e",
+          "sha1": "a1f45a3f902ccd69ed8be43600f8509d415fb326",
+          "md5": "a3c8163dca8ed01ed94fe5e8a6161cfb"
+        }
+      ]
+    }
+  ]
+}

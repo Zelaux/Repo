@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "ui-multiBar",
+    "version": "repo-test6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-multiBar-repo-test6.jar",
+          "url": "ui-multiBar-repo-test6.jar",
+          "size": 5453,
+          "sha512": "829c899e188f43b4574c2a28a1dbdc51396d8c9fc662dc3a6b5297584f633ffe603e65c40b620e64f6b1fd565d8428f865331b868a3a8c9eba61829e39ea3ac4",
+          "sha256": "6ebca7b4989b2f35f9a4bc98d00a27d94bc616b3b340eef5cd63ad072d899bce",
+          "sha1": "5e9669a7adafef4f78fb17188fe28d5a2171fa7c",
+          "md5": "7bb7cdb60d9b2e0fd86cc0ba8b01aa40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-multiBar-repo-test6.jar",
+          "url": "ui-multiBar-repo-test6.jar",
+          "size": 5453,
+          "sha512": "829c899e188f43b4574c2a28a1dbdc51396d8c9fc662dc3a6b5297584f633ffe603e65c40b620e64f6b1fd565d8428f865331b868a3a8c9eba61829e39ea3ac4",
+          "sha256": "6ebca7b4989b2f35f9a4bc98d00a27d94bc616b3b340eef5cd63ad072d899bce",
+          "sha1": "5e9669a7adafef4f78fb17188fe28d5a2171fa7c",
+          "md5": "7bb7cdb60d9b2e0fd86cc0ba8b01aa40"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-multiBar-repo-test6-sources.jar",
+          "url": "ui-multiBar-repo-test6-sources.jar",
+          "size": 1971,
+          "sha512": "8f9dcef6d0f93b76d012c961626d36e8e8d0d044191959f0110477a95e622dbdb8fc2c02e1cc189dfeafa63105dcf126d17d1caab41ae65821d962a1fb5d71f4",
+          "sha256": "95b9715546c778f40ba9b4a819d04b984a58b2aa10f84e722b749e06ac2a48f4",
+          "sha1": "e9591db7c2e9d478bd6d5350f2af29da4729c617",
+          "md5": "f391bbc1588b5e80bf18bf2700ca7a8b"
+        }
+      ]
+    }
+  ]
+}

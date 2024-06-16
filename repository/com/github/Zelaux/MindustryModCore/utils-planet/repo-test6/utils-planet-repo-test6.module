@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-planet",
+    "version": "repo-test6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-planet-repo-test6.jar",
+          "url": "utils-planet-repo-test6.jar",
+          "size": 2507,
+          "sha512": "f5d961c139eabc92e41f7db27c4baad2c585d45a82586055ef928411b6b0db6796144af0eb67f8baf6737ef6fc9f7ff0be82442be89e5fac1eb59a42f0ed19fa",
+          "sha256": "21e2ff76132231fb678f247a62d86fa864345f5691241703cb869a8d9678156f",
+          "sha1": "4e492b8ca72adf6751ff1963c9bca564186918f1",
+          "md5": "0f21e246bf7ae79bb92f18e2c9dfe8bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-planet-repo-test6.jar",
+          "url": "utils-planet-repo-test6.jar",
+          "size": 2507,
+          "sha512": "f5d961c139eabc92e41f7db27c4baad2c585d45a82586055ef928411b6b0db6796144af0eb67f8baf6737ef6fc9f7ff0be82442be89e5fac1eb59a42f0ed19fa",
+          "sha256": "21e2ff76132231fb678f247a62d86fa864345f5691241703cb869a8d9678156f",
+          "sha1": "4e492b8ca72adf6751ff1963c9bca564186918f1",
+          "md5": "0f21e246bf7ae79bb92f18e2c9dfe8bb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-planet-repo-test6-sources.jar",
+          "url": "utils-planet-repo-test6-sources.jar",
+          "size": 1473,
+          "sha512": "71595e97ab4851505d78f7c15450ff0fe3e7927274a3acc6e5e9565a0d830e3d697da86e27b74120be5dd5920d91d2cdc9b0c6790bbbf70b3135b11a4e0e53bf",
+          "sha256": "8192d733e76e0c1ac67ff8c1c1bf39c81447fb64e7e05a2b6592c8530aa66ac5",
+          "sha1": "ff07ca8b119d1eef5bc4ba0c2fde49bab4a0203b",
+          "md5": "3c06f571c14b309cb0f159fa5b4c0b22"
+        }
+      ]
+    }
+  ]
+}

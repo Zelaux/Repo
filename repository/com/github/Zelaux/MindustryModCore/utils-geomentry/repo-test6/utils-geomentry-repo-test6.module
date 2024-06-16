@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-geomentry",
+    "version": "repo-test6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-geomentry-repo-test6.jar",
+          "url": "utils-geomentry-repo-test6.jar",
+          "size": 1063,
+          "sha512": "7c2b3864c411e8fea3c5e08e2b88f063e642343930029c4e585d314c42bfa8827bc14113839f210f87f1f30ccf509f97c18dcefbd84d2a129e638133868ae5eb",
+          "sha256": "173c4dbb4a0e3ce7bf7804feb7d813088ec1de8be2eb3780c53e64df752b8c6f",
+          "sha1": "9a92f0c1eb437ab9a3856e329ded90d2649c09a3",
+          "md5": "5f17bb2080a1eeb6d10e067d091ca074"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-geomentry-repo-test6.jar",
+          "url": "utils-geomentry-repo-test6.jar",
+          "size": 1063,
+          "sha512": "7c2b3864c411e8fea3c5e08e2b88f063e642343930029c4e585d314c42bfa8827bc14113839f210f87f1f30ccf509f97c18dcefbd84d2a129e638133868ae5eb",
+          "sha256": "173c4dbb4a0e3ce7bf7804feb7d813088ec1de8be2eb3780c53e64df752b8c6f",
+          "sha1": "9a92f0c1eb437ab9a3856e329ded90d2649c09a3",
+          "md5": "5f17bb2080a1eeb6d10e067d091ca074"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-geomentry-repo-test6-sources.jar",
+          "url": "utils-geomentry-repo-test6-sources.jar",
+          "size": 874,
+          "sha512": "45c41f9d7b9f805583e532a849a0ba576ce759a18893fae703f23f7a2dbf812e0c72919658c3ee0329f5c4cbe5b6fc4f964c42fd2856557672a7fbe007d577d0",
+          "sha256": "1f5fb583f82433d0c9a3d114bcc7537a04fa90a9a08e53b54315c1348270b4c5",
+          "sha1": "27d7b5591c14fce959ffdc97ad8c604d909dda57",
+          "md5": "3e38428bd05b47b0bada2d33d16e29a7"
+        }
+      ]
+    }
+  ]
+}

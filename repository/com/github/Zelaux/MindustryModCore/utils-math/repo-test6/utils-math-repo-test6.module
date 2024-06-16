@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-math",
+    "version": "repo-test6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-math-repo-test6.jar",
+          "url": "utils-math-repo-test6.jar",
+          "size": 1567,
+          "sha512": "7628a04461fcd1284c24c9f928eaf44288ed50772b1ccbaf9fbd90f8470224b9cec853fb6988e098e1c6dc023ab1b7d82ce8a4edb581e0359448a081105ec26d",
+          "sha256": "468b00746f46502d51abdb5b713d47dd905e3f34d8a91076d2a7048b62862900",
+          "sha1": "8077616f6b38964b4e67eb9639f32d846442151b",
+          "md5": "685216bcc7a6d19b148500253730f929"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-math-repo-test6.jar",
+          "url": "utils-math-repo-test6.jar",
+          "size": 1567,
+          "sha512": "7628a04461fcd1284c24c9f928eaf44288ed50772b1ccbaf9fbd90f8470224b9cec853fb6988e098e1c6dc023ab1b7d82ce8a4edb581e0359448a081105ec26d",
+          "sha256": "468b00746f46502d51abdb5b713d47dd905e3f34d8a91076d2a7048b62862900",
+          "sha1": "8077616f6b38964b4e67eb9639f32d846442151b",
+          "md5": "685216bcc7a6d19b148500253730f929"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-math-repo-test6-sources.jar",
+          "url": "utils-math-repo-test6-sources.jar",
+          "size": 1116,
+          "sha512": "b9b5a2e6b985390a94c31b2abc16b8ed6eaf125a8005ade72b68a59739dee6907ce12fa69e5a6b0c0c4d90fd08d8b9e45d1287e8a9260265b6924b16c3ec00af",
+          "sha256": "bac7a6940ab0628fe1bcda7268b741b0661a0f66b83fe5c2623e3502be34be9d",
+          "sha1": "247f921f727119e64a5e17aad4ee7e51431a3c35",
+          "md5": "744f56630883804e1a5966453dbad0fb"
+        }
+      ]
+    }
+  ]
+}

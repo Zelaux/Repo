@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-smartDistrubution",
+    "version": "repo-test6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test6.jar",
+          "url": "blocks-smartDistrubution-repo-test6.jar",
+          "size": 25469,
+          "sha512": "5d9869c8c758d21f430f3eefeb46c197b18d86e211f46832272ac396dc3a7f9b25532afd4059f8786295f18bd0c5e6d252a511cd1419597ca946346a5f42fded",
+          "sha256": "0643f640625ca9c1e9d04c84bd54bff8f4f5e382276cc4653d20f70caa8ad5a0",
+          "sha1": "6d8747d636433b9225272f835bb5422ad7446ff3",
+          "md5": "871709445a2a1aa746d89e7b2d92117d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test6.jar",
+          "url": "blocks-smartDistrubution-repo-test6.jar",
+          "size": 25469,
+          "sha512": "5d9869c8c758d21f430f3eefeb46c197b18d86e211f46832272ac396dc3a7f9b25532afd4059f8786295f18bd0c5e6d252a511cd1419597ca946346a5f42fded",
+          "sha256": "0643f640625ca9c1e9d04c84bd54bff8f4f5e382276cc4653d20f70caa8ad5a0",
+          "sha1": "6d8747d636433b9225272f835bb5422ad7446ff3",
+          "md5": "871709445a2a1aa746d89e7b2d92117d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-smartDistrubution-repo-test6-sources.jar",
+          "url": "blocks-smartDistrubution-repo-test6-sources.jar",
+          "size": 7465,
+          "sha512": "7cb7f75e882162b75438e0d402b731d308bf48ceb37dc28a0699369eb2dc3ab33edd0d986418063fe76b284cee77dc489274216f7e88967105a7f15b2630b242",
+          "sha256": "11c6fc40690ede7f8387bafa9e2d3337b25d582f6b222a30815f5e6058111eb4",
+          "sha1": "6b67335654ec4ca3f255536962f91155703b5434",
+          "md5": "bc0f15e9eacc01b6bc4448026e25a4b9"
+        },
+        {
+          "name": "blocks-smartDistrubution-repo-test6-sources.jar",
+          "url": "blocks-smartDistrubution-repo-test6-sources.jar",
+          "size": 7465,
+          "sha512": "7cb7f75e882162b75438e0d402b731d308bf48ceb37dc28a0699369eb2dc3ab33edd0d986418063fe76b284cee77dc489274216f7e88967105a7f15b2630b242",
+          "sha256": "11c6fc40690ede7f8387bafa9e2d3337b25d582f6b222a30815f5e6058111eb4",
+          "sha1": "6b67335654ec4ca3f255536962f91155703b5434",
+          "md5": "bc0f15e9eacc01b6bc4448026e25a4b9"
+        }
+      ]
+    }
+  ]
+}

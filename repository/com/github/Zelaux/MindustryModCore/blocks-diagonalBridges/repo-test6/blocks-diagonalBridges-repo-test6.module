@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-diagonalBridges",
+    "version": "repo-test6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-diagonalBridges-repo-test6.jar",
+          "url": "blocks-diagonalBridges-repo-test6.jar",
+          "size": 21409,
+          "sha512": "48c4085d1f0dab0ca97e20579904c2aff49c4da5c02598c9baaca70c19b6b773846e7b9f744df0378eb6414d09dc9f7e9fe1b2a4f878c6a2c7d73b265cd4f380",
+          "sha256": "b0a603b5a8d797747ae381f5de0e8db1318713d56e68313bbb161d33d332ec26",
+          "sha1": "e13b034d60ace4b2f3656cc6c297f7004e85b02b",
+          "md5": "8a9906df62a1b6943d37da32786ed196"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-diagonalBridges-repo-test6.jar",
+          "url": "blocks-diagonalBridges-repo-test6.jar",
+          "size": 21409,
+          "sha512": "48c4085d1f0dab0ca97e20579904c2aff49c4da5c02598c9baaca70c19b6b773846e7b9f744df0378eb6414d09dc9f7e9fe1b2a4f878c6a2c7d73b265cd4f380",
+          "sha256": "b0a603b5a8d797747ae381f5de0e8db1318713d56e68313bbb161d33d332ec26",
+          "sha1": "e13b034d60ace4b2f3656cc6c297f7004e85b02b",
+          "md5": "8a9906df62a1b6943d37da32786ed196"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-diagonalBridges-repo-test6-sources.jar",
+          "url": "blocks-diagonalBridges-repo-test6-sources.jar",
+          "size": 6090,
+          "sha512": "3395f3a2acd38a6d2c8d20c3fd073c1aa608e41bfdd2c99ff7fba6c4e7a6ba11e9a2ffe0446918b22a50076fd4e514d55289602302b5df41aacb69ab5f087cc7",
+          "sha256": "82ef68946038c18162218d8ad606acc37ca19f698f5bbbb85fe931dfa4aa861f",
+          "sha1": "780e006770cb86d7fad6d84463ebe134f388050a",
+          "md5": "5839d96bba13d7bb5b1dd69309a4e8e2"
+        },
+        {
+          "name": "blocks-diagonalBridges-repo-test6-sources.jar",
+          "url": "blocks-diagonalBridges-repo-test6-sources.jar",
+          "size": 6090,
+          "sha512": "3395f3a2acd38a6d2c8d20c3fd073c1aa608e41bfdd2c99ff7fba6c4e7a6ba11e9a2ffe0446918b22a50076fd4e514d55289602302b5df41aacb69ab5f087cc7",
+          "sha256": "82ef68946038c18162218d8ad606acc37ca19f698f5bbbb85fe931dfa4aa861f",
+          "sha1": "780e006770cb86d7fad6d84463ebe134f388050a",
+          "md5": "5839d96bba13d7bb5b1dd69309a4e8e2"
+        }
+      ]
+    }
+  ]
+}

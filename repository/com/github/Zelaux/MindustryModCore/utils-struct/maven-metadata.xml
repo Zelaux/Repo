@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <metadata>
-  <groupId>com.github.Zelaux.MindustryModCore</groupId>
-  <artifactId>utils-struct</artifactId>
-  <versioning>
-    <latest>repo-test4</latest>
-    <release>repo-test4</release>
-    <versions>
-      <version>repo-test4</version>
-    </versions>
-    <lastUpdated>20240616174427</lastUpdated>
-  </versioning>
+    <groupId>com.github.Zelaux.MindustryModCore</groupId>
+    <artifactId>utils-struct</artifactId>
+    <versioning>
+        <latest>repo-test6</latest>
+        <release>repo-test6</release>
+        <versions>
+            <version>repo-test4</version>
+            <version>repo-test6</version>
+        </versions>
+        <lastUpdated>20240616174427</lastUpdated>
+    </versioning>
 </metadata>

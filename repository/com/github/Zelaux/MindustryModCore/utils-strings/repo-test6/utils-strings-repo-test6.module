@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-strings",
+    "version": "repo-test6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-strings-repo-test6.jar",
+          "url": "utils-strings-repo-test6.jar",
+          "size": 1665,
+          "sha512": "60a5ec6846c3a01d7c66a6412205a0cf58d44a2216d1382453a93745e817c7be2d40893f9ef25b6c70a6db1b5235929963489d2af468501766f6d3775f97262e",
+          "sha256": "aeaff528615adf206dcf693284e6cc1a7ab812b82ff1b355d31480943c29043d",
+          "sha1": "3304a10828cfd5df2d3ef23c19ff38695be2fee6",
+          "md5": "27f5b5a495568b57d67bfb3dde424bcc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-strings-repo-test6.jar",
+          "url": "utils-strings-repo-test6.jar",
+          "size": 1665,
+          "sha512": "60a5ec6846c3a01d7c66a6412205a0cf58d44a2216d1382453a93745e817c7be2d40893f9ef25b6c70a6db1b5235929963489d2af468501766f6d3775f97262e",
+          "sha256": "aeaff528615adf206dcf693284e6cc1a7ab812b82ff1b355d31480943c29043d",
+          "sha1": "3304a10828cfd5df2d3ef23c19ff38695be2fee6",
+          "md5": "27f5b5a495568b57d67bfb3dde424bcc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-strings-repo-test6-sources.jar",
+          "url": "utils-strings-repo-test6-sources.jar",
+          "size": 1188,
+          "sha512": "e0a272b75c604b82640a949bff9e1ae07751fa4ed7eaa4a73a6974595bf0294fe8858f6c685b1bd928c7760b4bfb61a6c3b539e6d9b71b36a7584a9066460158",
+          "sha256": "a41f7004be9371180bd5fbc40a551c6aa8e21147eab4a492f0f8965548789e8f",
+          "sha1": "390b60ef6c809fdb63af314a7cdf4b823e74ac98",
+          "md5": "1efe27c88f11565ffff0c948e787c221"
+        }
+      ]
+    }
+  ]
+}
