@@ -22,7 +22,7 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
       - name: Build with Gradle
-        run: ./gradlew checkUpdates
+        run: ./gradlew checkUpdates --stacktrace
       - name: Push changes
         run: |
           git config --global user.email "cli@github.com"
