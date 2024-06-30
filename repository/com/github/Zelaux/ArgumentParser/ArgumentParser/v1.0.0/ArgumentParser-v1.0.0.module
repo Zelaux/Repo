@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArgumentParser",
+    "module": "ArgumentParser",
+    "version": "v1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ArgumentParser-v1.0.0.jar",
+          "url": "ArgumentParser-v1.0.0.jar",
+          "size": 20964,
+          "sha512": "f8337719457f674e15782d7befd4fcfaf62c311653b1935e88ef1b6b4806f943eaa246dbca3b62b35ec33a48943435dce77cdcbc09257aaad5689411832c48bf",
+          "sha256": "138bfb03003607c10960ea72542c669cbbf318f060847781b54160947c801ae9",
+          "sha1": "63b50c7d5fe8916bdaaf3c3772a2dada37178e1a",
+          "md5": "ab12bcb8c5127c8165e62a441d475d6b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ArgumentParser-v1.0.0.jar",
+          "url": "ArgumentParser-v1.0.0.jar",
+          "size": 20964,
+          "sha512": "f8337719457f674e15782d7befd4fcfaf62c311653b1935e88ef1b6b4806f943eaa246dbca3b62b35ec33a48943435dce77cdcbc09257aaad5689411832c48bf",
+          "sha256": "138bfb03003607c10960ea72542c669cbbf318f060847781b54160947c801ae9",
+          "sha1": "63b50c7d5fe8916bdaaf3c3772a2dada37178e1a",
+          "md5": "ab12bcb8c5127c8165e62a441d475d6b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ArgumentParser-v1.0.0-sources.jar",
+          "url": "ArgumentParser-v1.0.0-sources.jar",
+          "size": 10696,
+          "sha512": "ab7f85e4567a47662b9f96daffb9eae9dcbc4d79f580465f0a2ec464ceb9cc1dea79d6177051d7ae86de778d34fcd7e3316c236b9937bfcb532ffca14415d469",
+          "sha256": "9bb6881591ec41e381f4c1eff6510b3894032424c0f38c12fac4d2e7dfd4dfb3",
+          "sha1": "856392874e57a70ec512ffaf6ec474eb548c7b21",
+          "md5": "aea99e76c7ff0db4bd06cffe5fdff5c1"
+        }
+      ]
+    }
+  ]
+}

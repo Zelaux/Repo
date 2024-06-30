@@ -80,18 +80,26 @@ public class ProjectProcessor{
                 .replace("{1}", repoName)
                 .replace("{2}", repoVersion);
 
-            String newString = (string.substring(0, index) + s1 + string.substring(index))
-                .replace("withJavadocJar()", "//withJavadocJar()");
-            buildFile.writeString(newString);
+            String newString;
+            if (index!=-1) {
+                newString = (string.substring(0, index) + s1 + string.substring(index));
+            }else{
+                newString=string+"\n"+s1;
+            }
+            buildFile.writeString(newString
+                .replace("withJavadocJar()", "//withJavadocJar()"));
 
 
-            String readString = sourceFolder.child("gradle.properties").readString();
-            int index1 = readString.indexOf("archash");
-            if(index1 >= 0){
-                int index2 = readString.indexOf("\n", index1);
-                if(index2 < 0) index2 = readString.length();
-                String s = readString.substring(0, index1) + "archash=" + repoVersion + readString.substring(index2);
-                sourceFolder.child("gradle.properties").writeString(s);
+            Fi gradleProperties = sourceFolder.child("gradle.properties");
+            if(gradleProperties.exists()){
+                String readString = gradleProperties.readString();
+                int index1 = readString.indexOf("archash");
+                if(index1 >= 0){
+                    int index2 = readString.indexOf("\n", index1);
+                    if(index2 < 0) index2 = readString.length();
+                    String s = readString.substring(0, index1) + "archash=" + repoVersion + readString.substring(index2);
+                    gradleProperties.writeString(s);
+                }
             }
         }
         System.out.println("gradlew publishFolder");
