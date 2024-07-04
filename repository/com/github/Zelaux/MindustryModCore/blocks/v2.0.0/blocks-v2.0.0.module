@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks",
+    "version": "v2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-v2.0.0.jar",
+          "url": "blocks-v2.0.0.jar",
+          "size": 173371,
+          "sha512": "07c326de23addc4dfba603b5e85f19cb6ec78b1e8887f0c058f117407022c36935d0db150d75ccd50026c80943af9a15f89e5d734ff0596543067b739af264c3",
+          "sha256": "8dfb2e8e15affc80f72f5f89be3810b37f38ef6601c1b12911c85c4d44fb035e",
+          "sha1": "e41304df8a3726ee86c12ad7d6f51a6e6d2bdd43",
+          "md5": "ae251e91879002f2ce93f7079c00e6b2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "core",
+          "version": {
+            "requires": "v2.0.0"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "graphics",
+          "version": {
+            "requires": "v2.0.0"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-v2.0.0.jar",
+          "url": "blocks-v2.0.0.jar",
+          "size": 173371,
+          "sha512": "07c326de23addc4dfba603b5e85f19cb6ec78b1e8887f0c058f117407022c36935d0db150d75ccd50026c80943af9a15f89e5d734ff0596543067b739af264c3",
+          "sha256": "8dfb2e8e15affc80f72f5f89be3810b37f38ef6601c1b12911c85c4d44fb035e",
+          "sha1": "e41304df8a3726ee86c12ad7d6f51a6e6d2bdd43",
+          "md5": "ae251e91879002f2ce93f7079c00e6b2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-v2.0.0-sources.jar",
+          "url": "blocks-v2.0.0-sources.jar",
+          "size": 32651,
+          "sha512": "c1f76bac105bb795e6775c4f756504c3f7020042680af3330f258f7fe2e4743c976f782f00ce377f34bec757477e5057ef1e99f6b8e245397dd5536b54c24cfc",
+          "sha256": "bbe958d6e826a86264602b93dc7e6b096a0aa990dcfa28017a01f9ad25bf952d",
+          "sha1": "e2a1caf43f7202cde304309c4b32ec8f90e91c91",
+          "md5": "bad9ddd7375b48eab0136330d58a82ca"
+        },
+        {
+          "name": "blocks-v2.0.0-sources.jar",
+          "url": "blocks-v2.0.0-sources.jar",
+          "size": 32651,
+          "sha512": "c1f76bac105bb795e6775c4f756504c3f7020042680af3330f258f7fe2e4743c976f782f00ce377f34bec757477e5057ef1e99f6b8e245397dd5536b54c24cfc",
+          "sha256": "bbe958d6e826a86264602b93dc7e6b096a0aa990dcfa28017a01f9ad25bf952d",
+          "sha1": "e2a1caf43f7202cde304309c4b32ec8f90e91c91",
+          "md5": "bad9ddd7375b48eab0136330d58a82ca"
+        }
+      ]
+    }
+  ]
+}

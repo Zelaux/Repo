@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "customBlockShape",
+    "version": "v2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "customBlockShape-v2.0.0.jar",
+          "url": "customBlockShape-v2.0.0.jar",
+          "size": 109560,
+          "sha512": "dff6fb56c1ee1ddc2b0794993d0353947233a71cfb01555fb05c412d4891dc9c40f233fd0af128c9aa6f6a82f3d3a5080d69927e3ea086bbeec4b304df46371c",
+          "sha256": "90eb46e7cb7c59a0e999a8ff664b2b6097837720a0f0ffd43b16fcf7522790c3",
+          "sha1": "e383abafa140d4061c1b1c48194f34b6e4b54dbc",
+          "md5": "60343882ac41d7eeb02908fb3e658d80"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "core",
+          "version": {
+            "requires": "v2.0.0"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "utils",
+          "version": {
+            "requires": "v2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "customBlockShape-v2.0.0.jar",
+          "url": "customBlockShape-v2.0.0.jar",
+          "size": 109560,
+          "sha512": "dff6fb56c1ee1ddc2b0794993d0353947233a71cfb01555fb05c412d4891dc9c40f233fd0af128c9aa6f6a82f3d3a5080d69927e3ea086bbeec4b304df46371c",
+          "sha256": "90eb46e7cb7c59a0e999a8ff664b2b6097837720a0f0ffd43b16fcf7522790c3",
+          "sha1": "e383abafa140d4061c1b1c48194f34b6e4b54dbc",
+          "md5": "60343882ac41d7eeb02908fb3e658d80"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "customBlockShape-v2.0.0-sources.jar",
+          "url": "customBlockShape-v2.0.0-sources.jar",
+          "size": 7117,
+          "sha512": "5dbf9ed3c4f847498ca23f26a1195ff3e3ad302d9cf01cbcb24302a5509500dbca9150bdfe18c81836e1e5746825cf72cfbc61426e580149ba65b9441d4097c9",
+          "sha256": "18d75bb93260c7c525ec1688ca5437f319ccdb7dccbb9adbe3a75b5478418188",
+          "sha1": "b9d23d1e31e653ce43fbefe2eab3c31e42f29343",
+          "md5": "29fb4aec821f68f359c5f8ae45191757"
+        },
+        {
+          "name": "customBlockShape-v2.0.0-sources.jar",
+          "url": "customBlockShape-v2.0.0-sources.jar",
+          "size": 7117,
+          "sha512": "5dbf9ed3c4f847498ca23f26a1195ff3e3ad302d9cf01cbcb24302a5509500dbca9150bdfe18c81836e1e5746825cf72cfbc61426e580149ba65b9441d4097c9",
+          "sha256": "18d75bb93260c7c525ec1688ca5437f319ccdb7dccbb9adbe3a75b5478418188",
+          "sha1": "b9d23d1e31e653ce43fbefe2eab3c31e42f29343",
+          "md5": "29fb4aec821f68f359c5f8ae45191757"
+        }
+      ]
+    }
+  ]
+}
