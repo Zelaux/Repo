@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-consumers",
+    "version": "v2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-consumers-v2.0.1.jar",
+          "url": "blocks-consumers-v2.0.1.jar",
+          "size": 9768,
+          "sha512": "21f3c8a346dec2a57bba37262b2063640aa8056317e808c6733fe12afdbf8b6ff829c271aeb520e9f1f33b525bfd2f36a321426a091e90c92e210e13610b31a9",
+          "sha256": "2c3590defb1851e7b9cad923ed9ff9baddf204657d6c6dc93e1dd2f7cea947be",
+          "sha1": "509ece2702856fa491878cc0e51620162f274219",
+          "md5": "b0ea4ff84c24fcfda3295b9fdb3b0b2d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-consumers-v2.0.1.jar",
+          "url": "blocks-consumers-v2.0.1.jar",
+          "size": 9768,
+          "sha512": "21f3c8a346dec2a57bba37262b2063640aa8056317e808c6733fe12afdbf8b6ff829c271aeb520e9f1f33b525bfd2f36a321426a091e90c92e210e13610b31a9",
+          "sha256": "2c3590defb1851e7b9cad923ed9ff9baddf204657d6c6dc93e1dd2f7cea947be",
+          "sha1": "509ece2702856fa491878cc0e51620162f274219",
+          "md5": "b0ea4ff84c24fcfda3295b9fdb3b0b2d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-consumers-v2.0.1-sources.jar",
+          "url": "blocks-consumers-v2.0.1-sources.jar",
+          "size": 1457,
+          "sha512": "1114a4c631a417985066bc3328595fa3a80a5dd4dc94cf5d39bb633567b60eec4103293484605e4b2fa8fa55df39e4b318f8d206581ac879a364b0c7b10afcd0",
+          "sha256": "7f95f974d96f985a2b409d362e61bb17021b8c3b40ec85f5d2672ea5e8e9b0e8",
+          "sha1": "d5f6668ef221e7f414ae297883d79d4dfdb61d6e",
+          "md5": "5a1459f6d4c34293288f8d872e251099"
+        },
+        {
+          "name": "blocks-consumers-v2.0.1-sources.jar",
+          "url": "blocks-consumers-v2.0.1-sources.jar",
+          "size": 1457,
+          "sha512": "1114a4c631a417985066bc3328595fa3a80a5dd4dc94cf5d39bb633567b60eec4103293484605e4b2fa8fa55df39e4b318f8d206581ac879a364b0c7b10afcd0",
+          "sha256": "7f95f974d96f985a2b409d362e61bb17021b8c3b40ec85f5d2672ea5e8e9b0e8",
+          "sha1": "d5f6668ef221e7f414ae297883d79d4dfdb61d6e",
+          "md5": "5a1459f6d4c34293288f8d872e251099"
+        }
+      ]
+    }
+  ]
+}

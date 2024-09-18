@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "tools",
+    "version": "v2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tools-v2.0.1.jar",
+          "url": "tools-v2.0.1.jar",
+          "size": 28442195,
+          "sha512": "35b0807cb85dbb05edfb296bec550bfae7f0761268da0178469c31cdeab806915d98ac5edcd87657c4d3989666e3a203d31ee811ffdddc142170586471cb373c",
+          "sha256": "111dc8717b45442fee605b1fda29d1b328ed4b8c0e6a6ede74bbaebe0bb8bf92",
+          "sha1": "6abc2f993b9d38745beae919b975d5909aebd0b9",
+          "md5": "c072c262c1d7d56dc066bd4dcf436fa9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svgrasterizer",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "core",
+          "version": {
+            "requires": "v2.0.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations",
+          "version": {
+            "requires": "v2.0.1"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "3.5.0.201409260305-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-v2.0.1.jar",
+          "url": "tools-v2.0.1.jar",
+          "size": 28442195,
+          "sha512": "35b0807cb85dbb05edfb296bec550bfae7f0761268da0178469c31cdeab806915d98ac5edcd87657c4d3989666e3a203d31ee811ffdddc142170586471cb373c",
+          "sha256": "111dc8717b45442fee605b1fda29d1b328ed4b8c0e6a6ede74bbaebe0bb8bf92",
+          "sha1": "6abc2f993b9d38745beae919b975d5909aebd0b9",
+          "md5": "c072c262c1d7d56dc066bd4dcf436fa9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tools-v2.0.1-sources.jar",
+          "url": "tools-v2.0.1-sources.jar",
+          "size": 40230,
+          "sha512": "b13cb9c6e0474ffcbaf65713801922940ca59c22c396f0b462d264e173481706b6e03dd3ceda9ec63a2df2e95d054fd5c70ce3bf895a9cf5167bf652f65d3d54",
+          "sha256": "856c33ede2e2c228ab6100eb4f4c65987ba5c99b4fa6c7152d45fcba10aa6508",
+          "sha1": "7843cae36a8693d7d00e8c0fe698c91288b6bfdb",
+          "md5": "3d2ff8ae8223d80a3211704e24a2d371"
+        }
+      ]
+    }
+  ]
+}

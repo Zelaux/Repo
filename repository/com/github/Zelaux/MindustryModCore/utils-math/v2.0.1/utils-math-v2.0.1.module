@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-math",
+    "version": "v2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-math-v2.0.1.jar",
+          "url": "utils-math-v2.0.1.jar",
+          "size": 1567,
+          "sha512": "f6465db7e4a0e799ce0ec6833c03444c57bf27f6d4c147babce67191b77de199e4619b0d01535c978e16540f5c7ef93452c6c5268fccf5c6e55a2725de04ff1d",
+          "sha256": "b463697c3aa1469e8599f6ab2c3674311f9e38ca9b2a6541941a100652b27c43",
+          "sha1": "b977ae584f5c5ff6cab3beb39a197bd241461ad2",
+          "md5": "6e879c6de3f21928ad35630f0847f671"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-math-v2.0.1.jar",
+          "url": "utils-math-v2.0.1.jar",
+          "size": 1567,
+          "sha512": "f6465db7e4a0e799ce0ec6833c03444c57bf27f6d4c147babce67191b77de199e4619b0d01535c978e16540f5c7ef93452c6c5268fccf5c6e55a2725de04ff1d",
+          "sha256": "b463697c3aa1469e8599f6ab2c3674311f9e38ca9b2a6541941a100652b27c43",
+          "sha1": "b977ae584f5c5ff6cab3beb39a197bd241461ad2",
+          "md5": "6e879c6de3f21928ad35630f0847f671"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-math-v2.0.1-sources.jar",
+          "url": "utils-math-v2.0.1-sources.jar",
+          "size": 1116,
+          "sha512": "9126673223ff82479cef5cd3f0eaf0ef9e5aef4d37545cb5f856738b38fef74718399ba93fa52766d142d79a05308131a09ae6638e701c04cd757ad879f23f22",
+          "sha256": "fc138830b264948c4e1b3a4aa87623469fd5416fa605bdc6c4e2f3c41fccc900",
+          "sha1": "2a16e3d277567155e21c80b96e2c76384990f017",
+          "md5": "ad3ae2103b4d171c470206551de9f6a3"
+        }
+      ]
+    }
+  ]
+}

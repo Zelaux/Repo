@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-draw",
+    "version": "v2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-draw-v2.0.1.jar",
+          "url": "blocks-draw-v2.0.1.jar",
+          "size": 10952,
+          "sha512": "d838c5566e953c672146f8c5e45880f3b44a002808d4c043b7850b8305e4ed80cb7d1c3993ae17db078a796154ce571f72531474fe2a089571ea53a803086e07",
+          "sha256": "2078e14f67aef25fecc89da51e1a0b3047e26c60e66a25313b0773300097629f",
+          "sha1": "0a4e16de04e310316924bde3f615b9975ca822fb",
+          "md5": "e7d32f8f174989bc8a7368eea4ef37ee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-draw-v2.0.1.jar",
+          "url": "blocks-draw-v2.0.1.jar",
+          "size": 10952,
+          "sha512": "d838c5566e953c672146f8c5e45880f3b44a002808d4c043b7850b8305e4ed80cb7d1c3993ae17db078a796154ce571f72531474fe2a089571ea53a803086e07",
+          "sha256": "2078e14f67aef25fecc89da51e1a0b3047e26c60e66a25313b0773300097629f",
+          "sha1": "0a4e16de04e310316924bde3f615b9975ca822fb",
+          "md5": "e7d32f8f174989bc8a7368eea4ef37ee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-draw-v2.0.1-sources.jar",
+          "url": "blocks-draw-v2.0.1-sources.jar",
+          "size": 2059,
+          "sha512": "d563ce111d1585719b8db5feb7f7ad402aa70983db5f917ed2ca225a0bc3a83882bfe052adf283d70bd417397a1dcda3184ea171567bded02ae6cfd1560069a6",
+          "sha256": "e5634972cc10a2c66ec53417d2f5264eb2f903c75e01140453b1502592fcb65c",
+          "sha1": "1fc85149f2d0545ce6a09d7ba84cb1edfc02321d",
+          "md5": "3c870ed7570d21eb52756c89132a737e"
+        },
+        {
+          "name": "blocks-draw-v2.0.1-sources.jar",
+          "url": "blocks-draw-v2.0.1-sources.jar",
+          "size": 2059,
+          "sha512": "d563ce111d1585719b8db5feb7f7ad402aa70983db5f917ed2ca225a0bc3a83882bfe052adf283d70bd417397a1dcda3184ea171567bded02ae6cfd1560069a6",
+          "sha256": "e5634972cc10a2c66ec53417d2f5264eb2f903c75e01140453b1502592fcb65c",
+          "sha1": "1fc85149f2d0545ce6a09d7ba84cb1edfc02321d",
+          "md5": "3c870ed7570d21eb52756c89132a737e"
+        }
+      ]
+    }
+  ]
+}
