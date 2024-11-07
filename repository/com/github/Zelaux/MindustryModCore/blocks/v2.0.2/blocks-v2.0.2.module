@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks",
+    "version": "v2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "blocks-v2.0.2.jar",
+          "url": "blocks-v2.0.2.jar",
+          "size": 261,
+          "sha512": "ed793f67a79cf1e54fcfe7d3ab639495c758eea1a668a0f309a3ecd3ea5af56451b18adf3be2706700607218b492af5134d4293af073372752c3c4d54d3d9545",
+          "sha256": "ef35cdb4cd0f8b748db1e182426fa52a6ace60cf7ecfcc69236e7a0b22d9c87c",
+          "sha1": "6148bc12e088f5e057271ce965d7773c1f8776de",
+          "md5": "cf9a852608345394498d96602180a9d3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-v2.0.2.jar",
+          "url": "blocks-v2.0.2.jar",
+          "size": 261,
+          "sha512": "ed793f67a79cf1e54fcfe7d3ab639495c758eea1a668a0f309a3ecd3ea5af56451b18adf3be2706700607218b492af5134d4293af073372752c3c4d54d3d9545",
+          "sha256": "ef35cdb4cd0f8b748db1e182426fa52a6ace60cf7ecfcc69236e7a0b22d9c87c",
+          "sha1": "6148bc12e088f5e057271ce965d7773c1f8776de",
+          "md5": "cf9a852608345394498d96602180a9d3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-v2.0.2-sources.jar",
+          "url": "blocks-v2.0.2-sources.jar",
+          "size": 261,
+          "sha512": "ed793f67a79cf1e54fcfe7d3ab639495c758eea1a668a0f309a3ecd3ea5af56451b18adf3be2706700607218b492af5134d4293af073372752c3c4d54d3d9545",
+          "sha256": "ef35cdb4cd0f8b748db1e182426fa52a6ace60cf7ecfcc69236e7a0b22d9c87c",
+          "sha1": "6148bc12e088f5e057271ce965d7773c1f8776de",
+          "md5": "cf9a852608345394498d96602180a9d3"
+        }
+      ]
+    }
+  ]
+}

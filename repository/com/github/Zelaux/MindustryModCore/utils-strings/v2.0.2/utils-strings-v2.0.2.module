@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-strings",
+    "version": "v2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-strings-v2.0.2.jar",
+          "url": "utils-strings-v2.0.2.jar",
+          "size": 1665,
+          "sha512": "f410ac14b5695b9bb6eb7fbee277e3893c30dd0838a5647c10201f04bb1f8412623f28722ef0e0c356034dad18586ab3199d9f16e9fbefa449d17c7d3bb56f10",
+          "sha256": "b285bc11a883543a5acadc566bb117e4a9283a218f6b47b12500e345514d70fe",
+          "sha1": "11fa79338f3cfb2da8ba8b5853ba09067310bb90",
+          "md5": "a1707fc51d9c2b1d258ef579c3096d52"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-strings-v2.0.2.jar",
+          "url": "utils-strings-v2.0.2.jar",
+          "size": 1665,
+          "sha512": "f410ac14b5695b9bb6eb7fbee277e3893c30dd0838a5647c10201f04bb1f8412623f28722ef0e0c356034dad18586ab3199d9f16e9fbefa449d17c7d3bb56f10",
+          "sha256": "b285bc11a883543a5acadc566bb117e4a9283a218f6b47b12500e345514d70fe",
+          "sha1": "11fa79338f3cfb2da8ba8b5853ba09067310bb90",
+          "md5": "a1707fc51d9c2b1d258ef579c3096d52"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-strings-v2.0.2-sources.jar",
+          "url": "utils-strings-v2.0.2-sources.jar",
+          "size": 1188,
+          "sha512": "b47aabeb2be71ab32a77375b650a8302968de6fac5f9610916ef325a4742a82213d4e36f269891a2fa83c52b8d20e9bceacb75c700a6475f7a6ad41c857b9321",
+          "sha256": "7d5703cdc1784bbaac1dc31689a5a93932ab54665456d55faf155d66d950992a",
+          "sha1": "0bcb4fccc0044ed1f0c206854b3e8ee4eddf7cdc",
+          "md5": "182691bfe05f2a50b5b15de59e8161c9"
+        }
+      ]
+    }
+  ]
+}

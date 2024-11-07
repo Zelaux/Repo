@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "graphics",
+    "version": "v2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphics-v2.0.2.jar",
+          "url": "graphics-v2.0.2.jar",
+          "size": 261,
+          "sha512": "d9445bad6966d92a644c08caed4e717b49bb07ff69d02f0afc1dfefc3c385fe4d42e626b76580bc191f387dd94196c9e5c9fde22d013fb6d30ac21c5e2aff03a",
+          "sha256": "c700dfd2e0c5b578c3aa93cb8f05981d21a67a60babd07a31e9a9179cc33d11c",
+          "sha1": "b85a528fa194a1cd5f2a2fea4b53f3435eb0b88f",
+          "md5": "6e098a692c757df65c77f5b35339a4ef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-v2.0.2.jar",
+          "url": "graphics-v2.0.2.jar",
+          "size": 261,
+          "sha512": "d9445bad6966d92a644c08caed4e717b49bb07ff69d02f0afc1dfefc3c385fe4d42e626b76580bc191f387dd94196c9e5c9fde22d013fb6d30ac21c5e2aff03a",
+          "sha256": "c700dfd2e0c5b578c3aa93cb8f05981d21a67a60babd07a31e9a9179cc33d11c",
+          "sha1": "b85a528fa194a1cd5f2a2fea4b53f3435eb0b88f",
+          "md5": "6e098a692c757df65c77f5b35339a4ef"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-v2.0.2-sources.jar",
+          "url": "graphics-v2.0.2-sources.jar",
+          "size": 261,
+          "sha512": "d9445bad6966d92a644c08caed4e717b49bb07ff69d02f0afc1dfefc3c385fe4d42e626b76580bc191f387dd94196c9e5c9fde22d013fb6d30ac21c5e2aff03a",
+          "sha256": "c700dfd2e0c5b578c3aa93cb8f05981d21a67a60babd07a31e9a9179cc33d11c",
+          "sha1": "b85a528fa194a1cd5f2a2fea4b53f3435eb0b88f",
+          "md5": "6e098a692c757df65c77f5b35339a4ef"
+        }
+      ]
+    }
+  ]
+}

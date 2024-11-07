@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "plugins",
+    "version": "v2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugins-v2.0.2.jar",
+          "url": "plugins-v2.0.2.jar",
+          "size": 3214,
+          "sha512": "2fcfff7f1c960efd4dbeef6e995f43c714bf3760f4e8a7d63ca8c264fd369b195e9937a0dfd282558fdcb8a68c88ff7d66ae857ab3e9e315a02622c2b211b48c",
+          "sha256": "1bfceb12195c81b433b0b01eba7e0461bed7d2d13edbcf51abe7e12d04a8852b",
+          "sha1": "a774d8da83d234db8ccb6128a796a944f044a9b8",
+          "md5": "0a3def2c09f70144a0d6adef7148680c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "plugins-v2.0.2.jar",
+          "url": "plugins-v2.0.2.jar",
+          "size": 3214,
+          "sha512": "2fcfff7f1c960efd4dbeef6e995f43c714bf3760f4e8a7d63ca8c264fd369b195e9937a0dfd282558fdcb8a68c88ff7d66ae857ab3e9e315a02622c2b211b48c",
+          "sha256": "1bfceb12195c81b433b0b01eba7e0461bed7d2d13edbcf51abe7e12d04a8852b",
+          "sha1": "a774d8da83d234db8ccb6128a796a944f044a9b8",
+          "md5": "0a3def2c09f70144a0d6adef7148680c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "plugins-v2.0.2-sources.jar",
+          "url": "plugins-v2.0.2-sources.jar",
+          "size": 1546,
+          "sha512": "beb4cc8172f6e1426fd00ada78c205636afa504a0983dde58f8e413d599bb47fc7fd5892fb420e61dee34aaf20d7442a4198cc19176359ca3f3bcd86ad1db998",
+          "sha256": "55b81de56c6edb54b5b9653b6e866a7a2f817f064fc8fce46da8574342e13b11",
+          "sha1": "177909bc6e222013a3432a335d5e7450adf71f42",
+          "md5": "d5cd51fd48a20f63f1feabacb018a8b5"
+        }
+      ]
+    }
+  ]
+}
