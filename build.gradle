@@ -9,6 +9,7 @@ supportedRepos{
             repo("Zelaux", "MindustryModCore"),
             repo("Zelaux", "ArgumentParser"),
             repo("Zelaux", "AdvancedContentInfo"),
+            repo("Zelaux", "JavaAsmExtension"),
     ]
 }
 dependencies{
