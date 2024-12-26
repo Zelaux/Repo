@@ -37,10 +37,10 @@
           "name": "annotations-value-class-unspecified.jar",
           "url": "annotations-value-class-unspecified.jar",
           "size": 8988,
-          "sha512": "52f3673e8a1c48b4ee1a750401d0991b60e973506a8d5e2dce4d4965b8084edefddf045636136ac47b6018e1a4023b6cec19989f2b318d34b30e44ccb5a1299c",
-          "sha256": "9ce2ea7f5c7ee802b5dc282e948fe5fc5fc692df6611c4eec4694d9f4184c17c",
-          "sha1": "6162cb721e9e6cb315188715a469886175951bdb",
-          "md5": "28644716e1d95e2ef709aec04cf8df88"
+          "sha512": "9a9a434b6de183813cc3f67409e675bdedd2d16adbf5cce94fbb1784eb4c2caf6b6c0334b614c0f3b82fdb7a2e9a8613581f843ffdfe50ff6a113e37f7985b01",
+          "sha256": "ba7c929c519d4e8fd6c3d7dfc15aacff6b2561667e4e688586fe971c180b8882",
+          "sha1": "7afafc8f96e2d2ecc7c83ab04013ef469185fb8a",
+          "md5": "2647f651ca1c05391e16c81bb0526edf"
         }
       ]
     },
@@ -102,10 +102,10 @@
           "name": "annotations-value-class-unspecified.jar",
           "url": "annotations-value-class-unspecified.jar",
           "size": 8988,
-          "sha512": "52f3673e8a1c48b4ee1a750401d0991b60e973506a8d5e2dce4d4965b8084edefddf045636136ac47b6018e1a4023b6cec19989f2b318d34b30e44ccb5a1299c",
-          "sha256": "9ce2ea7f5c7ee802b5dc282e948fe5fc5fc692df6611c4eec4694d9f4184c17c",
-          "sha1": "6162cb721e9e6cb315188715a469886175951bdb",
-          "md5": "28644716e1d95e2ef709aec04cf8df88"
+          "sha512": "9a9a434b6de183813cc3f67409e675bdedd2d16adbf5cce94fbb1784eb4c2caf6b6c0334b614c0f3b82fdb7a2e9a8613581f843ffdfe50ff6a113e37f7985b01",
+          "sha256": "ba7c929c519d4e8fd6c3d7dfc15aacff6b2561667e4e688586fe971c180b8882",
+          "sha1": "7afafc8f96e2d2ecc7c83ab04013ef469185fb8a",
+          "md5": "2647f651ca1c05391e16c81bb0526edf"
         }
       ]
     },
@@ -122,10 +122,10 @@
           "name": "annotations-value-class-unspecified-sources.jar",
           "url": "annotations-value-class-unspecified-sources.jar",
           "size": 4165,
-          "sha512": "f27cf4c8a6146a8ac990f34e93548b5a7560a85865fe1e81c7bf87d0f537357188f5cba8a48ca5b67054c4a1a762851678dfe776c66bab88cbbe0debc3b4edf1",
-          "sha256": "dd39d8550260931bc5f823a98e9732f9e654a299bfdd0efca8d6c520e246a434",
-          "sha1": "5337cff0f280eaf4df52b18e0b1abd6a01240502",
-          "md5": "5cd75c4b2941b68526fd719fb0587a2a"
+          "sha512": "d20daa30d173e495229a91ee8b45a64ce252586ff01f8b9a4f696c60a15c95276918abd0330ba326cffd68240fa8dfd846183792b369c5aa623ca2be9c6db71a",
+          "sha256": "e1b7c116db4aee649cee443fc6a7af9b59e9c6eb5d59f24240a3cfa8a12a726f",
+          "sha1": "29dea606e03fd3efc9f3f6f9d44d5056271d9e22",
+          "md5": "c2e744cd88995bce244cd8bd56cda260"
         }
       ]
     }

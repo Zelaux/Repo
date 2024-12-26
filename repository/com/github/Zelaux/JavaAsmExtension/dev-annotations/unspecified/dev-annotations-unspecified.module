@@ -28,10 +28,10 @@
           "name": "dev-annotations-unspecified.jar",
           "url": "dev-annotations-unspecified.jar",
           "size": 1448,
-          "sha512": "e504979d59b649f59ff1461f8a5e8e17272bc67c639665a462bf2b3df146dce43387a234b71b4ab40d8c6e39ea0694aff9ed4d1843497fdaa4472e735238e8fd",
-          "sha256": "636f550cc65203de41c35d69b674a490443380638dd743736ef9cb0be94c6680",
-          "sha1": "3239c17e17a45f48479352ed3dec320b5e13988b",
-          "md5": "7ea60b106b898d9ff1a08b3f48705fb4"
+          "sha512": "635052b3776f35a999fa6fcc4d0bb5c9e4e36ed2f1789cd91996e3cd51fe80308a74d26d633836b932fbaff6c170cc87c647394a1edf89dcdfe3fb3ce62c7e5e",
+          "sha256": "fb033937cdbb9f0c3c54426da41034fcd0ba57733ec16330f42df6e0d205213d",
+          "sha1": "1a1c6ebe9a689b076b53f252c70a9baf9c50ee8d",
+          "md5": "69b38e6d2f6ab4b6db22cc5f86f3d379"
         }
       ]
     },
@@ -72,10 +72,10 @@
           "name": "dev-annotations-unspecified.jar",
           "url": "dev-annotations-unspecified.jar",
           "size": 1448,
-          "sha512": "e504979d59b649f59ff1461f8a5e8e17272bc67c639665a462bf2b3df146dce43387a234b71b4ab40d8c6e39ea0694aff9ed4d1843497fdaa4472e735238e8fd",
-          "sha256": "636f550cc65203de41c35d69b674a490443380638dd743736ef9cb0be94c6680",
-          "sha1": "3239c17e17a45f48479352ed3dec320b5e13988b",
-          "md5": "7ea60b106b898d9ff1a08b3f48705fb4"
+          "sha512": "635052b3776f35a999fa6fcc4d0bb5c9e4e36ed2f1789cd91996e3cd51fe80308a74d26d633836b932fbaff6c170cc87c647394a1edf89dcdfe3fb3ce62c7e5e",
+          "sha256": "fb033937cdbb9f0c3c54426da41034fcd0ba57733ec16330f42df6e0d205213d",
+          "sha1": "1a1c6ebe9a689b076b53f252c70a9baf9c50ee8d",
+          "md5": "69b38e6d2f6ab4b6db22cc5f86f3d379"
         }
       ]
     },
@@ -92,10 +92,10 @@
           "name": "dev-annotations-unspecified-sources.jar",
           "url": "dev-annotations-unspecified-sources.jar",
           "size": 1386,
-          "sha512": "4101ba8f422ed6caeab5c848528224bdc6542eb6fd39f9b7d8157c7c3bd3695f6599a41d76f83ea698e45cc058816244501d10c969ad764674f90419016ba139",
-          "sha256": "3e2145b26157c6bda9e34bcc05449ce3ed03f7c410832c8ac644b3832d6e9023",
-          "sha1": "4195b2df70c0729f6a583ae8cb4f157b1738eed6",
-          "md5": "dc302c9491e39f6bc8f6b3ef02dec31e"
+          "sha512": "cb8702df2337e6c60c326f9d89aea48565ae9ea14f6abcc9609e5768ef9d5f972a84a29d8a93a59eb5900127fea90fad7368b99e559f81b74f50dee6a9b5d45c",
+          "sha256": "b4a2860b244d229de5a11d8eb7f56e1399db62c18c3ebf83af67a0d83a49c4a7",
+          "sha1": "45fcbc6976cbc76c16036ae45b44b4945484bfbf",
+          "md5": "746568a290a70efd2420a3b2a961fed9"
         }
       ]
     }

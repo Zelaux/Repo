@@ -28,10 +28,10 @@
           "name": "annotations-lombok-plugin-starter-unspecified.jar",
           "url": "annotations-lombok-plugin-starter-unspecified.jar",
           "size": 40354,
-          "sha512": "afb75547a538452c2508a3b28bed2e4cf59eaa1714df4fc774288e1eebb48d28b5013526c34832f824c44cfb76ce2ab523199dbd4f5b90754a31f05482171dee",
-          "sha256": "14d86309de024640a426a9a64fff440093c561848f99fef2109f07bc451b047b",
-          "sha1": "c3b3aef6124a1de263a8b617efa53b6a25bad2cc",
-          "md5": "d2e0e37e9340aba2db3972f955ee234b"
+          "sha512": "44dda3b11b1bc12cbe7e04695a4e2f903aaaf50e95aee01978eca24cee51616e3e6f82e36ea42ae5c1c7cc3eeb5930d4d21d90a6e883e4cdeb149aecb867db87",
+          "sha256": "604ed4ce5243c69abc5f5698a1e165d0c0e2b8dfd8b2908b58a049680cec9258",
+          "sha1": "cedd453923770c004deee45355cd321611c1173a",
+          "md5": "f2c6bd966c59649a3a8e3aa6defbed04"
         }
       ]
     },
@@ -86,10 +86,10 @@
           "name": "annotations-lombok-plugin-starter-unspecified.jar",
           "url": "annotations-lombok-plugin-starter-unspecified.jar",
           "size": 40354,
-          "sha512": "afb75547a538452c2508a3b28bed2e4cf59eaa1714df4fc774288e1eebb48d28b5013526c34832f824c44cfb76ce2ab523199dbd4f5b90754a31f05482171dee",
-          "sha256": "14d86309de024640a426a9a64fff440093c561848f99fef2109f07bc451b047b",
-          "sha1": "c3b3aef6124a1de263a8b617efa53b6a25bad2cc",
-          "md5": "d2e0e37e9340aba2db3972f955ee234b"
+          "sha512": "44dda3b11b1bc12cbe7e04695a4e2f903aaaf50e95aee01978eca24cee51616e3e6f82e36ea42ae5c1c7cc3eeb5930d4d21d90a6e883e4cdeb149aecb867db87",
+          "sha256": "604ed4ce5243c69abc5f5698a1e165d0c0e2b8dfd8b2908b58a049680cec9258",
+          "sha1": "cedd453923770c004deee45355cd321611c1173a",
+          "md5": "f2c6bd966c59649a3a8e3aa6defbed04"
         }
       ]
     },
@@ -106,10 +106,10 @@
           "name": "annotations-lombok-plugin-starter-unspecified-sources.jar",
           "url": "annotations-lombok-plugin-starter-unspecified-sources.jar",
           "size": 14380,
-          "sha512": "4065cb7aca3b52e3b1281a6a77e20329a01fb7327ea7dc44a9a40acf9318e42e4f5cf098a2f67adbd0ee54a8729c25220c1a22ec75b4a58d9b83a9322575537e",
-          "sha256": "827258a7129e42930db9a858fae197b24dfa180dc5890f69403dd81a01c6dfb0",
-          "sha1": "6e85d54398299675261cbaa2d720a8f6f0c4ed01",
-          "md5": "ebc3c9dd8d9391fa9b2fb2bfac9d616e"
+          "sha512": "ec533a91f69cd83533ee29f1f7b79c4bb9299be6e7aa31185ac6402f1febcede7bbf2434b8c522a3fa80246c55bc2f0210cd4d3ace783fb357288852655c83b7",
+          "sha256": "6d05e2f1bc1435a7d257d2aa8f62f08bfe5000c829bd3af163b36cb2b9a9d9f4",
+          "sha1": "07ec9d1d9be0e735f55732811ecd406d44cf7cd6",
+          "md5": "69e64bfd6697cf6d6ee7cbc929277e16"
         }
       ]
     }
