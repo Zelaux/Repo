@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.JavaAsmExtension",
+    "module": "annotations-lombok-plugin-starter",
+    "version": "v0.9.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "annotations-unshadowed-lombok",
+          "version": {
+            "requires": "v0.9.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-lombok-plugin-starter-v0.9.5.jar",
+          "url": "annotations-lombok-plugin-starter-v0.9.5.jar",
+          "size": 40354,
+          "sha512": "421ad77d19d6a5bf4fedc30c5934286ccd8a9f8e5955b19a8b426af3eb55981b01072513671ba600ba952c9f7c5703babbd13ba2b9791b8f10b359fc19332fc0",
+          "sha256": "b5f80e2907684629ea66446b129ceb845a8df8b3d37635c566298e2ce3590021",
+          "sha1": "54573b7f30ce309e983c5182210ff02c4b09ef1f",
+          "md5": "984035f1a7cf649696f9323bda2b8aef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.26.0"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "v0.9.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-lombok-plugin-starter-v0.9.5.jar",
+          "url": "annotations-lombok-plugin-starter-v0.9.5.jar",
+          "size": 40354,
+          "sha512": "421ad77d19d6a5bf4fedc30c5934286ccd8a9f8e5955b19a8b426af3eb55981b01072513671ba600ba952c9f7c5703babbd13ba2b9791b8f10b359fc19332fc0",
+          "sha256": "b5f80e2907684629ea66446b129ceb845a8df8b3d37635c566298e2ce3590021",
+          "sha1": "54573b7f30ce309e983c5182210ff02c4b09ef1f",
+          "md5": "984035f1a7cf649696f9323bda2b8aef"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-lombok-plugin-starter-v0.9.5-sources.jar",
+          "url": "annotations-lombok-plugin-starter-v0.9.5-sources.jar",
+          "size": 14380,
+          "sha512": "9385dbc49c37a7332cce6b73ae6d46a539555bab3d70d5ad5efd5cb70279aebd04592997eddd69f8b714e50f75c64efa16e2988bb477661583b563d20f7c46a0",
+          "sha256": "d2ebd980c48c9d8f6626e32786000241ef6e5217b693a486836acd1554b74704",
+          "sha1": "c5c781b72c8e02adb463eeb9df6ab68b4bd98950",
+          "md5": "a5be2925bdc92e77ffa49e7467692e03"
+        }
+      ]
+    }
+  ]
+}
