@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.JavaAsmExtension",
+    "module": "annotations-lombok-plugin-starter",
+    "version": "v0.9.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-lombok-plugin-starter-v0.9.4.jar",
+          "url": "annotations-lombok-plugin-starter-v0.9.4.jar",
+          "size": 40354,
+          "sha512": "ddaf329117a616fbd2272eb10cfa24782accfcd2853ed64bc8499d8c6f2f78ce15c3102e5c7c2337e70375056d72d164df0be8eafe72df380378c0f7f43a4f29",
+          "sha256": "f8e2a6c3497cc60a2ef8d2e06a29e8b21f46183168399d845dfd391bcb9fa5d7",
+          "sha1": "00faa7a4aa9ca08219417271ebf907bbd57e0651",
+          "md5": "34985349f2fe7f978335aef96e6061d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.26.0"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "v0.9.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-lombok-plugin-starter-v0.9.4.jar",
+          "url": "annotations-lombok-plugin-starter-v0.9.4.jar",
+          "size": 40354,
+          "sha512": "ddaf329117a616fbd2272eb10cfa24782accfcd2853ed64bc8499d8c6f2f78ce15c3102e5c7c2337e70375056d72d164df0be8eafe72df380378c0f7f43a4f29",
+          "sha256": "f8e2a6c3497cc60a2ef8d2e06a29e8b21f46183168399d845dfd391bcb9fa5d7",
+          "sha1": "00faa7a4aa9ca08219417271ebf907bbd57e0651",
+          "md5": "34985349f2fe7f978335aef96e6061d9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-lombok-plugin-starter-v0.9.4-sources.jar",
+          "url": "annotations-lombok-plugin-starter-v0.9.4-sources.jar",
+          "size": 14380,
+          "sha512": "6de04ab0938a9b6961ed2c1db74013a551cb22d0501ca91c7d2f5710818d4eae5073f99e8b7b6eb40a2c6408c5c3ade458ac2f179169f87c819d5c2eb775bf8d",
+          "sha256": "e56b043975e93e981242fbd93a561dcfd808257ab7470f0e22d309a0870e554d",
+          "sha1": "127c87e6d7144a0ae9f63393268a4efd97125684",
+          "md5": "52cb7a3b6214f16194fca1a7a8a818b8"
+        }
+      ]
+    }
+  ]
+}

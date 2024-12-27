@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.JavaAsmExtension",
+    "module": "annotations-value-class",
+    "version": "v0.9.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "annotations-lombok-plugin-starter",
+          "version": {
+            "requires": "v0.9.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-value-class-v0.9.4.jar",
+          "url": "annotations-value-class-v0.9.4.jar",
+          "size": 8988,
+          "sha512": "74d2f1e2885f7671f2964f5d0b9a626abebb3eb959242158ef076f645eb5dd4fe2af95a3ba57e96f34b4956be690514739c6eed5a2455a0a279097c53017fee7",
+          "sha256": "fd444a01edd555700920b89f28d3a9225e568c7d714f6adcad2e90776555f704",
+          "sha1": "1b3c0b9c5aad19a473659e3e5f9ff3a61cf29336",
+          "md5": "fbf2a20ea0d3db7ce3814a5d13176795"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.26.0"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "v0.9.4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "annotations-lombok-plugin-starter",
+          "version": {
+            "requires": "v0.9.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-value-class-v0.9.4.jar",
+          "url": "annotations-value-class-v0.9.4.jar",
+          "size": 8988,
+          "sha512": "74d2f1e2885f7671f2964f5d0b9a626abebb3eb959242158ef076f645eb5dd4fe2af95a3ba57e96f34b4956be690514739c6eed5a2455a0a279097c53017fee7",
+          "sha256": "fd444a01edd555700920b89f28d3a9225e568c7d714f6adcad2e90776555f704",
+          "sha1": "1b3c0b9c5aad19a473659e3e5f9ff3a61cf29336",
+          "md5": "fbf2a20ea0d3db7ce3814a5d13176795"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-value-class-v0.9.4-sources.jar",
+          "url": "annotations-value-class-v0.9.4-sources.jar",
+          "size": 4165,
+          "sha512": "beaa4cb52ca4603c2a58f81a79fb73702b17af54187cce708a697d1e1f2d3a404e5a2a99a313e449e63505f0d91f0a13aaee38d3395bf73ac223afef3d74fcc8",
+          "sha256": "194ae2b1d6408671fb9a7503cc8104fcce09e3a92882b5e34f4c2fe5a7f687af",
+          "sha1": "f4b9574d2c7d033d9904a4480d9c31b39f1a5671",
+          "md5": "03490ae67a97b43f47626749e9fbbff8"
+        }
+      ]
+    }
+  ]
+}

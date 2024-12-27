@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.JavaAsmExtension",
+    "module": "util-classfile-metadata",
+    "version": "v0.9.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "util-classfile-metadata-v0.9.4.jar",
+          "url": "util-classfile-metadata-v0.9.4.jar",
+          "size": 10640,
+          "sha512": "c546c5eefe9f2740c981abdb91e82ac2c963c091924e979dc1b56140ab24f3adb77f7a8363a74c10a110e0c02fcdd2dc290e9b8e93d6d25e642eb67393177ee9",
+          "sha256": "8a7d7e839f444ad9a34b9747c5f10fb502282b474d8c752969de88f1f84a5322",
+          "sha1": "bea9a9341819deecb96ebbc6b75260cdcca9e3c5",
+          "md5": "cbab7efb9f3a765675bbabf1c1c78e09"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-classfile-metadata-v0.9.4.jar",
+          "url": "util-classfile-metadata-v0.9.4.jar",
+          "size": 10640,
+          "sha512": "c546c5eefe9f2740c981abdb91e82ac2c963c091924e979dc1b56140ab24f3adb77f7a8363a74c10a110e0c02fcdd2dc290e9b8e93d6d25e642eb67393177ee9",
+          "sha256": "8a7d7e839f444ad9a34b9747c5f10fb502282b474d8c752969de88f1f84a5322",
+          "sha1": "bea9a9341819deecb96ebbc6b75260cdcca9e3c5",
+          "md5": "cbab7efb9f3a765675bbabf1c1c78e09"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "util-classfile-metadata-v0.9.4-sources.jar",
+          "url": "util-classfile-metadata-v0.9.4-sources.jar",
+          "size": 4549,
+          "sha512": "5ac618082c396d0a60c9212ef435ce70ade0958e87faa80a748e2f84fa9c375bc6bfe8fe52254331a320e4f4399b066da9558728048cb0d7953d15fe80f36b33",
+          "sha256": "4c852f42a30317c2083f43fc5ff58f37a2cfdf1eead61d7496f4bf3ca9823298",
+          "sha1": "fa89aa4f94592a641b4b5a0c252f8a42059e2dc2",
+          "md5": "12ae7acaed1e4f9e3b5774b7a5ca4d4f"
+        }
+      ]
+    }
+  ]
+}
