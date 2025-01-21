@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.JavaAsmExtension",
+    "module": "annotations-debug-print",
+    "version": "v0.9.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "annotations-lombok-plugin-starter",
+          "version": {
+            "requires": "v0.9.6"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "annotations-unshadowed-lombok",
+          "version": {
+            "requires": "v0.9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-debug-print-v0.9.6.jar",
+          "url": "annotations-debug-print-v0.9.6.jar",
+          "size": 12520,
+          "sha512": "afd0b24c8395540d42d995b9c041bdd376bd8a264f4559d892fce3e78a0298942fe1613dc230caeef973f73c737fb3a88b3140791530abf1ace1c58920d80005",
+          "sha256": "4b83e938418c83e9b5a466d949f92f1084cdb015ad17c4ebfa88458b02459a22",
+          "sha1": "157c924bd3e86c652cde44751fd947c03c1da443",
+          "md5": "169adf1965f5b000aed07186e571b8c7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "v0.9.6"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-node",
+          "version": {
+            "requires": "v0.9.6"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "annotations-lombok-plugin-starter",
+          "version": {
+            "requires": "v0.9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-debug-print-v0.9.6.jar",
+          "url": "annotations-debug-print-v0.9.6.jar",
+          "size": 12520,
+          "sha512": "afd0b24c8395540d42d995b9c041bdd376bd8a264f4559d892fce3e78a0298942fe1613dc230caeef973f73c737fb3a88b3140791530abf1ace1c58920d80005",
+          "sha256": "4b83e938418c83e9b5a466d949f92f1084cdb015ad17c4ebfa88458b02459a22",
+          "sha1": "157c924bd3e86c652cde44751fd947c03c1da443",
+          "md5": "169adf1965f5b000aed07186e571b8c7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-debug-print-v0.9.6-sources.jar",
+          "url": "annotations-debug-print-v0.9.6-sources.jar",
+          "size": 5562,
+          "sha512": "2dc423db6166402223cfa4600aca045a1d62bb42d4054c65a0f60f05c57f64db91ff99c17a1cd2daba365adb8863488d700ef134b4ca9742a757dc3a4f353341",
+          "sha256": "f9810a73be9f4853c7a0dd9b1955181a62040d870fb79ac95bbcfb156f8f336c",
+          "sha1": "d71852003825a0ba7b86c1c62e20ecfc5a314eb3",
+          "md5": "23bfc5d2e0807da4fbe59b8e444b2412"
+        }
+      ]
+    }
+  ]
+}
