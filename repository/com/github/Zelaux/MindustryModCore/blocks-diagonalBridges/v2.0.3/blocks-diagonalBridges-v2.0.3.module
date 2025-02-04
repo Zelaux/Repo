@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-diagonalBridges",
+    "version": "v2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-diagonalBridges-v2.0.3.jar",
+          "url": "blocks-diagonalBridges-v2.0.3.jar",
+          "size": 21409,
+          "sha512": "1686adfeb91668393ac2abe897bb7763ff588ac5773ec33292acdd4095770fbe4a11da2a5c28fb7d0f76d41c0e7fa3a961cc9c6eafebf9a1c370f946a9c0a7c6",
+          "sha256": "28627a3ac37f1202aece91b4b9830625073a0336ff64653362bbd57b3f768692",
+          "sha1": "3c7ee000bb4f27124135a0cd8019c2d6d6b9ebec",
+          "md5": "9194e8a2106b147ffc13f227123e618a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-diagonalBridges-v2.0.3.jar",
+          "url": "blocks-diagonalBridges-v2.0.3.jar",
+          "size": 21409,
+          "sha512": "1686adfeb91668393ac2abe897bb7763ff588ac5773ec33292acdd4095770fbe4a11da2a5c28fb7d0f76d41c0e7fa3a961cc9c6eafebf9a1c370f946a9c0a7c6",
+          "sha256": "28627a3ac37f1202aece91b4b9830625073a0336ff64653362bbd57b3f768692",
+          "sha1": "3c7ee000bb4f27124135a0cd8019c2d6d6b9ebec",
+          "md5": "9194e8a2106b147ffc13f227123e618a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-diagonalBridges-v2.0.3-sources.jar",
+          "url": "blocks-diagonalBridges-v2.0.3-sources.jar",
+          "size": 6090,
+          "sha512": "e644f0aaf59c12a286dc27449c6826da9450eeb37a975189b7f0027570aa5518165306697550683ec4eefd658d831734ab9b49a790dfa2f1d7a496fc65129b21",
+          "sha256": "fc28952fc66601e258dd80bc474b955343b93cc55d23ea1cd33a4d931c95d7aa",
+          "sha1": "e4ad8c8ed73428a09d500b2c0d152d2a6c94985b",
+          "md5": "49d7f705ce3cffd76e8c30368f940a4d"
+        },
+        {
+          "name": "blocks-diagonalBridges-v2.0.3-sources.jar",
+          "url": "blocks-diagonalBridges-v2.0.3-sources.jar",
+          "size": 6090,
+          "sha512": "e644f0aaf59c12a286dc27449c6826da9450eeb37a975189b7f0027570aa5518165306697550683ec4eefd658d831734ab9b49a790dfa2f1d7a496fc65129b21",
+          "sha256": "fc28952fc66601e258dd80bc474b955343b93cc55d23ea1cd33a4d931c95d7aa",
+          "sha1": "e4ad8c8ed73428a09d500b2c0d152d2a6c94985b",
+          "md5": "49d7f705ce3cffd76e8c30368f940a4d"
+        }
+      ]
+    }
+  ]
+}

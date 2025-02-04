@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-multiCrafter",
+    "version": "v2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-multiCrafter-v2.0.3.jar",
+          "url": "blocks-multiCrafter-v2.0.3.jar",
+          "size": 36980,
+          "sha512": "70b6c92c780b5bf04b589f3a6485f41e4bd730729162715ae829097c31c1769d847f0f3b28b19d26f0434e040b3645973ed6271cab8dc1d6c7afb3ac7e988475",
+          "sha256": "2be5ab93da02f0d1ca6aefcbcf623d90ed94bcf7193f4df4dd91c01714b91b6c",
+          "sha1": "f03f908478b9e798f5a365f69151190956bc96e3",
+          "md5": "40ff119d44082c044d99f0cf92ed5ba0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "blocks-consumers",
+          "version": {
+            "requires": "v2.0.3"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-multiCrafter-v2.0.3.jar",
+          "url": "blocks-multiCrafter-v2.0.3.jar",
+          "size": 36980,
+          "sha512": "70b6c92c780b5bf04b589f3a6485f41e4bd730729162715ae829097c31c1769d847f0f3b28b19d26f0434e040b3645973ed6271cab8dc1d6c7afb3ac7e988475",
+          "sha256": "2be5ab93da02f0d1ca6aefcbcf623d90ed94bcf7193f4df4dd91c01714b91b6c",
+          "sha1": "f03f908478b9e798f5a365f69151190956bc96e3",
+          "md5": "40ff119d44082c044d99f0cf92ed5ba0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-multiCrafter-v2.0.3-sources.jar",
+          "url": "blocks-multiCrafter-v2.0.3-sources.jar",
+          "size": 11455,
+          "sha512": "4675bd85f31b535788a12300c692a367691c33a17244d053e8339ae0a872207ff43bb4e5748497f38f0ae206b58c79ecc3e5f60cef2e030a9dec4cb3550dce3b",
+          "sha256": "3431366e1a5aeaae9a124f71528ceee2d874b552b986a6e02f4030e5fc66abfc",
+          "sha1": "0c9751ea35cf37dd760289d7d01f58c5cddc118a",
+          "md5": "be40c38aebb9bae4728818f61feeaebd"
+        },
+        {
+          "name": "blocks-multiCrafter-v2.0.3-sources.jar",
+          "url": "blocks-multiCrafter-v2.0.3-sources.jar",
+          "size": 11455,
+          "sha512": "4675bd85f31b535788a12300c692a367691c33a17244d053e8339ae0a872207ff43bb4e5748497f38f0ae206b58c79ecc3e5f60cef2e030a9dec4cb3550dce3b",
+          "sha256": "3431366e1a5aeaae9a124f71528ceee2d874b552b986a6e02f4030e5fc66abfc",
+          "sha1": "0c9751ea35cf37dd760289d7d01f58c5cddc118a",
+          "md5": "be40c38aebb9bae4728818f61feeaebd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-serialize",
+    "version": "v2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-serialize-v2.0.3.jar",
+          "url": "annotations-serialize-v2.0.3.jar",
+          "size": 14189957,
+          "sha512": "92af25638b938e7bcc7935fd128934abb7a7b764bb9128af6e274e33eedb4efd0067612906ee69718ccb14a8df570bba59245bf8fd4da8abb6ec1ecc7573cd46",
+          "sha256": "e60f92cd882b6ed8615b8294d243a3c19b9790ababa506bf1e1d9d8a0d184b43",
+          "sha1": "854ebedccc7eea4d4022a1a752017496fd57b91d",
+          "md5": "ba7eb52673c632aeeac51723de5f0b40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-serialize-v2.0.3.jar",
+          "url": "annotations-serialize-v2.0.3.jar",
+          "size": 14189957,
+          "sha512": "92af25638b938e7bcc7935fd128934abb7a7b764bb9128af6e274e33eedb4efd0067612906ee69718ccb14a8df570bba59245bf8fd4da8abb6ec1ecc7573cd46",
+          "sha256": "e60f92cd882b6ed8615b8294d243a3c19b9790ababa506bf1e1d9d8a0d184b43",
+          "sha1": "854ebedccc7eea4d4022a1a752017496fd57b91d",
+          "md5": "ba7eb52673c632aeeac51723de5f0b40"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-serialize-v2.0.3-sources.jar",
+          "url": "annotations-serialize-v2.0.3-sources.jar",
+          "size": 8263,
+          "sha512": "d67df7e983f70ee1520fbd106928a947786711885f9fcb96d5c27fdbb10a578935a66e4099f4a0bea5391b1d6742ceed55558b98f7129fe88879b6f837e40385",
+          "sha256": "1e5fa2049a3e1a69e0c255dde4ed80a4db687186dc026d36a57df2c40f8b006f",
+          "sha1": "fd66fc075629d9dd7d20600a858f6ce4e10ab30b",
+          "md5": "0ae3d9bcb030ff295e2c8f1c0ef65999"
+        }
+      ]
+    }
+  ]
+}

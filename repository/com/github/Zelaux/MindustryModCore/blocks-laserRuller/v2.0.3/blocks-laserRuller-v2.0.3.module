@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-laserRuller",
+    "version": "v2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-laserRuller-v2.0.3.jar",
+          "url": "blocks-laserRuller-v2.0.3.jar",
+          "size": 15548,
+          "sha512": "59bf3656bb332e1ce99f83bb41271211a4d69f2ae0007519f314e024c78d1dc2b12827920ed8a89cd45455194f6e70aecef46f79e14c8dcf8a3e9b3446ab8ee0",
+          "sha256": "40813caa2d3a60d2fb80a844c9358276cdd0c08b9bafef6cee24628a65188140",
+          "sha1": "dc6e222bed562ac1bc3f3d4e73ca30dc2bbd6114",
+          "md5": "4720ccca1c7b0322dfec448553810eb0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "graphics-drawText",
+          "version": {
+            "requires": "v2.0.3"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-laserRuller-v2.0.3.jar",
+          "url": "blocks-laserRuller-v2.0.3.jar",
+          "size": 15548,
+          "sha512": "59bf3656bb332e1ce99f83bb41271211a4d69f2ae0007519f314e024c78d1dc2b12827920ed8a89cd45455194f6e70aecef46f79e14c8dcf8a3e9b3446ab8ee0",
+          "sha256": "40813caa2d3a60d2fb80a844c9358276cdd0c08b9bafef6cee24628a65188140",
+          "sha1": "dc6e222bed562ac1bc3f3d4e73ca30dc2bbd6114",
+          "md5": "4720ccca1c7b0322dfec448553810eb0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-laserRuller-v2.0.3-sources.jar",
+          "url": "blocks-laserRuller-v2.0.3-sources.jar",
+          "size": 2868,
+          "sha512": "d7c6e79dc20b3d3396137143a06f50ec4192f8cf4518834249d40f340b0dcf92f5389e98420058f0f9fa27ebdea77494b68718b474140c8c7a4c7c9f882ba627",
+          "sha256": "b2a15e613bbef3616d19d3ff8ee70f7cca2bd849c02c3b7010967a5a3fd544fd",
+          "sha1": "e9fd6f1e1bf13f8a0a46de24c10f9cad1fadfbe3",
+          "md5": "fa928b7b62fdbd1bbe5fb5ef86c506e1"
+        },
+        {
+          "name": "blocks-laserRuller-v2.0.3-sources.jar",
+          "url": "blocks-laserRuller-v2.0.3-sources.jar",
+          "size": 2868,
+          "sha512": "d7c6e79dc20b3d3396137143a06f50ec4192f8cf4518834249d40f340b0dcf92f5389e98420058f0f9fa27ebdea77494b68718b474140c8c7a4c7c9f882ba627",
+          "sha256": "b2a15e613bbef3616d19d3ff8ee70f7cca2bd849c02c3b7010967a5a3fd544fd",
+          "sha1": "e9fd6f1e1bf13f8a0a46de24c10f9cad1fadfbe3",
+          "md5": "fa928b7b62fdbd1bbe5fb5ef86c506e1"
+        }
+      ]
+    }
+  ]
+}
