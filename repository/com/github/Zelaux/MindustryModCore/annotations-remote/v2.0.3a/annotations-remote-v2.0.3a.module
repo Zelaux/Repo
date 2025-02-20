@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-remote",
+    "version": "v2.0.3a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-remote-v2.0.3a.jar",
+          "url": "annotations-remote-v2.0.3a.jar",
+          "size": 14182152,
+          "sha512": "fccd48da797feff8d9c795f3c76abd049216a1dd9689209ff5d7801d44481cea949278a70398ba2b8091f82bd0ff76877941befe896667a559e1c05f6fc7c5be",
+          "sha256": "91a3ee22c9e9f1c2befc935c9446cf7686f5b2e5090c0ce6956bbe0df3fd3019",
+          "sha1": "50c3deb845568c2a50461d60c98ba66f57f5be2d",
+          "md5": "8aac0d7d2b9a973e8f151157ce082071"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3a"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-remote-v2.0.3a.jar",
+          "url": "annotations-remote-v2.0.3a.jar",
+          "size": 14182152,
+          "sha512": "fccd48da797feff8d9c795f3c76abd049216a1dd9689209ff5d7801d44481cea949278a70398ba2b8091f82bd0ff76877941befe896667a559e1c05f6fc7c5be",
+          "sha256": "91a3ee22c9e9f1c2befc935c9446cf7686f5b2e5090c0ce6956bbe0df3fd3019",
+          "sha1": "50c3deb845568c2a50461d60c98ba66f57f5be2d",
+          "md5": "8aac0d7d2b9a973e8f151157ce082071"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-remote-v2.0.3a-sources.jar",
+          "url": "annotations-remote-v2.0.3a-sources.jar",
+          "size": 9147,
+          "sha512": "c22fde3f692bab013c0cb108049ba05b253b4575b20fd5f2cd6d3e3c9bf6159da46644b139292d2cb66d58a4e8817d0bb567fb17c2fefcd590d9d0d010fa0869",
+          "sha256": "613d4ffbe9646f4cd6dfda3525735d906d454947b25e33ca58eed42e5ed22583",
+          "sha1": "72e0bfac0fca7add001c7b55271e50a6384169a5",
+          "md5": "d85ada0813a4d746f4b7eb1f2e178118"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-struct",
+    "version": "v2.0.3a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-struct-v2.0.3a.jar",
+          "url": "annotations-struct-v2.0.3a.jar",
+          "size": 14177896,
+          "sha512": "4b1d8c235965a5fe739322963541b452513f5aa573615953057f3c850f0908765578e8a0a1c81c7ed7a9945bcf8537118ab5ee0637fd24ff4860f74272cd44fc",
+          "sha256": "67842945836756b9a7c498d8fb5f7b0078c5ec27df70eb5705f35b7c7eb2a38f",
+          "sha1": "dd0ec356fd744301d49abebbc7571c5f288cff5a",
+          "md5": "ba8070c7a87a0b310144c919df92df82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3a"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-struct-v2.0.3a.jar",
+          "url": "annotations-struct-v2.0.3a.jar",
+          "size": 14177896,
+          "sha512": "4b1d8c235965a5fe739322963541b452513f5aa573615953057f3c850f0908765578e8a0a1c81c7ed7a9945bcf8537118ab5ee0637fd24ff4860f74272cd44fc",
+          "sha256": "67842945836756b9a7c498d8fb5f7b0078c5ec27df70eb5705f35b7c7eb2a38f",
+          "sha1": "dd0ec356fd744301d49abebbc7571c5f288cff5a",
+          "md5": "ba8070c7a87a0b310144c919df92df82"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-struct-v2.0.3a-sources.jar",
+          "url": "annotations-struct-v2.0.3a-sources.jar",
+          "size": 3242,
+          "sha512": "013471d2123eed50767473f2bded208f6baac9aedfb316893d982f5a46973fbe4be057ff3e60cdf028c05cd141ae0c8b48014ae2723452eb27b40c503f65dabb",
+          "sha256": "7317a4857ea34539f9885ddd8a244d7662d1f063eea5668468e097f818f67c23",
+          "sha1": "97fb74c392c1e8e326a11906be5cbeb2097240bb",
+          "md5": "9bd8925f9bba6af0fd12a73bac95ccbe"
+        }
+      ]
+    }
+  ]
+}

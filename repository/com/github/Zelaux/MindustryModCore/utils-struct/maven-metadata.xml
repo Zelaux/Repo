@@ -3,8 +3,8 @@
     <groupId>com.github.Zelaux.MindustryModCore</groupId>
     <artifactId>utils-struct</artifactId>
     <versioning>
-        <latest>v2.0.3</latest>
-        <release>v2.0.3</release>
+        <latest>v2.0.3a</latest>
+        <release>v2.0.3a</release>
         <versions>
             <version>repo-test4</version>
             <version>repo-test6</version>
@@ -12,6 +12,7 @@
             <version>v2.0.1</version>
             <version>v2.0.2</version>
             <version>v2.0.3</version>
+            <version>v2.0.3a</version>
         </versions>
         <lastUpdated>20240616174427</lastUpdated>
     </versioning>

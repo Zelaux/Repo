@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "tools",
+    "version": "v2.0.3a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tools-v2.0.3a.jar",
+          "url": "tools-v2.0.3a.jar",
+          "size": 21287599,
+          "sha512": "d4b3e7641127a3b34db42aff5b6878ccb12362afd6063f36eb04a6275e7de7de0db59726cb363db2f342b636861feb19b96eb451052b682aeb4df1036de1bf71",
+          "sha256": "8571f32543053a9c5f73d0df7667e8abe666765a02ca8a0e3fb920502a6a0979",
+          "sha1": "661bcf77fde3ab0f506248dc1982ab40321696f2",
+          "md5": "a2d2d3e91b4d242a6df52915e24704a6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svgrasterizer",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "core",
+          "version": {
+            "requires": "v2.0.3a"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations",
+          "version": {
+            "requires": "v2.0.3a"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "3.5.0.201409260305-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-v2.0.3a.jar",
+          "url": "tools-v2.0.3a.jar",
+          "size": 21287599,
+          "sha512": "d4b3e7641127a3b34db42aff5b6878ccb12362afd6063f36eb04a6275e7de7de0db59726cb363db2f342b636861feb19b96eb451052b682aeb4df1036de1bf71",
+          "sha256": "8571f32543053a9c5f73d0df7667e8abe666765a02ca8a0e3fb920502a6a0979",
+          "sha1": "661bcf77fde3ab0f506248dc1982ab40321696f2",
+          "md5": "a2d2d3e91b4d242a6df52915e24704a6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tools-v2.0.3a-sources.jar",
+          "url": "tools-v2.0.3a-sources.jar",
+          "size": 40228,
+          "sha512": "b7d960f9fe7df4cf625433294b299ec6eb49b0f2bb9a8c240f2dec179ce9192182e777689a0705e1dbe286415c95707978aecec783fa310f319a5515a90a82ee",
+          "sha256": "51a54b16b3f8eb02dbeedc9a230d911a74d82704da9c18159146837640113ea9",
+          "sha1": "37af4fa306ec8c165bc90c5d20d22ef504005a3e",
+          "md5": "45a14e15e5129f5d07df7a5ad9e1e2ff"
+        }
+      ]
+    }
+  ]
+}

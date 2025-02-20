@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "ui",
+    "version": "v2.0.3a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-v2.0.3a.jar",
+          "url": "ui-v2.0.3a.jar",
+          "size": 261,
+          "sha512": "57338f0bbcf2bac9b52d15934a7b420d62433b6c53b53cd70fb161cb3fb9401e83f18eb559920f4389eaf1ee9fb076b7c616061ba5a4bb0933b0dc1648ec3231",
+          "sha256": "9a89d0c52df7ee4e6d7d7ed3291579740564d32318bce3adcb1d06524409dbf5",
+          "sha1": "f535b6f08b06f9b9d8d0c587a72afdab29440f47",
+          "md5": "aa228a0f14a76bfd9890b921a9c4c472"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-v2.0.3a.jar",
+          "url": "ui-v2.0.3a.jar",
+          "size": 261,
+          "sha512": "57338f0bbcf2bac9b52d15934a7b420d62433b6c53b53cd70fb161cb3fb9401e83f18eb559920f4389eaf1ee9fb076b7c616061ba5a4bb0933b0dc1648ec3231",
+          "sha256": "9a89d0c52df7ee4e6d7d7ed3291579740564d32318bce3adcb1d06524409dbf5",
+          "sha1": "f535b6f08b06f9b9d8d0c587a72afdab29440f47",
+          "md5": "aa228a0f14a76bfd9890b921a9c4c472"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-v2.0.3a-sources.jar",
+          "url": "ui-v2.0.3a-sources.jar",
+          "size": 261,
+          "sha512": "57338f0bbcf2bac9b52d15934a7b420d62433b6c53b53cd70fb161cb3fb9401e83f18eb559920f4389eaf1ee9fb076b7c616061ba5a4bb0933b0dc1648ec3231",
+          "sha256": "9a89d0c52df7ee4e6d7d7ed3291579740564d32318bce3adcb1d06524409dbf5",
+          "sha1": "f535b6f08b06f9b9d8d0c587a72afdab29440f47",
+          "md5": "aa228a0f14a76bfd9890b921a9c4c472"
+        }
+      ]
+    }
+  ]
+}

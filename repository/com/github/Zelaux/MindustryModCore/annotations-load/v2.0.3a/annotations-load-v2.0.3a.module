@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-load",
+    "version": "v2.0.3a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-load-v2.0.3a.jar",
+          "url": "annotations-load-v2.0.3a.jar",
+          "size": 14178646,
+          "sha512": "ec8d1d77ebd9422f884d68c657d2c45b8e40722383b389482443982b93055c4a510323003dbd956ca389c40cf618d2800de720ddf83e3c380c9b67c4ec79cbeb",
+          "sha256": "e03aec46a029d66b2ccbf1747cb7c1a0b30383b1b66b8aabaa650c25a4d13493",
+          "sha1": "738ed573bedd0854852b10100b4f1e7a9cccd135",
+          "md5": "32707e64fadd88d2f5d3c7ca1153c85d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3a"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-load-v2.0.3a.jar",
+          "url": "annotations-load-v2.0.3a.jar",
+          "size": 14178646,
+          "sha512": "ec8d1d77ebd9422f884d68c657d2c45b8e40722383b389482443982b93055c4a510323003dbd956ca389c40cf618d2800de720ddf83e3c380c9b67c4ec79cbeb",
+          "sha256": "e03aec46a029d66b2ccbf1747cb7c1a0b30383b1b66b8aabaa650c25a4d13493",
+          "sha1": "738ed573bedd0854852b10100b4f1e7a9cccd135",
+          "md5": "32707e64fadd88d2f5d3c7ca1153c85d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-load-v2.0.3a-sources.jar",
+          "url": "annotations-load-v2.0.3a-sources.jar",
+          "size": 3868,
+          "sha512": "700f1b682b2a8137571747155a911492cafcb39373ef7716c4594457e6a83c5b5a050c6fd13fc2b3317c3db9fe957c1be9d64e44c467ce29e1d8b80641702136",
+          "sha256": "cc15763d21d8e6d0011b545dfdefd8ba2f9468a11a7a3b6d58c069fcd40146eb",
+          "sha1": "29c94d36a3c97c0918f3dcf528bb3a80a322f44a",
+          "md5": "15ec54baca78080171f9d26faea9ac5c"
+        }
+      ]
+    }
+  ]
+}

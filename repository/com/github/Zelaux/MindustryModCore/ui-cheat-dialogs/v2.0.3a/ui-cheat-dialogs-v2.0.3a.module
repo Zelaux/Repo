@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "ui-cheat-dialogs",
+    "version": "v2.0.3a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-cheat-dialogs-v2.0.3a.jar",
+          "url": "ui-cheat-dialogs-v2.0.3a.jar",
+          "size": 17147,
+          "sha512": "5aa882993a082181328147686e05cac1a53803661722cc111f11c77c70aa51d918d68cb223d3c230dfcb2a89c7b4ccf6679cf0bd1e9540d4b89f767d7891e070",
+          "sha256": "2a5b510b726f8a47af2501f2b125c356ca0a5c950edfee0bf6e160f98616ae39",
+          "sha1": "895acd46621424d953427f3b28ccfe9d0eefa2da",
+          "md5": "7ef26ad8a36c35c7733c045e44f989e9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-cheat-dialogs-v2.0.3a.jar",
+          "url": "ui-cheat-dialogs-v2.0.3a.jar",
+          "size": 17147,
+          "sha512": "5aa882993a082181328147686e05cac1a53803661722cc111f11c77c70aa51d918d68cb223d3c230dfcb2a89c7b4ccf6679cf0bd1e9540d4b89f767d7891e070",
+          "sha256": "2a5b510b726f8a47af2501f2b125c356ca0a5c950edfee0bf6e160f98616ae39",
+          "sha1": "895acd46621424d953427f3b28ccfe9d0eefa2da",
+          "md5": "7ef26ad8a36c35c7733c045e44f989e9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-cheat-dialogs-v2.0.3a-sources.jar",
+          "url": "ui-cheat-dialogs-v2.0.3a-sources.jar",
+          "size": 6519,
+          "sha512": "5f7e0ca876a2cd8b18081822b029726425dae07737a3f3031715759b68398ec6782db9fb0e793aafc54d52cf692637a921d16237365a21a2b22c430000e84063",
+          "sha256": "749b207b15fb51f046d6334b8eb649d1d2a10a833a43c1a53dda1fa54462b6d6",
+          "sha1": "a426cd2ce7b858af531b4102add63d659ce50d49",
+          "md5": "778e59804f1b4dc8439cca5476976e3b"
+        }
+      ]
+    }
+  ]
+}
