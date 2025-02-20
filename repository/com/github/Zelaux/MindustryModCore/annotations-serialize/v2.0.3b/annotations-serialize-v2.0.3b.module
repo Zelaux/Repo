@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-serialize",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-serialize-v2.0.3b.jar",
+          "url": "annotations-serialize-v2.0.3b.jar",
+          "size": 14303592,
+          "sha512": "cf67fbee59102042d41a1c6fea6423253984fd70cefe2f26bddf10116255c33310f27f00c7be218bc7218c068631e5d34870ca2b8c07419b95b4fc3ea504077a",
+          "sha256": "69ccfd7eaea8519f74a4cd16cd850bbb395ce66523e5db2bf5e7f7f245b1f7de",
+          "sha1": "18224a50c2e33d425b31ee8ba584c99e1b339ed9",
+          "md5": "716a297a23a57b80640b72d363f686d2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3b"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-serialize-v2.0.3b.jar",
+          "url": "annotations-serialize-v2.0.3b.jar",
+          "size": 14303592,
+          "sha512": "cf67fbee59102042d41a1c6fea6423253984fd70cefe2f26bddf10116255c33310f27f00c7be218bc7218c068631e5d34870ca2b8c07419b95b4fc3ea504077a",
+          "sha256": "69ccfd7eaea8519f74a4cd16cd850bbb395ce66523e5db2bf5e7f7f245b1f7de",
+          "sha1": "18224a50c2e33d425b31ee8ba584c99e1b339ed9",
+          "md5": "716a297a23a57b80640b72d363f686d2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-serialize-v2.0.3b-sources.jar",
+          "url": "annotations-serialize-v2.0.3b-sources.jar",
+          "size": 8263,
+          "sha512": "cd2e6e64badbea32a969ca27d7b14be07a8ad4726d791c6036eea7ffdbaeae170659d4acc57e750127494450eaff45de3394abc6af6781e42437f92ae509aa26",
+          "sha256": "281ac2be2abdf94135aeff6dd6c59d8f799b2a93aa6b0c04c7a591596bbaf872",
+          "sha1": "d9dd3db607755f6c789b42e7c283ac9f0c81be40",
+          "md5": "639c6602db561cd83364f07c90c2cffa"
+        }
+      ]
+    }
+  ]
+}

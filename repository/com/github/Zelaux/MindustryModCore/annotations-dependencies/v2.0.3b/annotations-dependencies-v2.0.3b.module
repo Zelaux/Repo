@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-dependencies",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-dependencies-v2.0.3b.jar",
+          "url": "annotations-dependencies-v2.0.3b.jar",
+          "size": 14288752,
+          "sha512": "0041f24a45c05e030c2dae29a0d94c79bd55975b2df699a78969380d6875fa5154850554f48fa960ff388222bc6db3c940aabeda313a6e6d1f5cc892c8316f93",
+          "sha256": "31ff0a2f2ee37f9322dfd38a2d2cd45e2be26cbe68b9967ddb73f6887c3e9b47",
+          "sha1": "4525995c539870fdaa474f50a91d1ac98317631d",
+          "md5": "4a33bb24c13897f7b5f11c7ebd95c8f1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3b"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-dependencies-v2.0.3b.jar",
+          "url": "annotations-dependencies-v2.0.3b.jar",
+          "size": 14288752,
+          "sha512": "0041f24a45c05e030c2dae29a0d94c79bd55975b2df699a78969380d6875fa5154850554f48fa960ff388222bc6db3c940aabeda313a6e6d1f5cc892c8316f93",
+          "sha256": "31ff0a2f2ee37f9322dfd38a2d2cd45e2be26cbe68b9967ddb73f6887c3e9b47",
+          "sha1": "4525995c539870fdaa474f50a91d1ac98317631d",
+          "md5": "4a33bb24c13897f7b5f11c7ebd95c8f1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-dependencies-v2.0.3b-sources.jar",
+          "url": "annotations-dependencies-v2.0.3b-sources.jar",
+          "size": 2493,
+          "sha512": "d8786375c71bd7aa75cee2dcf13d0bf62e2ce0949926b6f253b11e67276c29ec423aae478942337a640b393e1172cab91fa9d30e21509d1bcd1f612c5a32fd15",
+          "sha256": "ef467d193e348b8d329acc02a8138fabb73fa2636837ea3762c39fe44750235e",
+          "sha1": "1bc58b0e014123beedc92a377040065c0bf3d295",
+          "md5": "9d108f0cf661a6b240297e63a77ed1f7"
+        }
+      ]
+    }
+  ]
+}

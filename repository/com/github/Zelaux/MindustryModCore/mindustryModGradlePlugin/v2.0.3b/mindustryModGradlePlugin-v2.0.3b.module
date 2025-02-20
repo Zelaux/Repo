@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "mindustryModGradlePlugin",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mindustryModGradlePlugin-v2.0.3b.jar",
+          "url": "mindustryModGradlePlugin-v2.0.3b.jar",
+          "size": 1287053,
+          "sha512": "8bae25b4240be424a2799fb3e6869c38321d6712f55a1c278796afc1719f80a4b3178bb0078345b520887e4fd31a4a5fc8e51ca7ca2fc3aaa97878e09206d5ac",
+          "sha256": "21005aa04eb1ab2e1dc3703509ed167e335a855fa664b55145eccc16f51170f0",
+          "sha1": "40c9aaf83f6065052e8145fdbf4135ccf4dc2be6",
+          "md5": "7bc3ce990bac217590de43f008bdd29d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.jvm",
+          "module": "org.jetbrains.kotlin.jvm.gradle.plugin",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.kapt",
+          "module": "org.jetbrains.kotlin.kapt.gradle.plugin",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mindustryModGradlePlugin-v2.0.3b.jar",
+          "url": "mindustryModGradlePlugin-v2.0.3b.jar",
+          "size": 1287053,
+          "sha512": "8bae25b4240be424a2799fb3e6869c38321d6712f55a1c278796afc1719f80a4b3178bb0078345b520887e4fd31a4a5fc8e51ca7ca2fc3aaa97878e09206d5ac",
+          "sha256": "21005aa04eb1ab2e1dc3703509ed167e335a855fa664b55145eccc16f51170f0",
+          "sha1": "40c9aaf83f6065052e8145fdbf4135ccf4dc2be6",
+          "md5": "7bc3ce990bac217590de43f008bdd29d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mindustryModGradlePlugin-v2.0.3b-sources.jar",
+          "url": "mindustryModGradlePlugin-v2.0.3b-sources.jar",
+          "size": 19795,
+          "sha512": "c7d53704422679f8cf6303fc0356136b75abea3d54aa1b30fb8d1c735cd9063b3a8e997b9eb45df4eaf0254699185530a99c81965cd0e3bc24d8dcf1885ceae4",
+          "sha256": "6d0801f34cb017af7584644ac33769f7eda5a3affa786c034f8abe5fca93c314",
+          "sha1": "73e921a9be08a12da6ab44809c5a6e1d73ebf9fb",
+          "md5": "8c0835b62e330861160e2dd3b05b74dc"
+        }
+      ]
+    }
+  ]
+}

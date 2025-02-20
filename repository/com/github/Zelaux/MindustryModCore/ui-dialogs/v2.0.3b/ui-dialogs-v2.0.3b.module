@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "ui-dialogs",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-dialogs-v2.0.3b.jar",
+          "url": "ui-dialogs-v2.0.3b.jar",
+          "size": 8963,
+          "sha512": "92115113f260f6248e648d73cf826dcfec8f8a8cd3d46a342aa5529445d76f18f5025df2f24b57af1a55adbf59af9e4abd59a96a0dd37ee5fb5d54cd8685b70d",
+          "sha256": "8ab2e6d3727354effe186ca4c563158f65c6320ba3a60be8bfc570864c8890ba",
+          "sha1": "074d0fa17a721f14b67ad975c85bba9691d904b8",
+          "md5": "235f55cdde4a460565fe1f3027662354"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-dialogs-v2.0.3b.jar",
+          "url": "ui-dialogs-v2.0.3b.jar",
+          "size": 8963,
+          "sha512": "92115113f260f6248e648d73cf826dcfec8f8a8cd3d46a342aa5529445d76f18f5025df2f24b57af1a55adbf59af9e4abd59a96a0dd37ee5fb5d54cd8685b70d",
+          "sha256": "8ab2e6d3727354effe186ca4c563158f65c6320ba3a60be8bfc570864c8890ba",
+          "sha1": "074d0fa17a721f14b67ad975c85bba9691d904b8",
+          "md5": "235f55cdde4a460565fe1f3027662354"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-dialogs-v2.0.3b-sources.jar",
+          "url": "ui-dialogs-v2.0.3b-sources.jar",
+          "size": 2521,
+          "sha512": "ec86c8bca9c572139450155ef195b579437d77d46227f7a2b91f5b38a57e73769b2afdfa88c5be295e321f2744dc7b8c73486f8f9ae2d817fcb36a136ba9c327",
+          "sha256": "1173d6a035b284fb2d5d4249e66e923685819cc61d9bf3d563507398b15b9461",
+          "sha1": "b23b1c45162f4748315702ea1e36d1b0e55429d3",
+          "md5": "e0db7d8b850eacb5fbbfe870f9a5ede1"
+        }
+      ]
+    }
+  ]
+}

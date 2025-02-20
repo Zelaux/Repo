@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-mindustry",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-mindustry-v2.0.3b.jar",
+          "url": "annotations-mindustry-v2.0.3b.jar",
+          "size": 1381750,
+          "sha512": "7f09f94c35d3fba52d41f3197665c1d0306e65759edc6ab8508326c64e7d0839beb17cb5bbf3ed3e595943f03f75f37c87d99d594b42c6cc5f14e548e332c996",
+          "sha256": "637567d59bdb9629263367e3158ed716444bed3309acb184b3494e0d1c15599f",
+          "sha1": "16bc2fe3d4669fd0b7f1552aa326bdc5effe29e3",
+          "md5": "344f31d4a27fc79b28635047be7abe1e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-mindustry-v2.0.3b.jar",
+          "url": "annotations-mindustry-v2.0.3b.jar",
+          "size": 1381750,
+          "sha512": "7f09f94c35d3fba52d41f3197665c1d0306e65759edc6ab8508326c64e7d0839beb17cb5bbf3ed3e595943f03f75f37c87d99d594b42c6cc5f14e548e332c996",
+          "sha256": "637567d59bdb9629263367e3158ed716444bed3309acb184b3494e0d1c15599f",
+          "sha1": "16bc2fe3d4669fd0b7f1552aa326bdc5effe29e3",
+          "md5": "344f31d4a27fc79b28635047be7abe1e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-mindustry-v2.0.3b-sources.jar",
+          "url": "annotations-mindustry-v2.0.3b-sources.jar",
+          "size": 11962,
+          "sha512": "2df06ae42aedf35ed43a7c4e2c5e72c7aa54780735db25cbee2dcdd4cf32b952094e7b12a39b10d321e883cd1e28f02e71fe011f663f5898167ba3455950c207",
+          "sha256": "b49207c5125327d28e84c6883e75361d875132a90c8600914484ec0a067ad28e",
+          "sha1": "4e6b315e6603aa46a394b12d2bddcb2d20b80892",
+          "md5": "211a44d45c54e47dc0ee258990461846"
+        }
+      ]
+    }
+  ]
+}

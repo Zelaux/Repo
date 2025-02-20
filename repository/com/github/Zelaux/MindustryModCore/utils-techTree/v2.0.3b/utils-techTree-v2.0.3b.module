@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-techTree",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-techTree-v2.0.3b.jar",
+          "url": "utils-techTree-v2.0.3b.jar",
+          "size": 1995,
+          "sha512": "95d828e48c721595dde538a41f83f001af30b33f8dcfc896b37ab52df6d05a9ea4d9decc2086a2f94d04fcd349b53d5755baee4e0121fe4c2c3a03e2b8883c8c",
+          "sha256": "0e7a0792c2f6d7afada4b6de2f1796404c6a440efd899789742582792f9c196b",
+          "sha1": "e2e5f414ccdb1c168094f0a352afa69d7eadd2c4",
+          "md5": "4afe8ea33b073178eff8d8b040fbd345"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-techTree-v2.0.3b.jar",
+          "url": "utils-techTree-v2.0.3b.jar",
+          "size": 1995,
+          "sha512": "95d828e48c721595dde538a41f83f001af30b33f8dcfc896b37ab52df6d05a9ea4d9decc2086a2f94d04fcd349b53d5755baee4e0121fe4c2c3a03e2b8883c8c",
+          "sha256": "0e7a0792c2f6d7afada4b6de2f1796404c6a440efd899789742582792f9c196b",
+          "sha1": "e2e5f414ccdb1c168094f0a352afa69d7eadd2c4",
+          "md5": "4afe8ea33b073178eff8d8b040fbd345"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-techTree-v2.0.3b-sources.jar",
+          "url": "utils-techTree-v2.0.3b-sources.jar",
+          "size": 1279,
+          "sha512": "2e06dd18d1ccfa7d90f522b8dce82f31f73cc01abab39f372299e0ea371e88a10e311f2435d3544fdcbc831a856878c866c145fb44dabbe434a05f92d56a40be",
+          "sha256": "95b90256b674237c391685b75e6c1934d5670000711f855007997ef0ed70bdbe",
+          "sha1": "e6ae63a2461a39a4cb333ef70154c7debbce2090",
+          "md5": "5dd5c51aae8b7627e091375c24842034"
+        }
+      ]
+    }
+  ]
+}

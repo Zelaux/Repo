@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-planet",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-planet-v2.0.3b.jar",
+          "url": "utils-planet-v2.0.3b.jar",
+          "size": 2507,
+          "sha512": "9894d1ab229330d0910122db12524ee2c7af25db9c7e0685767946876382cb6032a4b2623b7aa411e9817a38bc70be4229f8cbf779d952147679f056d218e502",
+          "sha256": "a17baf696ed0433ac25451ab46f41413d2d53b4af210f8286464ed03014567f5",
+          "sha1": "de7c22d1c3eb0b60fd5ebcb74cee95de0c85ff69",
+          "md5": "1817ee3ba79d8bded1c7bb8c522dd5b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-planet-v2.0.3b.jar",
+          "url": "utils-planet-v2.0.3b.jar",
+          "size": 2507,
+          "sha512": "9894d1ab229330d0910122db12524ee2c7af25db9c7e0685767946876382cb6032a4b2623b7aa411e9817a38bc70be4229f8cbf779d952147679f056d218e502",
+          "sha256": "a17baf696ed0433ac25451ab46f41413d2d53b4af210f8286464ed03014567f5",
+          "sha1": "de7c22d1c3eb0b60fd5ebcb74cee95de0c85ff69",
+          "md5": "1817ee3ba79d8bded1c7bb8c522dd5b1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-planet-v2.0.3b-sources.jar",
+          "url": "utils-planet-v2.0.3b-sources.jar",
+          "size": 1473,
+          "sha512": "2c4f0f6e020da200d52503e3f795b02cfbfc8b7bcebd3f049b5bc1fb8c6d349edb93d27e2285cecf80466e3407f111b63f0172611c3b6c12647d18aa0f7cf92d",
+          "sha256": "bfbe8f8941a810d750cf2fff45c8f67037fc128c6cf167b3fcdbc14b0d70391c",
+          "sha1": "63978eb03dffbcfb177c939532efb30c7a2987ea",
+          "md5": "fb81e01227d1897a31720c1c202d3106"
+        }
+      ]
+    }
+  ]
+}

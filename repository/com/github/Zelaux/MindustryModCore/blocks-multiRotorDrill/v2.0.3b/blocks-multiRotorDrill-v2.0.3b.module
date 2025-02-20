@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "blocks-multiRotorDrill",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-multiRotorDrill-v2.0.3b.jar",
+          "url": "blocks-multiRotorDrill-v2.0.3b.jar",
+          "size": 16225,
+          "sha512": "7d32dea4365f3d72487b05a278c917585bdc248a257e74c0c58770c46bb6e4a33edc56f47b2c0f38167473b9a4d6aef0a25811379fc0bd6640730491e3c6f174",
+          "sha256": "c1fcf86f42c606a283d7ca24c30e311add224f5093dd83c8130cc430b59f6974",
+          "sha1": "376c2fd03e9c3c3d29d895c0385473c7a80c5ad7",
+          "md5": "aecb0f2a8e4f948b8df46ae17b4b3731"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.ArcLibrary",
+          "module": "graphics-extendedDraw",
+          "version": {
+            "requires": "v1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blocks-multiRotorDrill-v2.0.3b.jar",
+          "url": "blocks-multiRotorDrill-v2.0.3b.jar",
+          "size": 16225,
+          "sha512": "7d32dea4365f3d72487b05a278c917585bdc248a257e74c0c58770c46bb6e4a33edc56f47b2c0f38167473b9a4d6aef0a25811379fc0bd6640730491e3c6f174",
+          "sha256": "c1fcf86f42c606a283d7ca24c30e311add224f5093dd83c8130cc430b59f6974",
+          "sha1": "376c2fd03e9c3c3d29d895c0385473c7a80c5ad7",
+          "md5": "aecb0f2a8e4f948b8df46ae17b4b3731"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blocks-multiRotorDrill-v2.0.3b-sources.jar",
+          "url": "blocks-multiRotorDrill-v2.0.3b-sources.jar",
+          "size": 3869,
+          "sha512": "616bcee392c2f6268f49c2bb1153b5a8409877769196be44697dc5f3807377627eb89fd38752c37d93fdd44ccee62f7ad9f5e55c8b62c48c09464b797beef23b",
+          "sha256": "47c2686345a66193ec113fa33a0980078a5a03f8bc22556bed0e67685f6e7d87",
+          "sha1": "ef5a4df0171eba9819945114d0d105bc77194135",
+          "md5": "7aa24522e5d1ae198f932bfc723e66cc"
+        },
+        {
+          "name": "blocks-multiRotorDrill-v2.0.3b-sources.jar",
+          "url": "blocks-multiRotorDrill-v2.0.3b-sources.jar",
+          "size": 3869,
+          "sha512": "616bcee392c2f6268f49c2bb1153b5a8409877769196be44697dc5f3807377627eb89fd38752c37d93fdd44ccee62f7ad9f5e55c8b62c48c09464b797beef23b",
+          "sha256": "47c2686345a66193ec113fa33a0980078a5a03f8bc22556bed0e67685f6e7d87",
+          "sha1": "ef5a4df0171eba9819945114d0d105bc77194135",
+          "md5": "7aa24522e5d1ae198f932bfc723e66cc"
+        }
+      ]
+    }
+  ]
+}

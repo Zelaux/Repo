@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-entity",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-entity-v2.0.3b.jar",
+          "url": "annotations-entity-v2.0.3b.jar",
+          "size": 14422619,
+          "sha512": "02b6dd260a70d5753db1dc5311a84638a81ad5e09976319a3150aa9d23c9e6dc2ae5a32fccb1aafd13d4a7132f08129200cac47d2f063242abfe18cd3731d298",
+          "sha256": "d788f1e398929e96341689a2ca9c1e36a77f25125498c3c16382275340f65fbd",
+          "sha1": "e77967d8354036e9a1d3e5ed0d09e84dff20287d",
+          "md5": "cdcd790ba6760e97d0520c3c874e2913"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3b"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-entity-v2.0.3b.jar",
+          "url": "annotations-entity-v2.0.3b.jar",
+          "size": 14422619,
+          "sha512": "02b6dd260a70d5753db1dc5311a84638a81ad5e09976319a3150aa9d23c9e6dc2ae5a32fccb1aafd13d4a7132f08129200cac47d2f063242abfe18cd3731d298",
+          "sha256": "d788f1e398929e96341689a2ca9c1e36a77f25125498c3c16382275340f65fbd",
+          "sha1": "e77967d8354036e9a1d3e5ed0d09e84dff20287d",
+          "md5": "cdcd790ba6760e97d0520c3c874e2913"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-entity-v2.0.3b-sources.jar",
+          "url": "annotations-entity-v2.0.3b-sources.jar",
+          "size": 78766,
+          "sha512": "76c802b2c8b3d4e3d0ac5b7eb0615c6ee7f5a887b422072edf0332e5c801923a25411eec26449dad1672e4efe893d65b6900216e1d5b8525eb95a25a2f706471",
+          "sha256": "16ee05bf268b2e13ca9d4c3626072d08ac234ee7016a9c5c761910d2d730e7ac",
+          "sha1": "d3958ed9c6545888285e72ac66ba69e073bbe54d",
+          "md5": "8f366f88b03456cad7a37a5e5b18be39"
+        }
+      ]
+    }
+  ]
+}

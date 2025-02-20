@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "utils-struct",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-struct-v2.0.3b.jar",
+          "url": "utils-struct-v2.0.3b.jar",
+          "size": 3276,
+          "sha512": "12f9033764bd163dc158d9f58c0976d08ae443a0340123cd28aabc37490c0e039d51f3fcfb7c1bb894a8a65a27b35fd0bf700b604cb4754efb289f5c491e37c1",
+          "sha256": "570a8932dd7ff2195b10329b5a45c7d079d73b0e9b3ad5320b6eb267de4896a2",
+          "sha1": "f5193287500a8a00b5d7bf249887578e6d2bc23d",
+          "md5": "5284e58ae36b56257c05ab741bab8b16"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-struct-v2.0.3b.jar",
+          "url": "utils-struct-v2.0.3b.jar",
+          "size": 3276,
+          "sha512": "12f9033764bd163dc158d9f58c0976d08ae443a0340123cd28aabc37490c0e039d51f3fcfb7c1bb894a8a65a27b35fd0bf700b604cb4754efb289f5c491e37c1",
+          "sha256": "570a8932dd7ff2195b10329b5a45c7d079d73b0e9b3ad5320b6eb267de4896a2",
+          "sha1": "f5193287500a8a00b5d7bf249887578e6d2bc23d",
+          "md5": "5284e58ae36b56257c05ab741bab8b16"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-struct-v2.0.3b-sources.jar",
+          "url": "utils-struct-v2.0.3b-sources.jar",
+          "size": 2172,
+          "sha512": "b463f98b70c8512115f169d2bf2ce885950e12aeca6c545e2eb87367f4a3ae28a9ef226b98fff92b8f294db00a1195357efbe8ae29502f6b8815df3543bb1ca3",
+          "sha256": "03d297e3fc17f2fc663e167743b34ead70ef4af23e15216689be0a536557aae0",
+          "sha1": "55cced59ff65bda618746e4418c50df0b476002b",
+          "md5": "af5ade70300a279d5fbf2862298e6a86"
+        }
+      ]
+    }
+  ]
+}

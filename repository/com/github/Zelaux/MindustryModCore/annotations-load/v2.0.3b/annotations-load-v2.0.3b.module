@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.MindustryModCore",
+    "module": "annotations-load",
+    "version": "v2.0.3b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-load-v2.0.3b.jar",
+          "url": "annotations-load-v2.0.3b.jar",
+          "size": 14292232,
+          "sha512": "b933afc4b4991a235151cbe8ddcd26e199ceafbfabf715d01e93653a123d362aef95b3e87893ee244dbbc164b527deeebae372aafe33d93d04651a71aa6d9998",
+          "sha256": "9f19a732053e9e36ab7df18cd01eb247bdb88fc35fc4419d7c11d7ab147a3517",
+          "sha1": "5bcb832100af68407957c21dedae1986b5ac57b5",
+          "md5": "f5cfaa16394e3071356ffd27561743ed"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-mindustry",
+          "version": {
+            "requires": "v2.0.3b"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Mindustry",
+          "module": "core",
+          "version": {
+            "requires": "v146"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.22.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.MindustryModCore",
+          "module": "annotations-common",
+          "version": {
+            "requires": "v2.0.3b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-load-v2.0.3b.jar",
+          "url": "annotations-load-v2.0.3b.jar",
+          "size": 14292232,
+          "sha512": "b933afc4b4991a235151cbe8ddcd26e199ceafbfabf715d01e93653a123d362aef95b3e87893ee244dbbc164b527deeebae372aafe33d93d04651a71aa6d9998",
+          "sha256": "9f19a732053e9e36ab7df18cd01eb247bdb88fc35fc4419d7c11d7ab147a3517",
+          "sha1": "5bcb832100af68407957c21dedae1986b5ac57b5",
+          "md5": "f5cfaa16394e3071356ffd27561743ed"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-load-v2.0.3b-sources.jar",
+          "url": "annotations-load-v2.0.3b-sources.jar",
+          "size": 3868,
+          "sha512": "aa7002663c5f7abbfe0c32477c3ff6714c45658ba130e1ab02cebb11f69760aebc1ae0266d531aa3fc9b1a190f8cd06ada302d1af3a05b772fba63e9ce6ac2ee",
+          "sha256": "c4d70f302257df3fb72adb3405d1042ca0d53a98e1e00a2d0e4edb00584aedcf",
+          "sha1": "0f3dc37ef003f3c6c171d6a0592d676c9e66e397",
+          "md5": "f283cd2ff1273a6b5660c4c6ea35badd"
+        }
+      ]
+    }
+  ]
+}
