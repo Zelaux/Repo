@@ -3,12 +3,13 @@
     <groupId>com.github.Zelaux.JavaAsmExtension</groupId>
     <artifactId>annotations-unshadowed-lombok</artifactId>
     <versioning>
-        <latest>v0.9.7</latest>
-        <release>v0.9.7</release>
+        <latest>v0.9.7.1</latest>
+        <release>v0.9.7.1</release>
         <versions>
             <version>v0.9.5</version>
             <version>v0.9.6</version>
             <version>v0.9.7</version>
+            <version>v0.9.7.1</version>
         </versions>
         <lastUpdated>20241227163402</lastUpdated>
     </versioning>

@@ -1,0 +1,203 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.JavaAsmExtension",
+    "module": "annotations-method-bytecode",
+    "version": "v0.9.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "annotations-lombok-plugin-starter",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-post-visitor",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-compile",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-node",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-method-bytecode-v0.9.7.1.jar",
+          "url": "annotations-method-bytecode-v0.9.7.1.jar",
+          "size": 20307,
+          "sha512": "e2416219c8042b42de1bcbf208fee5287fe1aa8f975fbe1092e45af02affe6d24a2f20abe23046c5c90762df3e554d4b7210a7cb3803480fd449c1d3423fa276",
+          "sha256": "df7f16d73045a242f15b1304e6d5a067ea2ebd990342693f74375a4592c2e0b8",
+          "sha1": "dda4f0fd901dd314c6ed2db94db89f7ce473a118",
+          "md5": "ec060eb667bbc8b125883fbb1b7c2c39"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.26.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "annotations-lombok-plugin-starter",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-post-visitor",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-compile",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-node",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.JavaAsmExtension",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "v0.9.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-method-bytecode-v0.9.7.1.jar",
+          "url": "annotations-method-bytecode-v0.9.7.1.jar",
+          "size": 20307,
+          "sha512": "e2416219c8042b42de1bcbf208fee5287fe1aa8f975fbe1092e45af02affe6d24a2f20abe23046c5c90762df3e554d4b7210a7cb3803480fd449c1d3423fa276",
+          "sha256": "df7f16d73045a242f15b1304e6d5a067ea2ebd990342693f74375a4592c2e0b8",
+          "sha1": "dda4f0fd901dd314c6ed2db94db89f7ce473a118",
+          "md5": "ec060eb667bbc8b125883fbb1b7c2c39"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-method-bytecode-v0.9.7.1-sources.jar",
+          "url": "annotations-method-bytecode-v0.9.7.1-sources.jar",
+          "size": 11233,
+          "sha512": "b5e51879f393dd962032fa7c446b34e1ad6eec2c99a6c6c200741193daa15befe8125713beae39b92476b81fbf03a23b0d3ca95199510816aa0ed3bc3afe41a5",
+          "sha256": "a0e2066e40faa66422b0b45a46cddb99b269140e68c3511f1559f38df2c0b01d",
+          "sha1": "ffad37a985e81c27d088f5fd8da1866d53801a8a",
+          "md5": "853a1e40801f670e2421bb0776bc6fde"
+        }
+      ]
+    }
+  ]
+}
