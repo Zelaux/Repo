@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "analytics-object-creation",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "analytics-object-creation-1.0.2.jar",
+          "url": "analytics-object-creation-1.0.2.jar",
+          "size": 4836,
+          "sha512": "1dbe4d54cbff71770ac35bcb48abb00dd09c8b670e90522df7a3dffea9b1ef84c4ce865ff7c97ae8ef4681b20d2f450b2a40e10313560fe0a1c6428a51a7a5d5",
+          "sha256": "35b1a500484e867e67c5e5e6cb40c934d58a42319ee9e666c3c0bed9e35b6dc0",
+          "sha1": "84024dc57c4dcad2f3d38d5e8c19ed4d139ccbfc",
+          "md5": "d40e4c1aefbf5832e43f30244834c794"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-object-creation-1.0.2.jar",
+          "url": "analytics-object-creation-1.0.2.jar",
+          "size": 4836,
+          "sha512": "1dbe4d54cbff71770ac35bcb48abb00dd09c8b670e90522df7a3dffea9b1ef84c4ce865ff7c97ae8ef4681b20d2f450b2a40e10313560fe0a1c6428a51a7a5d5",
+          "sha256": "35b1a500484e867e67c5e5e6cb40c934d58a42319ee9e666c3c0bed9e35b6dc0",
+          "sha1": "84024dc57c4dcad2f3d38d5e8c19ed4d139ccbfc",
+          "md5": "d40e4c1aefbf5832e43f30244834c794"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "analytics-object-creation-1.0.2-sources.jar",
+          "url": "analytics-object-creation-1.0.2-sources.jar",
+          "size": 2863,
+          "sha512": "d8c7c60aebcc1ccd1fb8bb686007fdda42e99e1162f98acc316b1207f61ebfe9f83c4e3af9d3b3d75dd567d473dbb5673328fd3692eea68783a32023cfff8af2",
+          "sha256": "7d63da1d031961d02a2fea72a8c1cafe9a0971a7217946045dc9e47ee1ff7096",
+          "sha1": "fafbb559aa8678604a21a48b3368ee8f97330697",
+          "md5": "378864f89f66da1af04288baf1e23fce"
+        }
+      ]
+    }
+  ]
+}
