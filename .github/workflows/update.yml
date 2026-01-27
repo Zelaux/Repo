@@ -23,6 +23,13 @@ jobs:
         uses: mlugg/setup-zig@v2
         with:
           version: 0.14.1
+
+      - name: Install Ninja
+        run: sudo apt-get update && sudo apt-get install -y ninja-build
+
+      - name: Fix Zig permissions
+        # На всякий случай даем права на выполнение всем бинарникам в пути зига
+        run: chmod -R +x $(dirname $(which zig))
           
       - name: Install Ninja
         run: sudo apt-get install -y ninja-build
