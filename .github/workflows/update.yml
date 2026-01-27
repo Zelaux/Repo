@@ -26,13 +26,8 @@ jobs:
 
       - name: Install Ninja
         run: sudo apt-get update && sudo apt-get install -y ninja-build
-
-      - name: Fix Zig permissions
-        # На всякий случай даем права на выполнение всем бинарникам в пути зига
-        run: chmod -R +x $(dirname $(which zig))
-          
-      - name: Install Ninja
-        run: sudo apt-get install -y ninja-build
+      - name: nothehe
+        run: which zig && zig version
       - name: Make gradlew executable
         run: chmod +x ./gradlew
       - name: Build with Gradle
