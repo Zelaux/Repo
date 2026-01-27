@@ -11,6 +11,7 @@ supportedRepos{
             repo("Zelaux", "AdvancedContentInfo"),
             //repo("Zelaux", "JavaAsmExtension"),
             repo("Zelaux", "asm-ext"),
+            repo("Zelaux", "opus4j"),
     ]
 }
 dependencies{
