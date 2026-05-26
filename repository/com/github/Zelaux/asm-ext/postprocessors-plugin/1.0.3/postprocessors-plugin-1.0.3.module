@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "postprocessors-plugin",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "postprocessors-plugin-1.0.3.jar",
+          "url": "postprocessors-plugin-1.0.3.jar",
+          "size": 11256,
+          "sha512": "66607b9abe29ac62b849c9fda05a7f507689ea08c7a1a9a2de8c95c6986dca58b4dd7a00f955f91fc98c41aa8dd321b9048a0c435197c10f03852ca98a8b957e",
+          "sha256": "20d10aab220fa8e343ed268f4aedf3bdcbd7ad3bf4b4f159e35becefa1098c1a",
+          "sha1": "7de38ac6c60ed6013f6bab14630904238f8c1ede",
+          "md5": "202ab6303edabecc31fbe9a7140f585c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "transformation-core",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "postprocessors-plugin-1.0.3.jar",
+          "url": "postprocessors-plugin-1.0.3.jar",
+          "size": 11256,
+          "sha512": "66607b9abe29ac62b849c9fda05a7f507689ea08c7a1a9a2de8c95c6986dca58b4dd7a00f955f91fc98c41aa8dd321b9048a0c435197c10f03852ca98a8b957e",
+          "sha256": "20d10aab220fa8e343ed268f4aedf3bdcbd7ad3bf4b4f159e35becefa1098c1a",
+          "sha1": "7de38ac6c60ed6013f6bab14630904238f8c1ede",
+          "md5": "202ab6303edabecc31fbe9a7140f585c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "postprocessors-plugin-1.0.3-sources.jar",
+          "url": "postprocessors-plugin-1.0.3-sources.jar",
+          "size": 5229,
+          "sha512": "6ec41f87bb3e458795d1442807e654993c4e5a3464750739ed399941bc340a537e8abecb3640973538810793529a17dbc7732d183aeb2d11322ea39948642767",
+          "sha256": "2b01fe0c5faef9957c48b841fba2142880a4c29d7c00dafd66b4cb16d52bb2e2",
+          "sha1": "7496eb09eb2e8f87b75a7802e4e25ce8bbf414d5",
+          "md5": "99ad87fe67820d45fedc0471e6fffd1a"
+        }
+      ]
+    }
+  ]
+}

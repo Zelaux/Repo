@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "util-dynamic-dispatch",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "util-dynamic-dispatch-1.0.3.jar",
+          "url": "util-dynamic-dispatch-1.0.3.jar",
+          "size": 18233,
+          "sha512": "9eee1b4cd0b7912f828a5e39ab8cae98f1a945b37255c9d1739786a43fd975a6f51e923a0ede4c1d3ef2410ccc730940a79eb103c28c444d55be3cc1d7cfcb4c",
+          "sha256": "c45d95ace3ca78b86827469af1cf00852a501f5f6f9192f27377cb92983e90ad",
+          "sha1": "6647deb89f00e3ff6d64d120ba3626eac7e11768",
+          "md5": "9d9ea1f0d9da0595c399b9d304fc7cfb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-dynamic-dispatch-1.0.3.jar",
+          "url": "util-dynamic-dispatch-1.0.3.jar",
+          "size": 18233,
+          "sha512": "9eee1b4cd0b7912f828a5e39ab8cae98f1a945b37255c9d1739786a43fd975a6f51e923a0ede4c1d3ef2410ccc730940a79eb103c28c444d55be3cc1d7cfcb4c",
+          "sha256": "c45d95ace3ca78b86827469af1cf00852a501f5f6f9192f27377cb92983e90ad",
+          "sha1": "6647deb89f00e3ff6d64d120ba3626eac7e11768",
+          "md5": "9d9ea1f0d9da0595c399b9d304fc7cfb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "util-dynamic-dispatch-1.0.3-sources.jar",
+          "url": "util-dynamic-dispatch-1.0.3-sources.jar",
+          "size": 6064,
+          "sha512": "2f40ca523281ed04fc5f41a6aec31fc76641de8a5049650fee470958a71fde3539d1a3c5c5487c65b03cf77133c2f2816d59eb6a0e75b5ecbb2897c43929b5d5",
+          "sha256": "77d6dd9eb18e79456a3bdf2ea18429b4dc100ea234a66968932e821e9a96093e",
+          "sha1": "b5408788e598a8a2878c038501edcc654d691afb",
+          "md5": "7d8b4e768522245b5a78446cc5b69b5a"
+        }
+      ]
+    }
+  ]
+}

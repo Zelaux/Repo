@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "analytics-plugable-analyzer",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "analytics-plugable-analyzer-1.0.3.jar",
+          "url": "analytics-plugable-analyzer-1.0.3.jar",
+          "size": 9416,
+          "sha512": "10b93eb59981d95e4ecc23a80ac3576b8c30304dbaca4d90bad2c44dc8b3b495db9ddff9d22ed285d86350e63e372d9808f8499fd7a35d1994a078776a7ff7a4",
+          "sha256": "4eefdcca23ba717f6157eb7a12628e1f7890809c9e47b320dae0acb8f49eeaa9",
+          "sha1": "d17f6d46c33f81b4515f3449e835a57ec881a7a7",
+          "md5": "942efd5cc21c09135539a09cba41741a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-plugable-analyzer-1.0.3.jar",
+          "url": "analytics-plugable-analyzer-1.0.3.jar",
+          "size": 9416,
+          "sha512": "10b93eb59981d95e4ecc23a80ac3576b8c30304dbaca4d90bad2c44dc8b3b495db9ddff9d22ed285d86350e63e372d9808f8499fd7a35d1994a078776a7ff7a4",
+          "sha256": "4eefdcca23ba717f6157eb7a12628e1f7890809c9e47b320dae0acb8f49eeaa9",
+          "sha1": "d17f6d46c33f81b4515f3449e835a57ec881a7a7",
+          "md5": "942efd5cc21c09135539a09cba41741a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "analytics-plugable-analyzer-1.0.3-sources.jar",
+          "url": "analytics-plugable-analyzer-1.0.3-sources.jar",
+          "size": 4478,
+          "sha512": "b538d7ca0d675d18e307f3d544d764c1bf7b346614c003398ee8c76eecc25efc4f3597bfec8321b810b06c8401beb9f0edcddf012e775e1f2e8fb942bc93846d",
+          "sha256": "2733e27d77595346d673e2e6e3b11d5505332bcb3cf8043962639bc2927c5c3d",
+          "sha1": "e152690ab70025bd7cfd858f698903a0f10fed8b",
+          "md5": "189bca0f1f93e0b0c3e897878042493f"
+        }
+      ]
+    }
+  ]
+}
