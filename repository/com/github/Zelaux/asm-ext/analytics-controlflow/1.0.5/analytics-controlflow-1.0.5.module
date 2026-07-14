@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "analytics-controlflow",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "analytics-controlflow-1.0.5.jar",
+          "url": "analytics-controlflow-1.0.5.jar",
+          "size": 14190,
+          "sha512": "02215cb49ac615fc16ffe644601d7e4637772083103ac11b0bd4ea7a49eb3b2eeb041634e8dc2392584caf6939385074f3c9f69ae21e4c8abef0b62069f8ddc2",
+          "sha256": "462a996e72d39f9053ff1c6dd139c6b09622b6d0651e32f615affe12ba10500f",
+          "sha1": "e99f971d73d4a77cfc27cfd1c37ba68305d26da1",
+          "md5": "2bfb4ad1a7716212c80d01992217e91a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-node",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-plugable-analyzer",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-controlflow-1.0.5.jar",
+          "url": "analytics-controlflow-1.0.5.jar",
+          "size": 14190,
+          "sha512": "02215cb49ac615fc16ffe644601d7e4637772083103ac11b0bd4ea7a49eb3b2eeb041634e8dc2392584caf6939385074f3c9f69ae21e4c8abef0b62069f8ddc2",
+          "sha256": "462a996e72d39f9053ff1c6dd139c6b09622b6d0651e32f615affe12ba10500f",
+          "sha1": "e99f971d73d4a77cfc27cfd1c37ba68305d26da1",
+          "md5": "2bfb4ad1a7716212c80d01992217e91a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "analytics-controlflow-1.0.5-sources.jar",
+          "url": "analytics-controlflow-1.0.5-sources.jar",
+          "size": 7074,
+          "sha512": "09fa17271585b7a980f3fb28132bb67d5e20d83e444c51c2a6ae3fc9dede678e137b3e185df7868c92e7ee8c350e3b37af9f570112c1b8c83894b0f3b96b913a",
+          "sha256": "90a53776776ac72aa9941a8c9d0ea4920909fa3930cac67906edaeb9ea6049a2",
+          "sha1": "787db9dac13019428f2bfe3c9b5628c7fe7ac762",
+          "md5": "f43abeec08076653441bcfa8a18901a8"
+        }
+      ]
+    }
+  ]
+}

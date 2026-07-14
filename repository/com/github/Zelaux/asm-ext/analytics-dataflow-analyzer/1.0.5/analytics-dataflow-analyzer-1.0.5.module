@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "analytics-dataflow-analyzer",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-insn-print",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-plugable-analyzer",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-dataflow-analyzer-1.0.5.jar",
+          "url": "analytics-dataflow-analyzer-1.0.5.jar",
+          "size": 89093,
+          "sha512": "39b078c91ace3ff2bf524533e827bed498e0381301e2add59a6804888564090818a8ed35fefb5fdba0ed2fcbb989c167f2ef001fd665cd08017e09856624b502",
+          "sha256": "9ad2dc8f1201c4fc1638b3d84129f57a7d54a027cde17d0d47c8ab5815d4bbd2",
+          "sha1": "8b947935535193f5abfd30e40a0823391c6add7f",
+          "md5": "f9f6aebe12ef80efdc0990a6bd0a5216"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-insn-print",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-plugable-analyzer",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-dataflow-analyzer-1.0.5.jar",
+          "url": "analytics-dataflow-analyzer-1.0.5.jar",
+          "size": 89093,
+          "sha512": "39b078c91ace3ff2bf524533e827bed498e0381301e2add59a6804888564090818a8ed35fefb5fdba0ed2fcbb989c167f2ef001fd665cd08017e09856624b502",
+          "sha256": "9ad2dc8f1201c4fc1638b3d84129f57a7d54a027cde17d0d47c8ab5815d4bbd2",
+          "sha1": "8b947935535193f5abfd30e40a0823391c6add7f",
+          "md5": "f9f6aebe12ef80efdc0990a6bd0a5216"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "analytics-dataflow-analyzer-1.0.5-sources.jar",
+          "url": "analytics-dataflow-analyzer-1.0.5-sources.jar",
+          "size": 42929,
+          "sha512": "15fbb60cee6ff3a922f52b4db689750a838e25706e16dbc93b2db16db986f63880fe9b22b53dee8d3493dc71ffd761909cf802f5ae08b2adfc7f5607c427eb6e",
+          "sha256": "5e0bfc94a50d5364c2c2f73ec5dce27abb420771bb100433907900a33372f3f2",
+          "sha1": "edc312a5e862eaa80115153027e093f55bea4f30",
+          "md5": "81954df92c985a0dd28f00a302fce19e"
+        }
+      ]
+    }
+  ]
+}

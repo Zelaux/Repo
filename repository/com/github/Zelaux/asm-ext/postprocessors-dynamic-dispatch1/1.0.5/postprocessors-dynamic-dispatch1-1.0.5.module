@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "postprocessors-dynamic-dispatch1",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "postprocessors-dynamic-dispatch1-1.0.5.jar",
+          "url": "postprocessors-dynamic-dispatch1-1.0.5.jar",
+          "size": 5044,
+          "sha512": "7ec3503ac465c0e7ef4793f00dda724a22856c65b5ca8400ead02ad6ec8f855f60ff78a844315d5e3715dec7bc7e68f019aec8ecd2763057c338dba128a76ea6",
+          "sha256": "56e1f8017ec256c45ce80f57defc155b44ca006385cab1b12e55f145333cb517",
+          "sha1": "5a4be16b2a0e06718ab2ce8c5c31cefdbf886094",
+          "md5": "bf9586060553e28b1605d339f11006c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-dynamic-dispatch",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-node",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "postprocessors-dynamic-dispatch1-1.0.5.jar",
+          "url": "postprocessors-dynamic-dispatch1-1.0.5.jar",
+          "size": 5044,
+          "sha512": "7ec3503ac465c0e7ef4793f00dda724a22856c65b5ca8400ead02ad6ec8f855f60ff78a844315d5e3715dec7bc7e68f019aec8ecd2763057c338dba128a76ea6",
+          "sha256": "56e1f8017ec256c45ce80f57defc155b44ca006385cab1b12e55f145333cb517",
+          "sha1": "5a4be16b2a0e06718ab2ce8c5c31cefdbf886094",
+          "md5": "bf9586060553e28b1605d339f11006c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "postprocessors-dynamic-dispatch1-1.0.5-sources.jar",
+          "url": "postprocessors-dynamic-dispatch1-1.0.5-sources.jar",
+          "size": 2491,
+          "sha512": "dbf0f3c997274f4ac50e5b87e2dc5f4c71dca9660975539ef39f146296ea974571bcfa46358cae90a143e0106b78bdfe9d8b90816ecc2c576bba2a7b540131b4",
+          "sha256": "081b779a339729e936e9337224e4fef3d5b8f6a225a93d8fbb0f9889453b9ab3",
+          "sha1": "bdb9c563aea1a77524942a4c31a21bddff707061",
+          "md5": "88a900594e9fbed39292c6c12fa1818a"
+        }
+      ]
+    }
+  ]
+}

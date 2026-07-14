@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "analytics-sequence",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "analytics-sequence-1.0.5.jar",
+          "url": "analytics-sequence-1.0.5.jar",
+          "size": 8871,
+          "sha512": "74239da506cdab11dd39cb15a5ddcdc644788b24d8f68e7227eaa789d30fea6886a478d7fccc37b387d2fadb80b80220f4b6a34c0b13c961fb2cc6cb82c3a20b",
+          "sha256": "5c3e48751a384c26a39a9db63d5362b00f769cf70e68c5bedd2d29b9449f019e",
+          "sha1": "1c639db74cab40e40a64cd7bacbc0843d656039c",
+          "md5": "ec826ef27937fa7349cf290a0bfae6a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-controlflow",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-plugable-analyzer",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-sequence-1.0.5.jar",
+          "url": "analytics-sequence-1.0.5.jar",
+          "size": 8871,
+          "sha512": "74239da506cdab11dd39cb15a5ddcdc644788b24d8f68e7227eaa789d30fea6886a478d7fccc37b387d2fadb80b80220f4b6a34c0b13c961fb2cc6cb82c3a20b",
+          "sha256": "5c3e48751a384c26a39a9db63d5362b00f769cf70e68c5bedd2d29b9449f019e",
+          "sha1": "1c639db74cab40e40a64cd7bacbc0843d656039c",
+          "md5": "ec826ef27937fa7349cf290a0bfae6a2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "analytics-sequence-1.0.5-sources.jar",
+          "url": "analytics-sequence-1.0.5-sources.jar",
+          "size": 3578,
+          "sha512": "85cbda93ac8d534db0005e1c64a3cadf638fa1baad2b2eec561c184cf50941babc720c867d6e5ebe435c79c50c8e643b6b12ae57f0b897cd43817708d4d451de",
+          "sha256": "61ee8a56d6665c3569fbe66c1ef88b5cbf7d95e1f1ef6143890e535e70af7bd0",
+          "sha1": "2583a51f3a3b50d38d604da1e3d14b46cda4ff32",
+          "md5": "0d5aeffe6617ac650aec67278e55973a"
+        }
+      ]
+    }
+  ]
+}

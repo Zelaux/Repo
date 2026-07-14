@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "analytics-method-return",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-object-creation",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-method-return-1.0.5.jar",
+          "url": "analytics-method-return-1.0.5.jar",
+          "size": 8717,
+          "sha512": "99628fc0bfdee762904b8270d0c335ec40187924c5d8eaa34673b32fa334c4985f8044269f81ea26590dd2380b4d7e02d794561856350b1f3b4f8b7f1bc999d4",
+          "sha256": "0e3d33029a8b6e361852c1d5de1144ff5cc1b31b839d3c4faed82c0c7ee175ae",
+          "sha1": "16aaefc0be3ff05d8a0fa736f81993dd368c7d17",
+          "md5": "01a1c93ee107a38d270415c24405bb1a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-object-creation",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-method-return-1.0.5.jar",
+          "url": "analytics-method-return-1.0.5.jar",
+          "size": 8717,
+          "sha512": "99628fc0bfdee762904b8270d0c335ec40187924c5d8eaa34673b32fa334c4985f8044269f81ea26590dd2380b4d7e02d794561856350b1f3b4f8b7f1bc999d4",
+          "sha256": "0e3d33029a8b6e361852c1d5de1144ff5cc1b31b839d3c4faed82c0c7ee175ae",
+          "sha1": "16aaefc0be3ff05d8a0fa736f81993dd368c7d17",
+          "md5": "01a1c93ee107a38d270415c24405bb1a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "analytics-method-return-1.0.5-sources.jar",
+          "url": "analytics-method-return-1.0.5-sources.jar",
+          "size": 3492,
+          "sha512": "3f47cd3b34870c44a71b9f5a171c63c523d271e06931db231caebfee11fbb045bbc9f19e79681af6a7024e5f758ffc23de1a01c6fd3657c1cee6b309771f1551",
+          "sha256": "cd32d596738bb93c90142363cde6604508c911995b026ceb8e451d24de2dbf4a",
+          "sha1": "afdb5da2d6c75290cda67bf2781ace159d086bc8",
+          "md5": "e5feb8c5b9802797af5f54ccf92b1981"
+        }
+      ]
+    }
+  ]
+}
