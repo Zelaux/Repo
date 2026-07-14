@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "transformation-core",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "transformation-core-1.0.4.jar",
+          "url": "transformation-core-1.0.4.jar",
+          "size": 32485,
+          "sha512": "49e128fc68ade409bd91869b3235eabbf3dfc4f81506406e514f0d5abee66520f4f97a8ee9549bffb0980e29f9fc1dec4e9324ca980584ec01871443842ebeed",
+          "sha256": "d4517fff30ae0328b843d90a062ae8836429528e1c6d0d4f64b7c7630ea65660",
+          "sha1": "f834a8d812245382f807c93a85ea83bd233c91ee",
+          "md5": "72c0f42f936ebfa53b4102b985dc0fee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transformation-core-1.0.4.jar",
+          "url": "transformation-core-1.0.4.jar",
+          "size": 32485,
+          "sha512": "49e128fc68ade409bd91869b3235eabbf3dfc4f81506406e514f0d5abee66520f4f97a8ee9549bffb0980e29f9fc1dec4e9324ca980584ec01871443842ebeed",
+          "sha256": "d4517fff30ae0328b843d90a062ae8836429528e1c6d0d4f64b7c7630ea65660",
+          "sha1": "f834a8d812245382f807c93a85ea83bd233c91ee",
+          "md5": "72c0f42f936ebfa53b4102b985dc0fee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transformation-core-1.0.4-sources.jar",
+          "url": "transformation-core-1.0.4-sources.jar",
+          "size": 12303,
+          "sha512": "0f0de6540e52b5eacefb0a8ae4f3dfb306633f63e7315fb3c4d93a5947e15db3b5cabfd961d3578b32ca3cb22b588abf03dbd67c849b89d329e2677395fa9104",
+          "sha256": "1f49a525fbf37a1db40a5b80aff91821abb76374590e138d506aba1b7b8b8640",
+          "sha1": "07f337f6f1478ef6bbc4a67319d9d14f3f06755c",
+          "md5": "f765e6ba7e70d3d2fb659aa97b0351c4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "analytics-collect-class-usage",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "analytics-collect-class-usage-1.0.4.jar",
+          "url": "analytics-collect-class-usage-1.0.4.jar",
+          "size": 3135,
+          "sha512": "7820bba86ad737a563d05b05aa4f71a7ac356fa1dc7ee0b85fc663108f76ea5cda9a5dd6315dffa81e5991c1a2040c1fd4fc71edbf29bfb463d50e7c6eba8a4e",
+          "sha256": "81e75e1f9ecb96bda2e8b9cd05ab098a27ea69a4afce49e08e0f0ebc6c51c738",
+          "sha1": "a60d5c3c6c1f44a74b5cb1e1fde7d1c6ca14cc91",
+          "md5": "ed439cb8ea6e853c5add5269b6319ab6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-node",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-collect-class-usage-1.0.4.jar",
+          "url": "analytics-collect-class-usage-1.0.4.jar",
+          "size": 3135,
+          "sha512": "7820bba86ad737a563d05b05aa4f71a7ac356fa1dc7ee0b85fc663108f76ea5cda9a5dd6315dffa81e5991c1a2040c1fd4fc71edbf29bfb463d50e7c6eba8a4e",
+          "sha256": "81e75e1f9ecb96bda2e8b9cd05ab098a27ea69a4afce49e08e0f0ebc6c51c738",
+          "sha1": "a60d5c3c6c1f44a74b5cb1e1fde7d1c6ca14cc91",
+          "md5": "ed439cb8ea6e853c5add5269b6319ab6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "analytics-collect-class-usage-1.0.4-sources.jar",
+          "url": "analytics-collect-class-usage-1.0.4-sources.jar",
+          "size": 1828,
+          "sha512": "82d13fd9ca1eb7a540f82cd6107c74b65a90e8e53c1a060f5037878bb717882a1412bd571bb45dc47c21b49040d6c6e88bd032e2e93af284e9b2961a63c3e63c",
+          "sha256": "9c409c2d8a119915fc7f1500617b45d9500eb19bcab98445c604ef02db5ef2a2",
+          "sha1": "5236483e2d2296ab9921f1f5ee0487faa36dd5bf",
+          "md5": "31e70a83860a5d1b7ad56e0ad99b70f5"
+        }
+      ]
+    }
+  ]
+}

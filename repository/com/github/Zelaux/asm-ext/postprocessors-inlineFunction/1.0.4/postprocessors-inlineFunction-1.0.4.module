@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "postprocessors-inlineFunction",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "postprocessors-inlineFunction-1.0.4.jar",
+          "url": "postprocessors-inlineFunction-1.0.4.jar",
+          "size": 18449,
+          "sha512": "6ade9ce5eb0c15add441541ac85d436ee4595f5dc1419aa873892316070f10316997f8aae760397615bfd145fa131974c9ef2d49cec2980bf0933ee8b93073d5",
+          "sha256": "4533a6a0a062dc205aa8eddffa562a587a5215a7d3186bbfb85553fa7fdecd99",
+          "sha1": "e307ce89d60b7905306c33bd661167822dc96eda",
+          "md5": "6365c8d265ddd470a6200dc24e97c2ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-classfile-metadata",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "util-node",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-dataflow-analyzer",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-plugable-analyzer",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-controlflow",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.github.Zelaux.asm-ext",
+          "module": "analytics-sequence",
+          "version": {
+            "requires": "1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "postprocessors-inlineFunction-1.0.4.jar",
+          "url": "postprocessors-inlineFunction-1.0.4.jar",
+          "size": 18449,
+          "sha512": "6ade9ce5eb0c15add441541ac85d436ee4595f5dc1419aa873892316070f10316997f8aae760397615bfd145fa131974c9ef2d49cec2980bf0933ee8b93073d5",
+          "sha256": "4533a6a0a062dc205aa8eddffa562a587a5215a7d3186bbfb85553fa7fdecd99",
+          "sha1": "e307ce89d60b7905306c33bd661167822dc96eda",
+          "md5": "6365c8d265ddd470a6200dc24e97c2ab"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "postprocessors-inlineFunction-1.0.4-sources.jar",
+          "url": "postprocessors-inlineFunction-1.0.4-sources.jar",
+          "size": 8942,
+          "sha512": "b4f5587c0d80192b82b50148b4ca5ca8f5c3a5ba5cc52ab0d4be6369fa4d27019edebe8b7877c8582205944e154574a7ff5bb457ca11bf8f1ef81ff02ee2a776",
+          "sha256": "50e151552ad0affcd512d7ceb2d604610bbd8f8cba2a15f4446cc3e4f16748e8",
+          "sha1": "1bae713088e9272558ba7fd48cbc66dcc4c6183f",
+          "md5": "434657370a4023abd983095524bee95d"
+        }
+      ]
+    }
+  ]
+}

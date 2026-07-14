@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "util-insn-print",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "util-insn-print-1.0.4.jar",
+          "url": "util-insn-print-1.0.4.jar",
+          "size": 4104,
+          "sha512": "afcc87d69a70772c0d845a08702c2065d82758f446d8a5b783cdade6e152f0a0ba57bd1f55be70c5d575100bd56d6f18454b89a300778f1b373faded931e85ed",
+          "sha256": "0040a28c3d2c265459fe09e7d4e54e304389b2938ffa5d52e14396942bf912de",
+          "sha1": "bdb36ba216254451610fa4f154e9e17f77994327",
+          "md5": "4a181e33a351f3d66071c08ad0d5ecf6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-insn-print-1.0.4.jar",
+          "url": "util-insn-print-1.0.4.jar",
+          "size": 4104,
+          "sha512": "afcc87d69a70772c0d845a08702c2065d82758f446d8a5b783cdade6e152f0a0ba57bd1f55be70c5d575100bd56d6f18454b89a300778f1b373faded931e85ed",
+          "sha256": "0040a28c3d2c265459fe09e7d4e54e304389b2938ffa5d52e14396942bf912de",
+          "sha1": "bdb36ba216254451610fa4f154e9e17f77994327",
+          "md5": "4a181e33a351f3d66071c08ad0d5ecf6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "util-insn-print-1.0.4-sources.jar",
+          "url": "util-insn-print-1.0.4-sources.jar",
+          "size": 2139,
+          "sha512": "c9e57d1c0a4cd15155226f7646f5a9c1ff3a577424f66a561324e326825ccf441f9ec35720071958c0128742f02f4754533c0954b9b00801a96d813d4cd8860c",
+          "sha256": "4684e0b1ed6c9d363496efa92a06a5368467409a027062eab6f5fb118a96fedd",
+          "sha1": "53998bf403b58c894b41b670b15add8018053f41",
+          "md5": "3858708170c98f710cef551e36626c0a"
+        }
+      ]
+    }
+  ]
+}
