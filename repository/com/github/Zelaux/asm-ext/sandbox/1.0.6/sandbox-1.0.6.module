@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.asm-ext",
+    "module": "sandbox",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sandbox-1.0.6.jar",
+          "url": "sandbox-1.0.6.jar",
+          "size": 261,
+          "sha512": "32d24d5cf45328648f4476edd5eeca1668d108391c546164c2704c8e62c0e33663154c717f3d17e2f9a92810fffe0a718cc5064b40e18beaf769d203fe029197",
+          "sha256": "79be9be7cc3680953ff824d83c3e8673092fd20a37949fdba2b6a9fef1e8978c",
+          "sha1": "93f93a7a076950a4212d1a654d676fc791909cf2",
+          "md5": "7bc26c87d2f3f94fcd8d1a0b0b5fffb5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sandbox-1.0.6.jar",
+          "url": "sandbox-1.0.6.jar",
+          "size": 261,
+          "sha512": "32d24d5cf45328648f4476edd5eeca1668d108391c546164c2704c8e62c0e33663154c717f3d17e2f9a92810fffe0a718cc5064b40e18beaf769d203fe029197",
+          "sha256": "79be9be7cc3680953ff824d83c3e8673092fd20a37949fdba2b6a9fef1e8978c",
+          "sha1": "93f93a7a076950a4212d1a654d676fc791909cf2",
+          "md5": "7bc26c87d2f3f94fcd8d1a0b0b5fffb5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sandbox-1.0.6-sources.jar",
+          "url": "sandbox-1.0.6-sources.jar",
+          "size": 261,
+          "sha512": "32d24d5cf45328648f4476edd5eeca1668d108391c546164c2704c8e62c0e33663154c717f3d17e2f9a92810fffe0a718cc5064b40e18beaf769d203fe029197",
+          "sha256": "79be9be7cc3680953ff824d83c3e8673092fd20a37949fdba2b6a9fef1e8978c",
+          "sha1": "93f93a7a076950a4212d1a654d676fc791909cf2",
+          "md5": "7bc26c87d2f3f94fcd8d1a0b0b5fffb5"
+        }
+      ]
+    }
+  ]
+}
