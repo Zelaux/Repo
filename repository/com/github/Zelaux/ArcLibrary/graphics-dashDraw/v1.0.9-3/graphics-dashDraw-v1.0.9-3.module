@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "graphics-dashDraw",
+    "version": "v1.0.9-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphics-dashDraw-v1.0.9-3.jar",
+          "url": "graphics-dashDraw-v1.0.9-3.jar",
+          "size": 5361,
+          "sha512": "863b94ef80f78ddebe5ba0fb6991263732b1ca110abf9ba7395dc38f504ab46308845c6ca38921aeac98a6f9bcb5b688d49aa36d6ba632d973d6d8bad41b3243",
+          "sha256": "a7542d678360964bfd0618386048c2b720b094525ca0ebc3cc21a9c743f22168",
+          "sha1": "7b100d6de0327fc0d7ee7fbcac02c5b51c1b072b",
+          "md5": "d39428ceca579d6535f13c2f7473a8b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-dashDraw-v1.0.9-3.jar",
+          "url": "graphics-dashDraw-v1.0.9-3.jar",
+          "size": 5361,
+          "sha512": "863b94ef80f78ddebe5ba0fb6991263732b1ca110abf9ba7395dc38f504ab46308845c6ca38921aeac98a6f9bcb5b688d49aa36d6ba632d973d6d8bad41b3243",
+          "sha256": "a7542d678360964bfd0618386048c2b720b094525ca0ebc3cc21a9c743f22168",
+          "sha1": "7b100d6de0327fc0d7ee7fbcac02c5b51c1b072b",
+          "md5": "d39428ceca579d6535f13c2f7473a8b6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-dashDraw-v1.0.9-3-sources.jar",
+          "url": "graphics-dashDraw-v1.0.9-3-sources.jar",
+          "size": 2739,
+          "sha512": "2f47c13a82c4a9e8c904685d58b30623d30f4ffad7178a69afc09bc533201277209d3443fb2489afc3f811dac56c218c3d5cedfa076ef5504d724235a3e55723",
+          "sha256": "ad1e18bcdf01250465a3ff7234b6f9a58854ea92c2f99ee028c708a33b4e9899",
+          "sha1": "667b0eff8fabd38e9fa4b7434d456c17170b9de7",
+          "md5": "c4d4a6c222a3de6971c44b6079c5637f"
+        }
+      ]
+    }
+  ]
+}

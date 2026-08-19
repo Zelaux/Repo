@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Zelaux.ArcLibrary",
+    "module": "ui-listeners",
+    "version": "v1.0.9-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-listeners-v1.0.9-3.jar",
+          "url": "ui-listeners-v1.0.9-3.jar",
+          "size": 4781,
+          "sha512": "5e77249b98753c85704b53bf3d4b79660580eed6d5c14a87674c3127cedd137fc6a90b9c4cca6573245dca3bf9677553a46fb3021aa7da38884cd93dd530fd7a",
+          "sha256": "d29989915765e0fbd22c33c11bdcaf1c493143233181079013d14d13278c6d30",
+          "sha1": "d6ac17fbe8abcc803bfcbab40dcbabb5aa0d6538",
+          "md5": "40fbd85a4dded9ee9f77d35dbc01b6a1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-listeners-v1.0.9-3.jar",
+          "url": "ui-listeners-v1.0.9-3.jar",
+          "size": 4781,
+          "sha512": "5e77249b98753c85704b53bf3d4b79660580eed6d5c14a87674c3127cedd137fc6a90b9c4cca6573245dca3bf9677553a46fb3021aa7da38884cd93dd530fd7a",
+          "sha256": "d29989915765e0fbd22c33c11bdcaf1c493143233181079013d14d13278c6d30",
+          "sha1": "d6ac17fbe8abcc803bfcbab40dcbabb5aa0d6538",
+          "md5": "40fbd85a4dded9ee9f77d35dbc01b6a1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-listeners-v1.0.9-3-sources.jar",
+          "url": "ui-listeners-v1.0.9-3-sources.jar",
+          "size": 1908,
+          "sha512": "32265e5e59be0fdf2f66837aa2b8b2b825cb2592f800ee346118075eaadccdff3f44c905cf8fb21cbd5e5537ab62ef241cf1347a8efde74fa20a134d2d196d25",
+          "sha256": "87a3ffe3f805478ba23627a39ef6fb426ce8d38fd627563a786d25766ce19815",
+          "sha1": "3b40e25494129fc1601eca06d8399c65c7fbf4fb",
+          "md5": "81d2dd951583faa503a57fc093eba9f8"
+        }
+      ]
+    }
+  ]
+}
