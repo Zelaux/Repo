@@ -18,7 +18,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 21
+          java-version: 25
       - name: Setup zig
         uses: mlugg/setup-zig@v2
         with:
